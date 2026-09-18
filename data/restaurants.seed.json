@@ -1,0 +1,735 @@
+{
+  "schemaVersion": "0.1",
+  "migratedAt": "2026-09-18",
+  "sourceRepository": "brandonsim91/Lunch-Picker",
+  "sourceFile": "Scripts/Script.js",
+  "note": "Seed migration only. Records retain 2025 source data and must be verified before V2 production use.",
+  "restaurants": [
+    {
+      "id": "paik-s-coffee",
+      "name": "Paik's Coffee",
+      "cuisine": [
+        "Korean",
+        "Cafe"
+      ],
+      "legacyCuisine": "Korean Café",
+      "address": "40 Pasir Panjang Road, #02-39B, Mapletree Business City, 117440",
+      "mapUrl": "https://maps.app.goo.gl/8y3hdqLN7mFeYu1NA",
+      "area": "MBC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "tuckshop-mbc",
+      "name": "Tuckshop@MBC",
+      "cuisine": [
+        "Local"
+      ],
+      "legacyCuisine": "Kopitiam",
+      "address": "20 Pasir Panjang Rd, #02-21 Mapletree Business City II, Singapore 117439",
+      "mapUrl": "https://maps.app.goo.gl/qLb8X28kcTaeE4D28",
+      "area": "MBC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "mr-bean",
+      "name": "Mr Bean",
+      "cuisine": [
+        "Local"
+      ],
+      "legacyCuisine": "Soybeans & Snacks",
+      "address": "20 Pasir Panjang Rd, #02-12A Mapletree Business City II, Singapore 117439",
+      "mapUrl": "https://maps.app.goo.gl/YJq1fqciibtpwQak8",
+      "area": "MBC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "grains-co-mapletree-business-city",
+      "name": "Grains & Co. @ Mapletree Business City",
+      "cuisine": [
+        "Healthy"
+      ],
+      "legacyCuisine": "Protein Bowls & Salads",
+      "address": "40 Pasir Panjang Rd, #02-37 Mapletree Business City, Singapore 117383",
+      "mapUrl": "https://maps.app.goo.gl/6cS8RW8aZwTSw9Mr5",
+      "area": "MBC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "guzman-y-gomez",
+      "name": "Guzman y Gomez",
+      "cuisine": [
+        "Mexican"
+      ],
+      "legacyCuisine": "Mexican burritos & tacos",
+      "address": "02-35, 40, Pasir Panjang Rd, Mapletree Business City, 117383",
+      "mapUrl": "https://goo.gl/maps/8xGv1Y1Z1Z14https://maps.app.goo.gl/gN6pUtN5NFfQ76Xi9",
+      "area": "MBC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": [
+        "Malformed legacy map URL; requires replacement."
+      ]
+    },
+    {
+      "id": "sando",
+      "name": "SANDO",
+      "cuisine": [
+        "Japanese",
+        "Western",
+        "Cafe"
+      ],
+      "legacyCuisine": "Japanese Sandwiches, Coffee, Craft Beer... some say Burgers too.",
+      "address": "Alexandra Technopark, 438C Alexandra Rd, #01-04/04A The Hub, 119976",
+      "mapUrl": "https://maps.app.goo.gl/ZTBsYB6RnG2kMuAUA",
+      "area": "Alexandra",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "super-thai-by-soi-aroy-pasir-panjang",
+      "name": "Super Thai by Soi Aroy @ Pasir Panjang",
+      "cuisine": [
+        "Thai"
+      ],
+      "legacyCuisine": "Thai Food",
+      "address": "91 Pasir Panjang Rd, Singapore 118512",
+      "mapUrl": "https://maps.app.goo.gl/Bo6qN8J9zdUbMHvK6",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "knots-cafe-living-pasir-panjang",
+      "name": "Knots Cafe & Living (Pasir Panjang)",
+      "cuisine": [
+        "Western",
+        "Cafe"
+      ],
+      "legacyCuisine": "Western Café",
+      "address": "102E Pasir Panjang Rd, #01-08 Citilink Warehouse Complex, Singapore 118529",
+      "mapUrl": "https://maps.app.goo.gl/dBHoCmi98vHFHfce6",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "eat-3-bowls-pasir-panjang",
+      "name": "Eat 3 Bowls @ Pasir Panjang",
+      "cuisine": [
+        "Taiwanese"
+      ],
+      "legacyCuisine": "Taiwanese Food",
+      "address": "103 Pasir Panjang Rd, Singapore 118531",
+      "mapUrl": "https://maps.app.goo.gl/6W4LAmTmdU1TQTdGA",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "uncle-ho-tuckshop",
+      "name": "Uncle Ho Tuckshop",
+      "cuisine": [
+        "Vietnamese"
+      ],
+      "legacyCuisine": "Vietnamese",
+      "address": "100 Pasir Panjang Rd, #01-04 Old Behn Meyer Building, Singapore 118518",
+      "mapUrl": "https://maps.app.goo.gl/XGN1xzjBjpXUMWmU6",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "killiney-kopitiam",
+      "name": "Killiney Kopitiam",
+      "cuisine": [
+        "Local"
+      ],
+      "legacyCuisine": "Singaporean Food",
+      "address": "456 Alexandra Rd, #01-01 Fragrance Empire Building, Singapore 119962",
+      "mapUrl": "https://maps.app.goo.gl/KxwJf6TjVxugktjw9",
+      "area": "Alexandra",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "hitoyoshi-ramen-grill",
+      "name": "Hitoyoshi Ramen & Grill",
+      "cuisine": [
+        "Japanese"
+      ],
+      "legacyCuisine": "Japanese",
+      "address": "40 Pasir Panjang Rd, #02-38, Singapore 117383",
+      "mapUrl": "https://maps.app.goo.gl/LgQTu6kNX6cvzESn9",
+      "area": "MBC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": [
+        "Legacy distance note: 2 min walk"
+      ]
+    },
+    {
+      "id": "liu-lang-mian-noodle-bar",
+      "name": "Liu Lang Mian Noodle Bar",
+      "cuisine": [
+        "Japanese"
+      ],
+      "legacyCuisine": "Japanese Mazesoba",
+      "address": "321 Alexandra Rd, #01-03 Outside Alexandra Mall, Singapore 159971",
+      "mapUrl": "https://maps.app.goo.gl/GFGG5AMT2nE7bc6U9",
+      "area": "Alexandra Central",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "keng-eng-kee-seafood-alexandra-village",
+      "name": "Keng Eng Kee Seafood @ Alexandra Village",
+      "cuisine": [
+        "Chinese"
+      ],
+      "legacyCuisine": "Zi char & other wok-prepared favourites in an informal eatery offering covered outdoor seating.",
+      "address": "124 Bukit Merah Lane 1, #01-136, Singapore 150124",
+      "mapUrl": "https://maps.app.goo.gl/4nFMo9K8ZderbVQw9",
+      "area": "Alexandra Village",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "manhill-restaurant",
+      "name": "Manhill Restaurant",
+      "cuisine": [
+        "Chinese"
+      ],
+      "legacyCuisine": "Chinese, Cantonese",
+      "address": "99 Pasir Panjang Rd, Singapore 118517",
+      "mapUrl": "https://goo.gl/maps/5xGv1Y1Z1Z24",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": [
+        "Legacy distance note: 10 min walk"
+      ]
+    },
+    {
+      "id": "esarn-thai-corner",
+      "name": "Esarn Thai Corner",
+      "cuisine": [
+        "Thai"
+      ],
+      "legacyCuisine": "Thai Cusine",
+      "address": "130 Pasir Panjang Rd, Singapore 118548",
+      "mapUrl": "https://maps.app.goo.gl/jBp5PkTS4h6MeenD8",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "straits-club-nasi-lemak",
+      "name": "Straits Club - Nasi Lemak",
+      "cuisine": [
+        "Local"
+      ],
+      "legacyCuisine": "Nasi Lemak",
+      "address": "122 Bukit Merah Lane 1, #01-50, Singapore 150122",
+      "mapUrl": "https://maps.app.goo.gl/RsbWQWesueh5Zzsi8",
+      "area": "Alexandra Village",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "canton-paradise-at-arc",
+      "name": "Canton Paradise 樂天小香港 at ARC",
+      "cuisine": [
+        "Chinese"
+      ],
+      "legacyCuisine": "Cantonese",
+      "address": "460 Alexandra Rd, #02 - 30, Singapore 119963",
+      "mapUrl": "https://maps.app.goo.gl/fc8QiJZDQh7DoRHG8",
+      "area": "ARC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "",
+      "name": "川太子麻辣烫",
+      "cuisine": [
+        "Chinese"
+      ],
+      "legacyCuisine": "麻辣",
+      "address": "460 Alexandra Rd, #02-19, Singapore 119963",
+      "mapUrl": "https://maps.app.goo.gl/QBtv9pcspjPy5WNv8",
+      "area": "ARC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "paradise-restaurant",
+      "name": "Paradise Restaurant",
+      "cuisine": [
+        "Indian"
+      ],
+      "legacyCuisine": "Indian Mamak",
+      "address": "93 Pasir Panjang Rd, Singapore 118513",
+      "mapUrl": "https://maps.app.goo.gl/ML11q85VwLG1BUvJ9",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "italian-coffee-lab-singapore",
+      "name": "Italian Coffee Lab Singapore",
+      "cuisine": [
+        "Cafe"
+      ],
+      "legacyCuisine": "Cafe",
+      "address": "100 Pasir Panjang Rd, #03-07, Singapore 118518",
+      "mapUrl": "https://maps.app.goo.gl/V71s9g1fpFji9BKa9",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "d-penyetz-arc",
+      "name": "D’Penyetz @ ARC",
+      "cuisine": [
+        "Indonesian"
+      ],
+      "legacyCuisine": "Indonesian",
+      "address": "460 Alexandra Rd, #01-02 Alexandra Retail Centre (ARC), Singapore 119963",
+      "mapUrl": "https://maps.app.goo.gl/8UC9szCM5AJihipD9",
+      "area": "ARC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "food-master-pasir-panjang",
+      "name": "Food Master @ Pasir Panjang",
+      "cuisine": [
+        "Local"
+      ],
+      "legacyCuisine": "Kopitiam",
+      "address": "50 Pasir Panjang Road #03-51 Mapletree Business City, 117384",
+      "mapUrl": "https://maps.app.goo.gl/WeHEkBoXScYwDrWs9",
+      "area": "MBC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "canopy-hortpark",
+      "name": "Canopy HortPark",
+      "cuisine": [
+        "Cafe"
+      ],
+      "legacyCuisine": "Cafe",
+      "address": "#01-01, 33 Hyderabad Road, HortPark, 119578",
+      "mapUrl": "https://maps.app.goo.gl/AYvwXGu7KxZBu4Nf9",
+      "area": "HortPark",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "hoho-korean-restaurant",
+      "name": "Hoho Korean Restaurant",
+      "cuisine": [
+        "Korean"
+      ],
+      "legacyCuisine": "Korean",
+      "address": "87 Pasir Panjang Rd, Singapore 118510",
+      "mapUrl": "https://maps.app.goo.gl/Wac7S6JSoTybDXaS6",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "yuzutei-japanese-restaurant",
+      "name": "Yuzutei Japanese Restaurant",
+      "cuisine": [
+        "Japanese"
+      ],
+      "legacyCuisine": "Japanese",
+      "address": "100G Pasir Panjang Rd, #01-01 Interlocal Centre, Singapore 118523",
+      "mapUrl": "https://maps.app.goo.gl/8VPcK5zyDL8FTDUFA",
+      "area": "Pasir Panjang",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "ma-maison",
+      "name": "Ma Maison",
+      "cuisine": [
+        "Japanese"
+      ],
+      "legacyCuisine": "Japanese",
+      "address": "370 Alexandra Rd, #01-12, Singapore 159953",
+      "mapUrl": "https://maps.app.goo.gl/1SqiXGEzLmgYcbbMA",
+      "area": "Alexandra",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "ikea-alexandra-restaurant",
+      "name": "IKEA Alexandra Restaurant",
+      "cuisine": [
+        "Western",
+        "Swedish"
+      ],
+      "legacyCuisine": "Swedish-inspired food, including classic meatball & salmon dishes",
+      "address": "317 Alexandra Rd, Level 1, Singapore 159965",
+      "mapUrl": "https://maps.app.goo.gl/2Grf9fZNRL1LnoRm7",
+      "area": "Alexandra",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "master-prata",
+      "name": "Master Prata",
+      "cuisine": [
+        "Indian"
+      ],
+      "legacyCuisine": "Indian",
+      "address": "Mall, 321 Alexandra Rd, #01-02 Alexandra Central, 159971",
+      "mapUrl": "https://maps.app.goo.gl/WiURDvPmLeEAupuK8",
+      "area": "Alexandra Central",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "otoko-ramen",
+      "name": "Otoko Ramen",
+      "cuisine": [
+        "Japanese"
+      ],
+      "legacyCuisine": "Japanese",
+      "address": "321 Alexandra Road, #01-16, Alexandra Central Mall, 159971",
+      "mapUrl": "https://maps.app.goo.gl/aGFiNMctjmkJgY2t6",
+      "area": "Alexandra Central",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "nature-cafe",
+      "name": "Nature Cafe",
+      "cuisine": [
+        "Vegetarian"
+      ],
+      "legacyCuisine": "Vegeterian",
+      "address": "321 alexandra central mall, #02-27, Singapore 159971",
+      "mapUrl": "https://maps.app.goo.gl/K4gS8pAEH2VuSC2R8",
+      "area": "Alexandra Central",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "sbcd-korean-tofu-house",
+      "name": "SBCD Korean Tofu House",
+      "cuisine": [
+        "Korean"
+      ],
+      "legacyCuisine": "Korean",
+      "address": "460 Alexandra Rd, #02-21 Alexandra Retail Centre (ARC), Singapore 119963",
+      "mapUrl": "https://maps.app.goo.gl/7cVVmNKSmXxozSqS8",
+      "area": "ARC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "hopscotch-gillman-barracks",
+      "name": "Hopscotch (Gillman Barracks)",
+      "cuisine": [
+        "Seafood",
+        "Western"
+      ],
+      "legacyCuisine": "Casual eatery specialising in oysters, seafood & meat offerings, plus unique cocktails & craft beer.",
+      "address": "45 Malan Rd, Singapore 109455",
+      "mapUrl": "https://maps.app.goo.gl/e7EWfnzHa7Jux4PC6",
+      "area": "Gillman Barracks",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    },
+    {
+      "id": "zhang-ji-shanghai-la-mian-xiao-long-bao",
+      "name": "Zhang Ji Shanghai La Mian Xiao Long Bao",
+      "cuisine": [
+        "Chinese"
+      ],
+      "legacyCuisine": "Chinese",
+      "address": "460 Alexandra Rd, #02-23, Singapore 119963",
+      "mapUrl": "https://maps.app.goo.gl/DvKbN2JLotPMQtbN6",
+      "area": "ARC",
+      "walkingMinutes": null,
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "indoor": null,
+      "healthyOption": null,
+      "verifiedForV2": false,
+      "lastVerifiedAt": null,
+      "source": "Lunch-Picker v1 (2025)",
+      "migrationNotes": []
+    }
+  ]
+}
