@@ -16,7 +16,7 @@ export default function LunchApp({restaurants}:{restaurants:Restaurant[]}){
  const [mode,setMode]=useState<'one'|'three'>('three');const heading=useRef<HTMLHeadingElement>(null);const initialized=useRef(false);
  const supported=availableFilters(restaurants);const count=eligible(restaurants,filters).length;
  useEffect(()=>{if(initialized.current)return;initialized.current=true;track('home_opened');try{const saved=JSON.parse(localStorage.getItem(pendingKey)??'null');if(saved && Date.now()-saved.at<7*86400000)setPending(restaurants.find(r=>r.id===saved.id)??null);}catch{}},[restaurants]);
- useEffect(()=>{if(screen!=='home')heading.current?.focus();},[screen,selected]);
+ useEffect(()=>{if(screen==='home')window.scrollTo({top:0});else heading.current?.focus();},[screen,selected]);
  function goHome(){setScreen('home');setStatus('');}
  function toggle(f:Filter){setFilters(prev=>prev.includes(f)?prev.filter(x=>x!==f):[...prev,f]);track('filter_selected',{filter:f});}
  function choose(r:Restaurant){setSelected(r);setScreen('result');track('restaurant_selected',{restaurantId:r.id,filters,mode});}
