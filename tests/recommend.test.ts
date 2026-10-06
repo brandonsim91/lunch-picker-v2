@@ -11,3 +11,5 @@ test('fewer than three is an explicit insufficient state',()=>{assert.deepEqual(
 test('reroll changes the set when any alternative exists',()=>{const old=recommendThree(pool,[],[],()=>0).map(r=>r.id);const next=recommendThree(pool,[],old,()=>0).map(r=>r.id);assert.notDeepEqual([...next].sort(),[...old].sort());});
 test('single pick avoids its last result where feasible',()=>assert.equal(pickOne(pool,[],['a'],()=>0)?.id,'b'));
 test('deduplicates IDs and permits the only eligible restaurant',()=>{assert.equal(eligible([r('a'),r('a')],[]).length,1);assert.equal(pickOne([r('a')],[],['a'])?.id,'a');});
+
+test('explicit original-list imports qualify without claiming verification',()=>{const imported=r('legacy',{verifiedForV2:false,lastVerifiedAt:null,importedFromV1:true});assert.equal(eligible([imported],[]).length,1);assert.equal(eligible([imported],['Healthy']).length,0);assert.equal(eligible([imported],['Quick']).length,0);assert.equal(eligible([imported],['Cheap']).length,0);assert.equal(eligible([{...imported,active:false}],[]).length,0);assert.equal(eligible([{...imported,mapUrl:'javascript:alert(1)'}],[]).length,0);});

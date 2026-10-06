@@ -1,7 +1,7 @@
 import type { Filter, Restaurant } from './types.ts';
 export const filters: Filter[] = ['Nearby','Quick','Cheap','Healthy'];
 export function usable(r: Restaurant) {
-  try {const u=new URL(r.mapUrl);return !!r.id && !!r.name && !!r.address && r.active && r.verifiedForV2 && !!r.lastVerifiedAt && u.protocol==='https:' && ['www.google.com','maps.google.com','maps.app.goo.gl'].includes(u.hostname);}
+  try {const u=new URL(r.mapUrl);return !!r.id && !!r.name && !!r.address && r.active && ((r.verifiedForV2 && !!r.lastVerifiedAt) || r.importedFromV1===true) && u.protocol==='https:' && ['www.google.com','maps.google.com','maps.app.goo.gl'].includes(u.hostname);}
   catch {return false;}
 }
 export function eligible(pool: Restaurant[], selected: Filter[]) {
