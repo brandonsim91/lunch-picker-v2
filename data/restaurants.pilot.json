@@ -116,12 +116,14 @@
   },
   {
     "id": "paik-s-coffee",
-    "active": true,
-    "verifiedForV2": true,
-    "lastVerifiedAt": "2026-10-07",
+    "active": false,
+    "verifiedForV2": false,
+    "lastVerifiedAt": null,
     "placeId": "ChIJS3tdN8cb2jERTTviyRonTEM",
     "address": "40 Pasir Panjang Road, #02-39B, Mapletree Business City, Singapore 117440",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paik's%20Coffee%20%40%20Mapletree%20Business%20City&query_place_id=ChIJS3tdN8cb2jERTTviyRonTEM"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paik's%20Coffee%20%40%20Mapletree%20Business%20City&query_place_id=ChIJS3tdN8cb2jERTTviyRonTEM",
+    "verificationNote": "Confirmed ceased operations during SDS pilot.",
+    "verificationCheckedAt": "2026-10-07"
   },
   {
     "id": "tuckshop-mbc",
@@ -374,5 +376,38 @@
     "placeId": "ChIJwW2HxhIZ2jERPfuslwkUPNg",
     "address": "45 Malan Rd, Singapore 109455",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hopscotch%20(Gillman%20Barracks)&query_place_id=ChIJwW2HxhIZ2jERPfuslwkUPNg"
+  },
+  {
+    "id": "ogog-mapletree-business-city",
+    "name": "OGOG 오곡 — Mapletree Business City",
+    "cuisine": [
+      "Korean"
+    ],
+    "address": "40 Pasir Panjang Road, #02-39 Mapletree Business City, Singapore 117383",
+    "area": "MBC",
+    "walkingMinutes": null,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": null,
+    "tags": [
+      "Korean homestyle",
+      "Bansang",
+      "Gimbap"
+    ],
+    "reason": "Korean homestyle meals with rice, banchan and gimbap in Mapletree Business City.",
+    "sourceUrl": "https://www.ogog.food/locations",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://maps.app.goo.gl/vwEaE5pUPo7cDJ7Y8?g_st=ic",
+    "verificationNote": "Location verified from the user-provided Google Maps listing and OGOG's official locations page. Google Place ID still needs resolver confirmation."
   }
 ]
