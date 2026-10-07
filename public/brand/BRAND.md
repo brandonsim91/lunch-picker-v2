@@ -9,11 +9,11 @@ The supplied artwork is the visual source of truth. Do not reconstruct the Hangu
 - `/icon-512.png`: 512 × 512 app icon.
 - `/apple-touch-icon.png`: 180 × 180 iPhone Home Screen icon.
 
-The square icons use only the white 밥 extracted from the separate charcoal app-icon reference. They have opaque charcoal backgrounds; iOS applies its Home Screen rounded-square mask. They do not contain Lah, orange details, or the horizontal logo.
+The approved square icon is the cream reference supplied on 7 October 2026: black stylised 밥 with the smiling rice bowl and rice dots, warm-orange Lah, accent strokes and underline. The source artwork is reused directly and centred on a square cream canvas without changing its proportions. iOS applies its Home Screen rounded-square mask. The plain white Hangul on charcoal is superseded.
 
-These are raster extractions from the supplied images, not font recreations or approximate SVG tracings. The source icon is a small raster reference; a future original master would improve very large exports without changing the design.
+These are raster extractions from the supplied images, not font recreations or approximate SVG tracings. The icon source is a 403 × 376 raster reference; a future original master would improve very large exports without changing the design.
 
-The previous reconstructed SVGs, variants and cream/orange app icon have been removed. Do not restore or reuse them.
+The previous reconstructed SVGs and plain charcoal icon variants have been removed. Use the supplied cream icon artwork, never approximate it from fonts or SVG primitives. The active Apple touch URL is `/apple-touch-icon-v3.png`, and the favicon is `/favicon-v3.ico`; the versioned URLs refresh cached artwork.
 
 ## Identity and palette
 
@@ -27,4 +27,4 @@ Product name: **밥Lah**. Primary tagline: **Eat where today?**.
 
 ## iPhone refresh check
 
-Open the production site in Safari, inspect the header, then choose Share → Add to Home Screen. Confirm the charcoal icon with white 밥. Delete and re-add an existing shortcut if iOS has cached the previous icon. Actual Safari installation QA must be performed on an iPhone; desktop checks cannot confirm the operating system's icon cache.
+Open the production site in Safari, inspect the header, then choose Share → Add to Home Screen. Confirm the cream icon with black smiling rice-bowl 밥 and orange Lah. Delete and re-add an existing shortcut if iOS has cached the previous icon. Actual Safari installation QA must be performed on an iPhone; desktop checks cannot confirm the operating system's icon cache.
