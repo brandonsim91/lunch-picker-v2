@@ -1,34 +1,30 @@
 # 밥Lah Brand
 
-## Primary identity
-Use **밥Lah** as the product name and **Eat where today?** as the primary product tagline.
+The supplied artwork is the visual source of truth. Do not reconstruct the Hangul, substitute fonts, or reinterpret the artwork.
 
-## Palette
-- Cream — `#FFF8ED`
-- Charcoal — `#2E2E2E`
-- Warm Orange — `#E06B4D`
-- Muted Red — `#C94F4F`
-- Soft Green — `#6BA776`
+## Approved assets
 
-## Logo files
-- `baplah-logo-horizontal.svg` — default website/header logo
-- `baplah-mark.svg` — compact mark for favicons, avatars and tight spaces
-- `baplah-app-icon.svg` — scalable app-icon master
-- `baplah-app-icon-1024.png` — large app/social use
-- `baplah-app-icon-512.png` — general product use
-- `baplah-app-icon-180.png` — Apple touch icon
-- `variants/baplah-logo-light.svg` — cream background lockup
-- `variants/baplah-logo-charcoal.svg` — dark background lockup
-- `variants/baplah-logo-orange.svg` — brand-orange background lockup
+- `baplah-logo-horizontal.png`: transparent 423 × 186 PNG cropped directly from the approved horizontal reference. Black stylised 밥 and smiling rice bowl, warm-orange handwritten Lah and underline. Use at 140 CSS pixels wide in the website header, preserving aspect ratio.
+- `/icon-192.png`: 192 × 192 app/browser icon.
+- `/icon-512.png`: 512 × 512 app icon.
+- `/apple-touch-icon.png`: 180 × 180 iPhone Home Screen icon.
 
-## Product hierarchy
-1. Product name: **밥Lah**
-2. Primary tagline: **Eat where today?**
-3. Supporting line: **Discover · Decide · Dine Together**
-4. “Good Food Better People” and “Same Table Brighter Days” are campaign-level lines, not primary UI copy.
+The square icons use only the white 밥 extracted from the separate charcoal app-icon reference. They have opaque charcoal backgrounds; iOS applies its Home Screen rounded-square mask. They do not contain Lah, orange details, or the horizontal logo.
 
-## Usage
-Use the horizontal logo on cream by default. Use the charcoal variant on dark surfaces and the orange variant on orange surfaces.
+These are raster extractions from the supplied images, not font recreations or approximate SVG tracings. The source icon is a small raster reference; a future original master would improve very large exports without changing the design.
 
-## Accessibility
-Charcoal is the default text colour. Avoid warm orange for small body text on cream. Use Soft Green as a supporting positive state, not as the sole carrier of meaning.
+The previous reconstructed SVGs, variants and cream/orange app icon have been removed. Do not restore or reuse them.
+
+## Identity and palette
+
+Product name: **밥Lah**. Primary tagline: **Eat where today?**.
+
+- Cream: `#FFF8ED`
+- Charcoal: `#2E2E2E`
+- Warm Orange: `#E06B4D`
+- Muted Red: `#C94F4F`
+- Soft Green: `#6BA776`
+
+## iPhone refresh check
+
+Open the production site in Safari, inspect the header, then choose Share → Add to Home Screen. Confirm the charcoal icon with white 밥. Delete and re-add an existing shortcut if iOS has cached the previous icon. Actual Safari installation QA must be performed on an iPhone; desktop checks cannot confirm the operating system's icon cache.
