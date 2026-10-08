@@ -409,5 +409,39 @@
     ],
     "verificationSourceUrl": "https://maps.app.goo.gl/vwEaE5pUPo7cDJ7Y8?g_st=ic",
     "verificationNote": "Location verified from the user-provided Google Maps listing and OGOG's official locations page. Google Place ID still needs resolver confirmation."
+  },
+  {
+    "id": "green-elephant-thai-dynasty-mbc",
+    "name": "Green Elephant by Thai Dynasty (Thai Salad)",
+    "cuisine": [
+      "Thai",
+      "Healthy"
+    ],
+    "address": "20 Pasir Panjang Road, #02-21, Mapletree Business City II, Singapore 117439",
+    "area": "MBC",
+    "walkingMinutes": null,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": true,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-08",
+    "placeId": null,
+    "tags": [
+      "Thai salad",
+      "Salad bowls",
+      "Healthy"
+    ],
+    "reason": "Thai-style salad bowls with customisable bases, protein, supplements, toppings and dressing.",
+    "sourceUrl": "https://www.foodpanda.sg/restaurant/dpzn/green-elephant-by-thai-dynasty-thai-salad-mapletree-business-city",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://maps.app.goo.gl/yWgcYgBxNwBkSaHo6?g_st=ic",
+    "verificationNote": "User-provided Google Maps listing verified on 2026-10-08 as Green Elephant by Thai Dynasty (Thai Salad) at #02-21 MBC II and open/operational. Google Places Place ID still needs resolver confirmation."
   }
 ]
