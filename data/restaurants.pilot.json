@@ -1,0 +1,447 @@
+[
+  {
+    "id": "grains-co-mapletree-business-city",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-06",
+    "healthyOption": true,
+    "placeId": "ChIJM7mF9kUb2jERVKXHfcjplZU",
+    "tags": [
+      "Grain bowls"
+    ],
+    "reason": "Grain bowls with vegetables and protein options.",
+    "sourceUrl": "https://www.grainsandco.sg/",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "hitoyoshi-ramen-grill",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJSyBwoHcb2jERPuw0xQ4D6NU",
+    "tags": [
+      "Ramen",
+      "Grilled skewers"
+    ],
+    "reason": "Ramen and grilled skewers in Mapletree Business City.",
+    "sourceUrl": "https://hitoyoshigroup.com/brand/hitoyoshi-ramen-grill/",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "address": "40 Pasir Panjang Road, Mapletree Business City, #02-38, Singapore 117440",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hitoyoshi%20Ramen%20%26%20Grill%20%E2%80%93%20Mapletree%20Business%20City&query_place_id=ChIJSyBwoHcb2jERPuw0xQ4D6NU"
+  },
+  {
+    "id": "canton-paradise-at-arc",
+    "address": "460 Alexandra Rd, #02 - 30, Singapore 119963",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJwz3yHMEb2jER7qb8paiVoK0",
+    "tags": [
+      "Dim sum",
+      "Cantonese"
+    ],
+    "reason": "Dim sum, congee and roast dishes at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/tenants/canton-paradise/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canton%20Paradise%20%E6%A8%82%E5%A4%A9%E5%B0%8F%E9%A6%99%E6%B8%AF%20at%20ARC&query_place_id=ChIJwz3yHMEb2jER7qb8paiVoK0"
+  },
+  {
+    "id": "sbcd-korean-tofu-house",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ47Gk2dUb2jERwfnSotHkY-o",
+    "tags": [
+      "Korean tofu stew"
+    ],
+    "reason": "Korean soft tofu soup and comforting rice meals.",
+    "sourceUrl": "https://www.arc4u.com.sg/tenants/sbcd-korean-tofu-house/",
+    "address": "460 Alexandra Rd, #02-21 Alexandra Retail Centre (ARC), Singapore 119963",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SBCD%20Korean%20Tofu%20House%20-%20Alexandra%20Retail%20Centre&query_place_id=ChIJ47Gk2dUb2jERwfnSotHkY-o"
+  },
+  {
+    "id": "super-thai-by-soi-aroy-pasir-panjang",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJNS_COSgb2jERjIDRcoSr4hw",
+    "tags": [
+      "Thai"
+    ],
+    "reason": "A Thai lunch option along Pasir Panjang Road.",
+    "sourceUrl": "https://super-thai.com/reservation-contact-us/",
+    "address": "91 Pasir Panjang Rd, Singapore 118512",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Super%20Thai%20by%20Soi%20Aroy%20%40%20Pasir%20Panjang&query_place_id=ChIJNS_COSgb2jERjIDRcoSr4hw"
+  },
+  {
+    "id": "harrys-mbc",
+    "name": "Harry’s Mapletree Business City",
+    "cuisine": [
+      "Western"
+    ],
+    "address": "40 Pasir Panjang Rd, #02-43/44, Singapore 117383",
+    "area": "MBC",
+    "walkingMinutes": null,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJI3jdvMAb2jERtq4a-GxN5ZU",
+    "tags": [
+      "Weekday lunch"
+    ],
+    "reason": "Weekday lunch specials within Mapletree Business City.",
+    "sourceUrl": "https://www.harrys.com.sg/mbc",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Harry's%20Mapletree%20Business%20City&query_place_id=ChIJI3jdvMAb2jERtq4a-GxN5ZU"
+  },
+  {
+    "id": "paik-s-coffee",
+    "active": false,
+    "verifiedForV2": false,
+    "lastVerifiedAt": null,
+    "placeId": "ChIJS3tdN8cb2jERTTviyRonTEM",
+    "address": "40 Pasir Panjang Road, #02-39B, Mapletree Business City, Singapore 117440",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paik's%20Coffee%20%40%20Mapletree%20Business%20City&query_place_id=ChIJS3tdN8cb2jERTTviyRonTEM",
+    "verificationNote": "Confirmed ceased operations during SDS pilot.",
+    "verificationCheckedAt": "2026-10-07"
+  },
+  {
+    "id": "tuckshop-mbc",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJAepjcQAb2jERgffQRhgFdmQ",
+    "address": "20 Pasir Panjang Road, I, #02-21, Singapore 117439",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Tuckshop%40MBC&query_place_id=ChIJAepjcQAb2jERgffQRhgFdmQ"
+  },
+  {
+    "id": "mr-bean",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJrzJRRQAb2jER7M2HJFF0ICg",
+    "address": "20 Pasir Panjang Rd, #02-12A Mapletree Business City II, Singapore 117439",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Bean&query_place_id=ChIJrzJRRQAb2jER7M2HJFF0ICg"
+  },
+  {
+    "id": "guzman-y-gomez",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJp-0mz8Ab2jER4ir0ibRiN7s",
+    "address": "02-35, 40, Pasir Panjang Rd, Mapletree Business City, Singapore 117383",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Guzman%20y%20Gomez%20-%20Mapletree%20Business%20City&query_place_id=ChIJp-0mz8Ab2jER4ir0ibRiN7s"
+  },
+  {
+    "id": "chuan-tai-zi-mala-tang-arc",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJYYdawlQb2jERhF9YyDsc7QA",
+    "address": "460 Alexandra Rd, #02-19, Singapore 119963",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Chuan%20Taizi%20Mala%20Tang%20%E5%B7%9D%E5%A4%AA%E5%AD%90%E9%BA%BB%E8%BE%A3%E7%83%AB&query_place_id=ChIJYYdawlQb2jERhF9YyDsc7QA"
+  },
+  {
+    "id": "d-penyetz-arc",
+    "active": false,
+    "verifiedForV2": false,
+    "lastVerifiedAt": null,
+    "placeId": null,
+    "verificationNote": "Google returned The Penyet Co at the same unit; possible rename or replacement needs confirmation.",
+    "verificationCheckedAt": "2026-10-07"
+  },
+  {
+    "id": "food-master-pasir-panjang",
+    "active": false,
+    "verifiedForV2": false,
+    "lastVerifiedAt": null,
+    "placeId": null,
+    "verificationNote": "Google marks this outlet permanently closed.",
+    "verificationCheckedAt": "2026-10-07"
+  },
+  {
+    "id": "zhang-ji-shanghai-la-mian-xiao-long-bao",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJb7gQklMb2jERcBO5KOm7BzY",
+    "address": "460 Alexandra Rd, #02-23, Singapore 119963",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhang%20Ji%20Shanghai%20La%20Mian%20Xiao%20Long%20Bao&query_place_id=ChIJb7gQklMb2jERcBO5KOm7BzY"
+  },
+  {
+    "id": "sando",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJo2MT1Gwb2jERZi8kEsAZtk8",
+    "address": "Alexandra Technopark, 438C Alexandra Rd, #01-04/04A The Hub, Singapore 119976",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SANDO%20at%20Alexandra%20Technopark&query_place_id=ChIJo2MT1Gwb2jERZi8kEsAZtk8"
+  },
+  {
+    "id": "knots-cafe-living-pasir-panjang",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ646klsQb2jERLwQKs5vs-HE",
+    "address": "102E Pasir Panjang Rd, #01-08 Citilink Warehouse Complex, Singapore 118529",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Knots%20Cafe%20%26%20Living%20(Pasir%20Panjang)&query_place_id=ChIJ646klsQb2jERLwQKs5vs-HE"
+  },
+  {
+    "id": "eat-3-bowls-pasir-panjang",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ8xAhumgb2jERI3S_Df-sfXA",
+    "address": "103 Pasir Panjang Rd, Singapore 118531",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Eat%203%20Bowls%20%40%20Pasir%20Panjang&query_place_id=ChIJ8xAhumgb2jERI3S_Df-sfXA"
+  },
+  {
+    "id": "uncle-ho-tuckshop",
+    "active": false,
+    "verifiedForV2": false,
+    "lastVerifiedAt": null,
+    "placeId": null,
+    "verificationNote": "Google returned Uncle Ho's Bistro at 1 Pasir Panjang Road, not the original 100 Pasir Panjang Road outlet.",
+    "verificationCheckedAt": "2026-10-07"
+  },
+  {
+    "id": "killiney-kopitiam",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJsds31MYb2jERnsC8dkf2KQs",
+    "address": "456 Alexandra Rd, #01-01 Fragrance Empire Building, Singapore 119962",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Killiney%20Kopitiam%20-%20Fragrance%20Empire%20Building&query_place_id=ChIJsds31MYb2jERnsC8dkf2KQs"
+  },
+  {
+    "id": "liu-lang-mian-noodle-bar",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJKxIwI48b2jER3heZHCSNLus",
+    "address": "321 Alexandra Rd, #01-03 Outside Alexandra Mall, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Liu%20Lang%20Mian%20Noodle%20Bar&query_place_id=ChIJKxIwI48b2jER3heZHCSNLus"
+  },
+  {
+    "id": "keng-eng-kee-seafood-alexandra-village",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJu1Ef88sb2jER3Fc3W0QRoq8",
+    "address": "124 Bukit Merah Lane 1, #01-136, Singapore 150124",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Keng%20Eng%20Kee%20Seafood%20%40%20Alexandra%20Village&query_place_id=ChIJu1Ef88sb2jER3Fc3W0QRoq8"
+  },
+  {
+    "id": "manhill-restaurant",
+    "active": false,
+    "verifiedForV2": false,
+    "lastVerifiedAt": null,
+    "placeId": null,
+    "verificationNote": "Google returned Hillman 99 at the same address; possible rename or replacement needs confirmation.",
+    "verificationCheckedAt": "2026-10-07"
+  },
+  {
+    "id": "esarn-thai-corner",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJFwkLXLkb2jERSCQmKC7_PXw",
+    "address": "130 Pasir Panjang Rd, Singapore 118548",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Esarn%20Thai%20Corner%20Pasir%20Panjang&query_place_id=ChIJFwkLXLkb2jERSCQmKC7_PXw"
+  },
+  {
+    "id": "straits-club-nasi-lemak",
+    "active": false,
+    "verifiedForV2": false,
+    "lastVerifiedAt": null,
+    "placeId": null,
+    "verificationNote": "Google marks this outlet permanently closed.",
+    "verificationCheckedAt": "2026-10-07"
+  },
+  {
+    "id": "paradise-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJV_3I1r4b2jERXm75U0No9uo",
+    "address": "93 Pasir Panjang Rd, Singapore 118513",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paradise%20Restaurant&query_place_id=ChIJV_3I1r4b2jERXm75U0No9uo"
+  },
+  {
+    "id": "italian-coffee-lab-singapore",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ873LtKgb2jERj6XcmvT6Ki4",
+    "address": "100 Pasir Panjang Rd, #03-07, Singapore 118518",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Italian%20Coffee%20Lab%20Pasir%20Panjang&query_place_id=ChIJ873LtKgb2jERj6XcmvT6Ki4"
+  },
+  {
+    "id": "canopy-hortpark",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJD2-oVRwb2jERt-DXYPcnbQs",
+    "address": "33 Hyderabad Rd, #01-01 Hortpark, Singapore 119578",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canopy%20HortPark&query_place_id=ChIJD2-oVRwb2jERt-DXYPcnbQs"
+  },
+  {
+    "id": "hoho-korean-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJw6s-WJUb2jERuFzfCb9rd5c",
+    "address": "87 Pasir Panjang Rd, Singapore 118510",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hoho%20Korean%20Restaurant%20Pasir%20Panjang&query_place_id=ChIJw6s-WJUb2jERuFzfCb9rd5c"
+  },
+  {
+    "id": "yuzutei-japanese-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJJUKV97gb2jERKbp1AJJ9f4w",
+    "address": "100G Pasir Panjang Rd, #01-01 Interlocal Centre, Singapore 118523",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Yuzutei%20Japanese%20Restaurant&query_place_id=ChIJJUKV97gb2jERKbp1AJJ9f4w"
+  },
+  {
+    "id": "ma-maison",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJuzuvVjMa2jERN9QuE0pDZZ8",
+    "address": "370 Alexandra Rd, #01-12, Singapore 159953",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ma%20Maison%20-%20Anchorpoint&query_place_id=ChIJuzuvVjMa2jERN9QuE0pDZZ8"
+  },
+  {
+    "id": "ikea-alexandra-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJodUzryIb2jER6ACm5zMG8Uo",
+    "address": "317 Alexandra Rd, Level 1, Singapore 159965",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=IKEA%20Alexandra%20Restaurant&query_place_id=ChIJodUzryIb2jER6ACm5zMG8Uo"
+  },
+  {
+    "id": "master-prata",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJU_zwjcwb2jERkwcc0ZMTCHQ",
+    "address": "321 Alexandra Road Mall, #01-02 Alexandra Central, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Master%20Prata&query_place_id=ChIJU_zwjcwb2jERkwcc0ZMTCHQ"
+  },
+  {
+    "id": "otoko-ramen",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJYy-Okcwb2jERyei18XwxyXM",
+    "address": "321 Alexandra Road, #01-16, Alexandra Central Mall, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Otoko%20Ramen&query_place_id=ChIJYy-Okcwb2jERyei18XwxyXM"
+  },
+  {
+    "id": "nature-cafe",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJc2ytXcwb2jERTpw4WmKe5D4",
+    "address": "321 alexandra central mall, #02-27, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nature%20Cafe&query_place_id=ChIJc2ytXcwb2jERTpw4WmKe5D4"
+  },
+  {
+    "id": "hopscotch-gillman-barracks",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJwW2HxhIZ2jERPfuslwkUPNg",
+    "address": "45 Malan Rd, Singapore 109455",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hopscotch%20(Gillman%20Barracks)&query_place_id=ChIJwW2HxhIZ2jERPfuslwkUPNg"
+  },
+  {
+    "id": "ogog-mapletree-business-city",
+    "name": "OGOG 오곡 — Mapletree Business City",
+    "cuisine": [
+      "Korean"
+    ],
+    "address": "40 Pasir Panjang Road, #02-39 Mapletree Business City, Singapore 117383",
+    "area": "MBC",
+    "walkingMinutes": null,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": null,
+    "tags": [
+      "Korean homestyle",
+      "Bansang",
+      "Gimbap"
+    ],
+    "reason": "Korean homestyle meals with rice, banchan and gimbap in Mapletree Business City.",
+    "sourceUrl": "https://www.ogog.food/locations",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://maps.app.goo.gl/vwEaE5pUPo7cDJ7Y8?g_st=ic",
+    "verificationNote": "Location verified from the user-provided Google Maps listing and OGOG's official locations page. Google Place ID still needs resolver confirmation."
+  },
+  {
+    "id": "green-elephant-thai-dynasty-mbc",
+    "name": "Green Elephant by Thai Dynasty (Thai Salad)",
+    "cuisine": [
+      "Thai",
+      "Healthy"
+    ],
+    "address": "20 Pasir Panjang Road, #02-21, Mapletree Business City II, Singapore 117439",
+    "area": "MBC",
+    "walkingMinutes": null,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": true,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-08",
+    "placeId": null,
+    "tags": [
+      "Thai salad",
+      "Salad bowls",
+      "Healthy"
+    ],
+    "reason": "Thai-style salad bowls with customisable bases, protein, supplements, toppings and dressing.",
+    "sourceUrl": "https://www.foodpanda.sg/restaurant/dpzn/green-elephant-by-thai-dynasty-thai-salad-mapletree-business-city",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://maps.app.goo.gl/yWgcYgBxNwBkSaHo6?g_st=ic",
+    "verificationNote": "User-provided Google Maps listing verified on 2026-10-08 as Green Elephant by Thai Dynasty (Thai Salad) at #02-21 MBC II and open/operational. Google Places Place ID still needs resolver confirmation."
+  }
+]

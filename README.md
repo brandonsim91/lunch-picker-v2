@@ -1,81 +1,45 @@
-# Lunch Picker V2
+# 밥Lah MVP v0.1
 
-A 2026 rebuild of **Lunch Picker**, a lightweight lunch decision tool for Samsung SDS colleagues working around Mapletree Business City (MBC), Singapore.
+Mobile-first lunch decisions around Mapletree Business City. Next.js App Router + TypeScript, plain CSS, repository pilot overlay and pure recommendation functions. No accounts, LLM or CMS.
 
-## Why this exists
+## Run
 
-Lunch Picker started in 2025 as a small web tool built to solve a recurring problem among colleagues: deciding where to eat lunch without spending too much time debating the same options.
+Node 22.18+ (Vercel uses 24). `npm install`, `npm run dev`. Checks: `npm test`, `npm run typecheck`, `npm run build`.
 
-V2 revisits the same problem with a clearer product model and cleaner architecture.
+## Flow
 
-The goal is simple:
+Home → filters → Show me 3 / Just pick something → result → Google Maps → optional post-meal feedback. Maps handoff stores a seven-day reminder; on return or refresh, Home offers feedback. No timed splash.
 
-> Help an SDS colleague or lunch group make a suitable lunch decision in under 30 seconds.
+## Data
 
-## Core user journey
+`data/restaurants.seed.json` is retained unchanged as historical data. Only records explicitly admitted by `data/restaurants.pilot.json` are used. Five seed overlays plus Harry’s MBC make six locations checked against current operator/mall listings on 2026-10-06. Addresses and menus were checked online, not on foot. See [pilot verification](docs/PILOT_VERIFICATION.md).
 
-```text
-Open Lunch Picker
-→ choose today's constraints
-→ get a short list of suitable places
-→ pick one
-→ open it in Google Maps
-```
+Nearby = MBC or ARC, based on verified area context. Unknown walking times are not displayed. Quick / Cheap are disabled until suitable fields are verified. Healthy is available for Grains & Co’s grain/vegetable/protein menu; not a nutritional guarantee. If fewer than three qualify, the app offers a single pick or changed filters, never hidden relaxation.
 
-If nobody wants to decide:
+## Environment
 
-```text
-JUST PICK SOMETHING
-→ Lunch Picker chooses for the group
-```
+All variables are server-only. No variables are necessary for the core loop.
 
-## Product principles
+- `GOOGLE_MAPS_API_KEY`: Places API (New), billing enabled, API restrictions. Optional until imagery activation.
+- `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`: both required for durable shared feedback and analytics. Use an HTTPS REST endpoint and encrypted Vercel variables.
 
-- Fast enough to use during the actual lunch rush
-- Useful for one person or a group
-- Prefer simple deterministic logic over unnecessary AI
-- Make restaurant data maintainable instead of hard-coding it into the interface
-- Reduce repetitive decision-making without removing user choice
-- Keep the experience lightweight and slightly playful
+Copy `.env.example` to `.env.local`; never commit credentials. `npm run places:resolve` prints Places candidates for human confirmation. Confirm name, address and operational status, then set each stable `placeId` in the pilot overlay. Photo resource names are requested fresh, never saved or cached. `/api/places?id=<pilot-id>` fetches photo bytes and author attribution together, exposes no key and fails to a branded fallback. Missing credentials means photos are not active.
 
-## V2 scope
+Feedback is browser-local (last 100 entries) unless the optional REST store is configured. API returns `persisted:false` rather than falsely claiming durable storage. No community scoring yet. Local data can be removed by clearing browser storage. The REST store needs a maintainer retention/deletion procedure before a wider pilot.
 
-Initial filters may include:
+## Analytics
 
-- walking time / distance
-- price range
-- cuisine
-- quick lunch
-- healthier option
-- something new
-- indoor / outdoor
-- recent visits
+`home_opened`, `filter_selected`, `recommend_3_requested`, `just_pick_requested`, `restaurant_selected`, `reroll_requested`, `maps_opened`, `feedback_submitted`. Server validates allowed properties and stores no name, location or session identifier. Without shared storage, events are structured Vercel runtime logs, not a permanent dashboard.
 
-The first release will focus on **MBC and nearby lunch options**.
+## Deployment
 
-## Project status
+Use a Vercel preview. The connected Vercel account currently lacks its GitHub login connection, so direct source deployment is used; connecting Git later will enable automatic previews. Keep changes on `sprint-1-mvp-v0.1`; do not merge main until reviewed.
 
-**Current phase: Product definition and data modelling**
+## Remaining pilot checks
 
-Before implementation, the project is defining:
+- Set Places key, resolve stable place IDs, test live photos and attribution.
+- Walk-check Maps destinations, prices, queue speed, opening-hours exceptions and distances.
+- Configure durable storage if shared feedback is needed; add retention and abuse controls before public launch.
+- Browser QA at iPhone and desktop sizes; automated tests cover recommendation and feedback contracts.
 
-1. product problem and success criteria
-2. restaurant data schema
-3. decision rules
-4. minimum viable user journey
-5. technical architecture
-
-See:
-
-- [Product Brief](docs/PRODUCT_BRIEF.md)
-- [Restaurant Data Model](docs/RESTAURANT_DATA_MODEL.md)
-
-## History
-
-The original 2025 prototype is preserved separately at:
-
-**brandonsim91/Lunch-Picker**
-
-V1 was a static HTML/CSS/JavaScript application using a manually maintained restaurant array and random selection.
-
-V2 is intentionally a separate repository so the evolution in product thinking and implementation can remain visible.
+Sprint 1 is not complete until the reachable preview and full mobile loop are verified. Follow the [original product brief](docs/PRODUCT_BRIEF.md) and [migration policy](docs/V1_DATA_MIGRATION.md).

@@ -1,0 +1,15 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {eligible,pickOne,recommendThree,availableFilters} from '../lib/recommend.ts';
+import type {Restaurant} from '../lib/types.ts';
+const r=(id:string,extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,cuisine:['Local'],address:'40 Pasir Panjang Rd',mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',area:'MBC',walkingMinutes:null,priceBand:null,active:true,quickLunch:null,healthyOption:null,verifiedForV2:true,lastVerifiedAt:'2026-10-06',tags:[],reason:'Lunch',sourceUrl:'https://example.com',...extra});
+const pool=[r('a'),r('b'),r('c'),r('d'),r('e')];
+test('legacy, inactive, empty IDs and unsafe maps never qualify',()=>{assert.deepEqual(eligible([r(''),r('a',{active:false}),r('b',{verifiedForV2:false}),r('c',{mapUrl:'javascript:alert(1)'}),r('d',{mapUrl:'https://www.google.com.evil.test/'})],[]),[]);});
+test('unknown fields do not satisfy Quick, Cheap or Healthy',()=>{for(const filter of ['Quick','Cheap','Healthy'] as const)assert.equal(eligible(pool,[filter]).length,0);assert.deepEqual(availableFilters(pool),['Nearby']);});
+test('hard filters intersect and cannot silently relax',()=>{const p=[r('a',{healthyOption:true,quickLunch:true}),r('b',{healthyOption:true,area:'Pasir Panjang'})];assert.deepEqual(eligible(p,['Healthy','Nearby','Quick']).map(x=>x.id),['a']);});
+test('shortlist returns exactly three unique eligible restaurants',()=>{const out=recommendThree(pool,[],[],()=>.5);assert.equal(out.length,3);assert.equal(new Set(out.map(r=>r.id)).size,3);});
+test('fewer than three is an explicit insufficient state',()=>{assert.deepEqual(recommendThree(pool.slice(0,2),[]),[]);assert.deepEqual(recommendThree([],[]),[]);assert.equal(pickOne([],[]),null);});
+test('reroll changes the set when any alternative exists',()=>{const old=recommendThree(pool,[],[],()=>0).map(r=>r.id);const next=recommendThree(pool,[],old,()=>0).map(r=>r.id);assert.notDeepEqual([...next].sort(),[...old].sort());});
+test('single pick avoids its last result where feasible',()=>assert.equal(pickOne(pool,[],['a'],()=>0)?.id,'b'));
+test('deduplicates IDs and permits the only eligible restaurant',()=>{assert.equal(eligible([r('a'),r('a')],[]).length,1);assert.equal(pickOne([r('a')],[],['a'])?.id,'a');});
+
+test('explicit original-list imports qualify without claiming verification',()=>{const imported=r('legacy',{verifiedForV2:false,lastVerifiedAt:null,importedFromV1:true});assert.equal(eligible([imported],[]).length,1);assert.equal(eligible([imported],['Healthy']).length,0);assert.equal(eligible([imported],['Quick']).length,0);assert.equal(eligible([imported],['Cheap']).length,0);assert.equal(eligible([{...imported,active:false}],[]).length,0);assert.equal(eligible([{...imported,mapUrl:'javascript:alert(1)'}],[]).length,0);});
