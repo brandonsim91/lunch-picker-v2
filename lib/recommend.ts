@@ -1,5 +1,6 @@
 import type { Filter, Restaurant } from './types.ts';
 export const filters: Filter[] = ['Nearby','Quick','Cheap','Healthy'];
+const nearbyAreas = new Set(['MBC','ARC','Labrador Park','Anchorpoint','Alexandra']);
 export function usable(r: Restaurant) {
   try {const u=new URL(r.mapUrl);return !!r.id && !!r.name && !!r.address && r.active && ((r.verifiedForV2 && !!r.lastVerifiedAt) || r.importedFromV1===true) && u.protocol==='https:' && ['www.google.com','maps.google.com','maps.app.goo.gl'].includes(u.hostname);}
   catch {return false;}
@@ -7,7 +8,7 @@ export function usable(r: Restaurant) {
 export function eligible(pool: Restaurant[], selected: Filter[]) {
   const seen=new Set<string>();
   return pool.filter(r => usable(r) && !seen.has(r.id) && (seen.add(r.id),true) && selected.every(f =>
-    f==='Nearby' ? ['MBC','ARC'].includes(r.area) :
+    f==='Nearby' ? nearbyAreas.has(r.area) :
     f==='Quick' ? r.quickLunch===true :
     f==='Cheap' ? r.priceBand==='$' : r.healthyOption===true));
 }
