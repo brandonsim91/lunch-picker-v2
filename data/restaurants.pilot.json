@@ -17,6 +17,10 @@
       3,
       4,
       5
+    ],
+    "moodTags": [
+      "Healthy",
+      "Western / Cafe"
     ]
   },
   {
@@ -39,7 +43,10 @@
       5
     ],
     "address": "40 Pasir Panjang Road, Mapletree Business City, #02-38, Singapore 117440",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hitoyoshi%20Ramen%20%26%20Grill%20%E2%80%93%20Mapletree%20Business%20City&query_place_id=ChIJSyBwoHcb2jERPuw0xQ4D6NU"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hitoyoshi%20Ramen%20%26%20Grill%20%E2%80%93%20Mapletree%20Business%20City&query_place_id=ChIJSyBwoHcb2jERPuw0xQ4D6NU",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "canton-paradise-at-arc",
@@ -54,7 +61,10 @@
     ],
     "reason": "Dim sum, congee and roast dishes at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/tenants/canton-paradise/",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canton%20Paradise%20%E6%A8%82%E5%A4%A9%E5%B0%8F%E9%A6%99%E6%B8%AF%20at%20ARC&query_place_id=ChIJwz3yHMEb2jER7qb8paiVoK0"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canton%20Paradise%20%E6%A8%82%E5%A4%A9%E5%B0%8F%E9%A6%99%E6%B8%AF%20at%20ARC&query_place_id=ChIJwz3yHMEb2jER7qb8paiVoK0",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "sbcd-korean-tofu-house",
@@ -68,7 +78,10 @@
     "reason": "Korean soft tofu soup and comforting rice meals.",
     "sourceUrl": "https://www.arc4u.com.sg/tenants/sbcd-korean-tofu-house/",
     "address": "460 Alexandra Rd, #02-21 Alexandra Retail Centre (ARC), Singapore 119963",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SBCD%20Korean%20Tofu%20House%20-%20Alexandra%20Retail%20Centre&query_place_id=ChIJ47Gk2dUb2jERwfnSotHkY-o"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SBCD%20Korean%20Tofu%20House%20-%20Alexandra%20Retail%20Centre&query_place_id=ChIJ47Gk2dUb2jERwfnSotHkY-o",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "super-thai-by-soi-aroy-pasir-panjang",
@@ -82,7 +95,10 @@
     "reason": "A Thai lunch option along Pasir Panjang Road.",
     "sourceUrl": "https://super-thai.com/reservation-contact-us/",
     "address": "91 Pasir Panjang Rd, Singapore 118512",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Super%20Thai%20by%20Soi%20Aroy%20%40%20Pasir%20Panjang&query_place_id=ChIJNS_COSgb2jERjIDRcoSr4hw"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Super%20Thai%20by%20Soi%20Aroy%20%40%20Pasir%20Panjang&query_place_id=ChIJNS_COSgb2jERjIDRcoSr4hw",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "harrys-mbc",
@@ -112,7 +128,10 @@
       4,
       5
     ],
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Harry's%20Mapletree%20Business%20City&query_place_id=ChIJI3jdvMAb2jERtq4a-GxN5ZU"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Harry's%20Mapletree%20Business%20City&query_place_id=ChIJI3jdvMAb2jERtq4a-GxN5ZU",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "paik-s-coffee",
@@ -123,7 +142,11 @@
     "address": "40 Pasir Panjang Road, #02-39B, Mapletree Business City, Singapore 117440",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paik's%20Coffee%20%40%20Mapletree%20Business%20City&query_place_id=ChIJS3tdN8cb2jERTTviyRonTEM",
     "verificationNote": "Confirmed ceased operations during SDS pilot.",
-    "verificationCheckedAt": "2026-10-07"
+    "verificationCheckedAt": "2026-10-07",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "tuckshop-mbc",
@@ -132,7 +155,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJAepjcQAb2jERgffQRhgFdmQ",
     "address": "20 Pasir Panjang Road, I, #02-21, Singapore 117439",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Tuckshop%40MBC&query_place_id=ChIJAepjcQAb2jERgffQRhgFdmQ"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Tuckshop%40MBC&query_place_id=ChIJAepjcQAb2jERgffQRhgFdmQ",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "mr-bean",
@@ -141,7 +167,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJrzJRRQAb2jER7M2HJFF0ICg",
     "address": "20 Pasir Panjang Rd, #02-12A Mapletree Business City II, Singapore 117439",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Bean&query_place_id=ChIJrzJRRQAb2jER7M2HJFF0ICg"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Bean&query_place_id=ChIJrzJRRQAb2jER7M2HJFF0ICg",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "guzman-y-gomez",
@@ -150,7 +179,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJp-0mz8Ab2jER4ir0ibRiN7s",
     "address": "02-35, 40, Pasir Panjang Rd, Mapletree Business City, Singapore 117383",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Guzman%20y%20Gomez%20-%20Mapletree%20Business%20City&query_place_id=ChIJp-0mz8Ab2jER4ir0ibRiN7s"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Guzman%20y%20Gomez%20-%20Mapletree%20Business%20City&query_place_id=ChIJp-0mz8Ab2jER4ir0ibRiN7s",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "chuan-tai-zi-mala-tang-arc",
@@ -159,7 +191,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJYYdawlQb2jERhF9YyDsc7QA",
     "address": "460 Alexandra Rd, #02-19, Singapore 119963",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Chuan%20Taizi%20Mala%20Tang%20%E5%B7%9D%E5%A4%AA%E5%AD%90%E9%BA%BB%E8%BE%A3%E7%83%AB&query_place_id=ChIJYYdawlQb2jERhF9YyDsc7QA"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Chuan%20Taizi%20Mala%20Tang%20%E5%B7%9D%E5%A4%AA%E5%AD%90%E9%BA%BB%E8%BE%A3%E7%83%AB&query_place_id=ChIJYYdawlQb2jERhF9YyDsc7QA",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "d-penyetz-arc",
@@ -168,7 +203,10 @@
     "lastVerifiedAt": null,
     "placeId": null,
     "verificationNote": "Google returned The Penyet Co at the same unit; possible rename or replacement needs confirmation.",
-    "verificationCheckedAt": "2026-10-07"
+    "verificationCheckedAt": "2026-10-07",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "food-master-pasir-panjang",
@@ -177,7 +215,10 @@
     "lastVerifiedAt": null,
     "placeId": null,
     "verificationNote": "Google marks this outlet permanently closed.",
-    "verificationCheckedAt": "2026-10-07"
+    "verificationCheckedAt": "2026-10-07",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "zhang-ji-shanghai-la-mian-xiao-long-bao",
@@ -186,7 +227,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJb7gQklMb2jERcBO5KOm7BzY",
     "address": "460 Alexandra Rd, #02-23, Singapore 119963",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhang%20Ji%20Shanghai%20La%20Mian%20Xiao%20Long%20Bao&query_place_id=ChIJb7gQklMb2jERcBO5KOm7BzY"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhang%20Ji%20Shanghai%20La%20Mian%20Xiao%20Long%20Bao&query_place_id=ChIJb7gQklMb2jERcBO5KOm7BzY",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "sando",
@@ -195,7 +239,11 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJo2MT1Gwb2jERZi8kEsAZtk8",
     "address": "Alexandra Technopark, 438C Alexandra Rd, #01-04/04A The Hub, Singapore 119976",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SANDO%20at%20Alexandra%20Technopark&query_place_id=ChIJo2MT1Gwb2jERZi8kEsAZtk8"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SANDO%20at%20Alexandra%20Technopark&query_place_id=ChIJo2MT1Gwb2jERZi8kEsAZtk8",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "knots-cafe-living-pasir-panjang",
@@ -204,7 +252,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJ646klsQb2jERLwQKs5vs-HE",
     "address": "102E Pasir Panjang Rd, #01-08 Citilink Warehouse Complex, Singapore 118529",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Knots%20Cafe%20%26%20Living%20(Pasir%20Panjang)&query_place_id=ChIJ646klsQb2jERLwQKs5vs-HE"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Knots%20Cafe%20%26%20Living%20(Pasir%20Panjang)&query_place_id=ChIJ646klsQb2jERLwQKs5vs-HE",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "eat-3-bowls-pasir-panjang",
@@ -213,7 +264,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJ8xAhumgb2jERI3S_Df-sfXA",
     "address": "103 Pasir Panjang Rd, Singapore 118531",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Eat%203%20Bowls%20%40%20Pasir%20Panjang&query_place_id=ChIJ8xAhumgb2jERI3S_Df-sfXA"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Eat%203%20Bowls%20%40%20Pasir%20Panjang&query_place_id=ChIJ8xAhumgb2jERI3S_Df-sfXA",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "uncle-ho-tuckshop",
@@ -222,7 +276,10 @@
     "lastVerifiedAt": null,
     "placeId": null,
     "verificationNote": "Google returned Uncle Ho's Bistro at 1 Pasir Panjang Road, not the original 100 Pasir Panjang Road outlet.",
-    "verificationCheckedAt": "2026-10-07"
+    "verificationCheckedAt": "2026-10-07",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "killiney-kopitiam",
@@ -231,7 +288,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJsds31MYb2jERnsC8dkf2KQs",
     "address": "456 Alexandra Rd, #01-01 Fragrance Empire Building, Singapore 119962",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Killiney%20Kopitiam%20-%20Fragrance%20Empire%20Building&query_place_id=ChIJsds31MYb2jERnsC8dkf2KQs"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Killiney%20Kopitiam%20-%20Fragrance%20Empire%20Building&query_place_id=ChIJsds31MYb2jERnsC8dkf2KQs",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "liu-lang-mian-noodle-bar",
@@ -240,7 +300,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJKxIwI48b2jER3heZHCSNLus",
     "address": "321 Alexandra Rd, #01-03 Outside Alexandra Mall, Singapore 159971",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Liu%20Lang%20Mian%20Noodle%20Bar&query_place_id=ChIJKxIwI48b2jER3heZHCSNLus"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Liu%20Lang%20Mian%20Noodle%20Bar&query_place_id=ChIJKxIwI48b2jER3heZHCSNLus",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "keng-eng-kee-seafood-alexandra-village",
@@ -249,7 +312,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJu1Ef88sb2jER3Fc3W0QRoq8",
     "address": "124 Bukit Merah Lane 1, #01-136, Singapore 150124",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Keng%20Eng%20Kee%20Seafood%20%40%20Alexandra%20Village&query_place_id=ChIJu1Ef88sb2jER3Fc3W0QRoq8"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Keng%20Eng%20Kee%20Seafood%20%40%20Alexandra%20Village&query_place_id=ChIJu1Ef88sb2jER3Fc3W0QRoq8",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "manhill-restaurant",
@@ -258,7 +324,10 @@
     "lastVerifiedAt": null,
     "placeId": null,
     "verificationNote": "Google returned Hillman 99 at the same address; possible rename or replacement needs confirmation.",
-    "verificationCheckedAt": "2026-10-07"
+    "verificationCheckedAt": "2026-10-07",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "esarn-thai-corner",
@@ -267,7 +336,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJFwkLXLkb2jERSCQmKC7_PXw",
     "address": "130 Pasir Panjang Rd, Singapore 118548",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Esarn%20Thai%20Corner%20Pasir%20Panjang&query_place_id=ChIJFwkLXLkb2jERSCQmKC7_PXw"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Esarn%20Thai%20Corner%20Pasir%20Panjang&query_place_id=ChIJFwkLXLkb2jERSCQmKC7_PXw",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "straits-club-nasi-lemak",
@@ -276,7 +348,10 @@
     "lastVerifiedAt": null,
     "placeId": null,
     "verificationNote": "Google marks this outlet permanently closed.",
-    "verificationCheckedAt": "2026-10-07"
+    "verificationCheckedAt": "2026-10-07",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "paradise-restaurant",
@@ -285,7 +360,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJV_3I1r4b2jERXm75U0No9uo",
     "address": "93 Pasir Panjang Rd, Singapore 118513",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paradise%20Restaurant&query_place_id=ChIJV_3I1r4b2jERXm75U0No9uo"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paradise%20Restaurant&query_place_id=ChIJV_3I1r4b2jERXm75U0No9uo",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "italian-coffee-lab-singapore",
@@ -294,7 +372,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJ873LtKgb2jERj6XcmvT6Ki4",
     "address": "100 Pasir Panjang Rd, #03-07, Singapore 118518",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Italian%20Coffee%20Lab%20Pasir%20Panjang&query_place_id=ChIJ873LtKgb2jERj6XcmvT6Ki4"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Italian%20Coffee%20Lab%20Pasir%20Panjang&query_place_id=ChIJ873LtKgb2jERj6XcmvT6Ki4",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "canopy-hortpark",
@@ -303,7 +384,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJD2-oVRwb2jERt-DXYPcnbQs",
     "address": "33 Hyderabad Rd, #01-01 Hortpark, Singapore 119578",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canopy%20HortPark&query_place_id=ChIJD2-oVRwb2jERt-DXYPcnbQs"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canopy%20HortPark&query_place_id=ChIJD2-oVRwb2jERt-DXYPcnbQs",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "hoho-korean-restaurant",
@@ -312,7 +396,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJw6s-WJUb2jERuFzfCb9rd5c",
     "address": "87 Pasir Panjang Rd, Singapore 118510",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hoho%20Korean%20Restaurant%20Pasir%20Panjang&query_place_id=ChIJw6s-WJUb2jERuFzfCb9rd5c"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hoho%20Korean%20Restaurant%20Pasir%20Panjang&query_place_id=ChIJw6s-WJUb2jERuFzfCb9rd5c",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "yuzutei-japanese-restaurant",
@@ -321,7 +408,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJJUKV97gb2jERKbp1AJJ9f4w",
     "address": "100G Pasir Panjang Rd, #01-01 Interlocal Centre, Singapore 118523",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Yuzutei%20Japanese%20Restaurant&query_place_id=ChIJJUKV97gb2jERKbp1AJJ9f4w"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Yuzutei%20Japanese%20Restaurant&query_place_id=ChIJJUKV97gb2jERKbp1AJJ9f4w",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "ma-maison",
@@ -330,7 +420,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJuzuvVjMa2jERN9QuE0pDZZ8",
     "address": "370 Alexandra Rd, #01-12, Singapore 159953",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ma%20Maison%20-%20Anchorpoint&query_place_id=ChIJuzuvVjMa2jERN9QuE0pDZZ8"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ma%20Maison%20-%20Anchorpoint&query_place_id=ChIJuzuvVjMa2jERN9QuE0pDZZ8",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "ikea-alexandra-restaurant",
@@ -339,7 +432,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJodUzryIb2jER6ACm5zMG8Uo",
     "address": "317 Alexandra Rd, Level 1, Singapore 159965",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=IKEA%20Alexandra%20Restaurant&query_place_id=ChIJodUzryIb2jER6ACm5zMG8Uo"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=IKEA%20Alexandra%20Restaurant&query_place_id=ChIJodUzryIb2jER6ACm5zMG8Uo",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "master-prata",
@@ -348,7 +444,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJU_zwjcwb2jERkwcc0ZMTCHQ",
     "address": "321 Alexandra Road Mall, #01-02 Alexandra Central, Singapore 159971",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Master%20Prata&query_place_id=ChIJU_zwjcwb2jERkwcc0ZMTCHQ"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Master%20Prata&query_place_id=ChIJU_zwjcwb2jERkwcc0ZMTCHQ",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "otoko-ramen",
@@ -357,7 +456,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJYy-Okcwb2jERyei18XwxyXM",
     "address": "321 Alexandra Road, #01-16, Alexandra Central Mall, Singapore 159971",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Otoko%20Ramen&query_place_id=ChIJYy-Okcwb2jERyei18XwxyXM"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Otoko%20Ramen&query_place_id=ChIJYy-Okcwb2jERyei18XwxyXM",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "nature-cafe",
@@ -366,7 +468,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJc2ytXcwb2jERTpw4WmKe5D4",
     "address": "321 alexandra central mall, #02-27, Singapore 159971",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nature%20Cafe&query_place_id=ChIJc2ytXcwb2jERTpw4WmKe5D4"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nature%20Cafe&query_place_id=ChIJc2ytXcwb2jERTpw4WmKe5D4",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "hopscotch-gillman-barracks",
@@ -375,7 +480,10 @@
     "lastVerifiedAt": "2026-10-07",
     "placeId": "ChIJwW2HxhIZ2jERPfuslwkUPNg",
     "address": "45 Malan Rd, Singapore 109455",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hopscotch%20(Gillman%20Barracks)&query_place_id=ChIJwW2HxhIZ2jERPfuslwkUPNg"
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hopscotch%20(Gillman%20Barracks)&query_place_id=ChIJwW2HxhIZ2jERPfuslwkUPNg",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "ogog-mapletree-business-city",
@@ -408,7 +516,10 @@
       5
     ],
     "verificationSourceUrl": "https://maps.app.goo.gl/vwEaE5pUPo7cDJ7Y8?g_st=ic",
-    "verificationNote": "Location verified from the user-provided Google Maps listing and OGOG's official locations page. Google Place ID still needs resolver confirmation."
+    "verificationNote": "Location verified from the user-provided Google Maps listing and OGOG's official locations page. Google Place ID still needs resolver confirmation.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "green-elephant-thai-dynasty-mbc",
@@ -442,7 +553,12 @@
       5
     ],
     "verificationSourceUrl": "https://maps.app.goo.gl/yWgcYgBxNwBkSaHo6?g_st=ic",
-    "verificationNote": "User-provided Google Maps listing verified on 2026-10-08 as Green Elephant by Thai Dynasty (Thai Salad) at #02-21 MBC II and open/operational. Google Places Place ID still needs resolver confirmation."
+    "verificationNote": "User-provided Google Maps listing verified on 2026-10-08 as Green Elephant by Thai Dynasty (Thai Salad) at #02-21 MBC II and open/operational. Google Places Place ID still needs resolver confirmation.",
+    "moodTags": [
+      "Healthy",
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "barcook-bakery",
@@ -467,7 +583,10 @@
     "reason": "Bakery and grab-and-go breakfast option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Barcook%20Bakery%2C%20460%20Alexandra%20Rd%2C%20%2301-19%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "beard-papa-s-arc",
@@ -492,7 +611,10 @@
     "reason": "Cream puff and pastry stop at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Beard%20Papa's%2C%20460%20Alexandra%20Rd%2C%20%2301-15%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "boost-juice-bar-arc",
@@ -518,7 +640,10 @@
     "reason": "Smoothies and juices for a quick drink or lighter lunch add-on.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Boost%20Juice%20Bar%2C%20460%20Alexandra%20Rd%2C%20%2302-43%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "burger-king-arc",
@@ -543,7 +668,10 @@
     "reason": "Fast, familiar burger option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Burger%20King%2C%20460%20Alexandra%20Rd%2C%20%2301-17%2F20%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "chagee-arc",
@@ -569,7 +697,10 @@
     "reason": "Tea and milk-tea café at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=CHAGEE%2C%20460%20Alexandra%20Rd%2C%20%2301-06%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "luckin-coffee-arc",
@@ -594,7 +725,10 @@
     "reason": "Coffee and drinks at ARC for a quick break.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=luckin%20coffee%2C%20460%20Alexandra%20Rd%2C%20%2301-13%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "sanook-kitchen-arc",
@@ -619,7 +753,10 @@
     "reason": "Casual Thai lunch option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Sanook%20Kitchen%2C%20460%20Alexandra%20Rd%2C%20%2302-12%2F12A%2FK1%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "so-fun3-arc",
@@ -644,7 +781,10 @@
     "reason": "Chinese rice-noodle bowls at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SO%20FUN3%20%E4%B8%89%E4%B8%A4%E7%B2%89%2C%20460%20Alexandra%20Rd%2C%20%2301-01%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "jiak-ba-food-heaven-arc",
@@ -669,7 +809,10 @@
     "reason": "Taiwanese comfort food and rice/noodle sets at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Jiak%20Ba%20Food%20Heaven%20%E7%94%B2%E9%9C%B8%E9%A3%9F%E5%A0%82%2C%20460%20Alexandra%20Rd%2C%20%2301-18%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "sakana-no-suppu-arc",
@@ -694,7 +837,10 @@
     "reason": "Japanese-style fish soup and udon bowls at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SAKANA-NO-SUPPU%2C%20460%20Alexandra%20Rd%2C%20%2302-42%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "hundred-grains-arc",
@@ -719,7 +865,10 @@
     "reason": "Customisable Chinese mixed-rice meals at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hundred%20Grains%20%E7%99%BE%E7%B1%B3%E9%A6%99%2C%20460%20Alexandra%20Rd%2C%20%2302-20%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "the-coffee-bean-and-tea-leaf-arc",
@@ -744,7 +893,10 @@
     "reason": "Coffee, tea and café food at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Coffee%20Bean%20%26%20Tea%20Leaf%2C%20460%20Alexandra%20Rd%2C%20%2302-41%20%26%20K5%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "saizeriya-arc",
@@ -769,7 +921,10 @@
     "reason": "Budget-friendly Italian-style casual dining at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Saizeriya%2C%20460%20Alexandra%20Rd%2C%20%2301-30%2F31%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "qin-ji-rougamo-arc",
@@ -795,7 +950,10 @@
     "reason": "Northern Chinese street-food style lunch at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Qin%20Ji%20Rougamo%2C%20460%20Alexandra%20Rd%2C%20%2301-33%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "the-penyet-co-arc",
@@ -820,7 +978,10 @@
     "reason": "Indonesian-style rice and penyet meals at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Penyet%20Co%2C%20460%20Alexandra%20Rd%2C%20%2301-02%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "chong-pang-old-time-flavor-arc",
@@ -845,7 +1006,10 @@
     "reason": "Local comfort food and breakfast-style meals at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Chong%20Pang%20Old%20Time%20Flavor%2C%20460%20Alexandra%20Rd%2C%20%2301-14%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "wok-hey-arc",
@@ -870,7 +1034,10 @@
     "reason": "Quick wok-fried rice and noodle boxes at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=WOK%20HEY%2C%20460%20Alexandra%20Rd%2C%20%2301-12%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "encik-tan-arc",
@@ -896,7 +1063,10 @@
     "reason": "Halal local Chinese-style comfort food at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Encik%20Tan%2C%20460%20Alexandra%20Rd%2C%20%2301-32%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "heavenly-wang-arc",
@@ -923,7 +1093,11 @@
     "reason": "Kopitiam-style breakfast and local meals at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Heavenly%20Wang%2C%20460%20Alexandra%20Rd%2C%20%2302-35%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "ichiban-boshi-arc",
@@ -948,7 +1122,10 @@
     "reason": "Casual Japanese sushi and set meals at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ichiban%20Boshi%2C%20460%20Alexandra%20Rd%2C%20%2302-22%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "kai-oh-don-arc",
@@ -973,7 +1150,10 @@
     "reason": "Japanese rice-bowl option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Kai-Oh-Don%2C%20460%20Alexandra%20Rd%2C%20%2302-43A%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "mcdonald-s-arc",
@@ -998,7 +1178,10 @@
     "reason": "Fast and familiar lunch option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=McDonald's%20ARC%2C%20460%20Alexandra%20Rd%2C%20%2301-25%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "rong-wantan-noodle-arc",
@@ -1022,7 +1205,10 @@
     "reason": "Wantan noodle option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Rong%20Wantan%20Noodle%2C%20460%20Alexandra%20Rd%2C%20%2302-37%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "royal-currie-arc",
@@ -1047,7 +1233,10 @@
     "reason": "Indian curry and rice meals at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Currie%2C%20460%20Alexandra%20Rd%2C%20%2301-03%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "the-soup-spoon-arc",
@@ -1074,7 +1263,10 @@
     "reason": "Soup-based lunch sets and light meals at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Soup%20Spoon%2C%20460%20Alexandra%20Rd%2C%20%2301-21%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "umisushi-arc",
@@ -1099,7 +1291,10 @@
     "reason": "Quick sushi and Japanese takeaway option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Umisushi%2C%20460%20Alexandra%20Rd%2C%20%2301-22%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "vintage-nanyang-kopi-arc",
@@ -1126,7 +1321,11 @@
     "reason": "Nanyang-style coffee and local comfort food at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Vintage%20Nanyang%20Kopi%2C%20460%20Alexandra%20Rd%2C%20%2302-25%2F25A%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "herbal-soup-arc",
@@ -1151,7 +1350,10 @@
     "reason": "Chinese herbal soup and rice meal option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A3%9C%E6%B1%A4%E7%8E%8B%20%E2%80%93%20Herbal%20Soup%2C%20460%20Alexandra%20Rd%2C%20%2302-24%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "stuff-d-arc",
@@ -1177,7 +1379,10 @@
     "reason": "Customisable kebabs, burritos and bowls at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Stuff'd%2C%20460%20Alexandra%20Rd%2C%20%2301-11%2FK2%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "old-chang-kee-arc",
@@ -1203,7 +1408,10 @@
     "reason": "Quick local snacks and grab-and-go bites at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Old%20Chang%20Kee%2C%20460%20Alexandra%20Rd%2C%20%2302-36%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "levure-naturelle-arc",
@@ -1229,7 +1437,10 @@
     "reason": "Bakery and light breakfast option at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Levure%20Naturelle%2C%20460%20Alexandra%20Rd%2C%20%2301-08%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "ottie-pancakes-arc",
@@ -1255,7 +1466,11 @@
     "reason": "Quick pancake and snack stop at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ottie%20Pancakes%2C%20460%20Alexandra%20Rd%2C%20%2302-13%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "liho-tea-arc",
@@ -1280,7 +1495,10 @@
     "reason": "Bubble tea and drinks at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=LiHO%20Tea%2C%20460%20Alexandra%20Rd%2C%20%2301-10%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "prata-alley-labrador-park",
@@ -1305,7 +1523,10 @@
     "reason": "Prata and Indian-Muslim comfort food near Labrador Park MRT.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Prata%20Alley%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Prata%20Alley%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-09%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "nasi-lemak-ayam-taliwang-labrador-park",
@@ -1331,7 +1552,10 @@
     "reason": "Weekday hawker-style nasi lemak at Labrador Tower.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nasi%20Lemak%20Ayam%20Taliwang%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nasi%20Lemak%20Ayam%20Taliwang%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "uncle-ho-s-bistro-labrador-park",
@@ -1356,7 +1580,10 @@
     "reason": "Vietnamese lunch option at Labrador Tower.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Uncle%20Ho%27s%20Bistro%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Uncle%20Ho's%20Bistro%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-06%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "mr-eggs-labrador-tower-labrador-park",
@@ -1382,7 +1609,10 @@
     "reason": "Fast rice-bowl stall inside Food Junction at Labrador Tower.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Eggs%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Eggs%20%40%20Labrador%20Tower%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "get-some-labrador-labrador-park",
@@ -1409,7 +1639,11 @@
     "reason": "Casual lunch and gastropub option at Labrador Tower.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Get%20Some%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Get%20Some%20%40%20Labrador%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-11%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "tian-wai-tian-fish-head-steamboat-mbc",
@@ -1434,7 +1668,10 @@
     "reason": "Fish-head steamboat and zi char in MBC's food-court cluster.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tian%20Wai%20Tian%20Fish%20Head%20Steamboat%20MBC",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Tian%20Wai%20Tian%20Fish%20Head%20Steamboat%20(MBC)%2C%2020%20Pasir%20Panjang%20Rd%2C%20%2302-21%20Stall%203%2C%20Singapore%20117439",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "kyo-kohee-labrador-park",
@@ -1459,7 +1696,10 @@
     "reason": "Coffee stop at Labrador Tower near Labrador Park MRT.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=KYO%20KOHEE%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=KY%C5%8C%20KOHEE%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-08%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "toast-junction-labrador-park",
@@ -1486,7 +1726,11 @@
     "reason": "Kopitiam-style toast and quick meals inside Labrador Tower.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Toast%20Junction%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Toast%20Junction%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ]
   },
   {
     "id": "1-alfaro-labrador-park",
@@ -1511,7 +1755,10 @@
     "reason": "Italian restaurant high in Labrador Tower for a longer lunch.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1-Alfaro%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=1-Alfaro%2C%201%20Pasir%20Panjang%20Rd%2C%20%2334-00%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "reply-k1988-alexandra",
@@ -1536,7 +1783,10 @@
     "reason": "Korean BBQ and Korean dining near the Alexandra/Labrador area.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=REPLY%20K1988%20Alexandra",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=REPLY%20K1988%20Alexandra%2C%20991B%20Alexandra%20Rd%2C%20%2302-08%2F09%2F10%2F11%2C%20Singapore%20119970",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "go-ang-pratunam-chicken-rice-anchorpoint",
@@ -1560,7 +1810,10 @@
     "reason": "Thai-style chicken rice at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Go-Ang%20Pratunam%20Chicken%20Rice%2C%20370%20Alexandra%20Rd%2C%20%2301-07%2F08%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "starbucks-anchorpoint",
@@ -1585,7 +1838,10 @@
     "reason": "Coffee, pastries and light meals at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Starbucks%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-05%2F06%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "overbr-d-anchorpoint",
@@ -1611,7 +1867,10 @@
     "reason": "Scandinavian-inspired open sandwiches and deli plates at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=OVERBR%C3%98D%2C%20370%20Alexandra%20Rd%2C%20%2301-14A%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "2thumbsup-hainanese-curry-rice-anchorpoint",
@@ -1635,7 +1894,10 @@
     "reason": "Fast Hainanese curry rice at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=2ThumbsUp%20Hainanese%20Curry%20Rice%2C%20370%20Alexandra%20Rd%2C%20%23B1-47%2F48%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   },
   {
     "id": "kfc-anchorpoint",
@@ -1660,7 +1922,10 @@
     "reason": "Fast-food fried chicken at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=KFC%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-15%2F16%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "mcdonald-s-anchorpoint",
@@ -1685,7 +1950,10 @@
     "reason": "Fast and familiar lunch option at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=McDonald's%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-31%2F32%2F33%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ]
   },
   {
     "id": "yoshinoya-anchorpoint",
@@ -1710,6 +1978,9 @@
     "reason": "Japanese beef rice bowls at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Yoshinoya%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-01%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing."
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ]
   }
 ]

@@ -14,7 +14,7 @@ Home → filters → Show me 3 / Just pick something → result → Google Maps 
 
 `data/restaurants.seed.json` is retained unchanged as historical data. Only records explicitly admitted by `data/restaurants.pilot.json` are used. Five seed overlays plus Harry’s MBC make six locations checked against current operator/mall listings on 2026-10-06. Addresses and menus were checked online, not on foot. See [pilot verification](docs/PILOT_VERIFICATION.md).
 
-Distance is a cumulative radius from MBC: Near; A bit further (Near + middle tier); Further (all tiers). Address-based classifications and conservative exceptions are documented in docs/distance-radius.md. Anything clears food constraints only. Unknown walking times are not displayed. Quick / Cheap are disabled until suitable fields are verified. Healthy requires an explicit verified menu flag, not a nutritional guarantee. If fewer than three qualify, the app offers a single pick or changed preferences, never hidden relaxation.
+Distance is a cumulative radius from MBC: Near; A bit further (Near + middle tier); Further (all tiers). Address-based classifications are documented in docs/distance-radius.md. The single-choice mood selector uses only explicit Mood Tags synced by Internal ID from the Places Sheet into production moodTags arrays. Anything applies no mood constraint and keeps distance. Unavailable moods are hidden; narrowing distance resets an unavailable selected mood to Anything. Healthy is not inferred from cuisine or old food flags. See docs/mood-tags-sync.md for counts and the unresolved blank-ID Sheet row. Unknown walking times are not displayed. Fewer than three matches produces an explicit smaller-list state, never silent relaxation.
 
 ## Environment
 

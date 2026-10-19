@@ -5,7 +5,7 @@ import {distanceTier,locationContext,withinRadius} from '../lib/distance.ts';
 import {availableFilters,clearFoodPreferences,eligible,pickOne,recommendThree} from '../lib/recommend.ts';
 import type {DistanceTier,Restaurant} from '../lib/types.ts';
 
-const restaurant=(id:string,area:string,address:string,extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,area,address,cuisine:['Local'],mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',walkingMinutes:null,priceBand:null,active:true,quickLunch:null,healthyOption:null,verifiedForV2:true,lastVerifiedAt:'2026-10-19',tags:[],reason:'Lunch',sourceUrl:'https://example.com',...extra});
+const restaurant=(id:string,area:string,address:string,extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,area,address,cuisine:['Local'],mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',walkingMinutes:null,priceBand:null,active:true,quickLunch:null,healthyOption:null,verifiedForV2:true,lastVerifiedAt:'2026-10-19',tags:[],moodTags:[],reason:'Lunch',sourceUrl:'https://example.com',...extra});
 const near=restaurant('near','MBC','40 Pasir Panjang Rd',{healthyOption:true,quickLunch:true});
 const mid=restaurant('mid','ARC','460 Alexandra Rd',{healthyOption:true});
 const far=restaurant('far','Anchorpoint','370 Alexandra Rd',{healthyOption:true,quickLunch:true});

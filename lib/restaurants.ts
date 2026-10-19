@@ -15,6 +15,7 @@ export const restaurants: Restaurant[] = ids.map(id => {
   const r = {...legacy, ...overlay};
   return {...r, id, importedFromV1:!!legacy && !r.verifiedForV2,
     tags:overlay?.tags ?? r.cuisine ?? [],
+    moodTags:overlay?.moodTags ?? [],
     reason:overlay?.reason ?? legacy?.legacyCuisine ?? 'From your original lunch list.',
     sourceUrl:overlay?.sourceUrl ?? 'https://github.com/brandonsim91/Lunch-Picker/blob/main/Scripts/Script.js',
     placeId:overlay?.placeId ?? null,

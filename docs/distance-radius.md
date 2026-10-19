@@ -1,8 +1,8 @@
 # Lunch radius from Mapletree Business City
 
 The selector is a maximum radius: Near = near; A bit further = near + mid;
-Further = near + mid + far. Food constraints always intersect that radius.
-Anything clears food constraints only. Default is Near, with no food constraints.
+Further = near + mid + far. The selected mood intersects that radius.
+Anything means no mood restriction. Default is Near and Anything.
 
 `lib/distance.ts` classifies the merged production catalogue without changing
 restaurant records, Google Place IDs, walking minutes, prices or food flags.

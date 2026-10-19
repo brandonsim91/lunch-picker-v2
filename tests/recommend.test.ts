@@ -1,7 +1,7 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';
 import {eligible,pickOne,recommendThree,availableFilters} from '../lib/recommend.ts';
 import type {Restaurant} from '../lib/types.ts';
-const r=(id:string,extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,cuisine:['Local'],address:'40 Pasir Panjang Rd',mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',area:'MBC',walkingMinutes:null,priceBand:null,active:true,quickLunch:null,healthyOption:null,verifiedForV2:true,lastVerifiedAt:'2026-10-06',tags:[],reason:'Lunch',sourceUrl:'https://example.com',...extra});
+const r=(id:string,extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,cuisine:['Local'],address:'40 Pasir Panjang Rd',mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',area:'MBC',walkingMinutes:null,priceBand:null,active:true,quickLunch:null,healthyOption:null,verifiedForV2:true,lastVerifiedAt:'2026-10-06',tags:[],moodTags:[],reason:'Lunch',sourceUrl:'https://example.com',...extra});
 const pool=[r('a'),r('b'),r('c'),r('d'),r('e')];
 test('legacy, inactive, empty IDs and unsafe maps never qualify',()=>{assert.deepEqual(eligible([r(''),r('a',{active:false}),r('b',{verifiedForV2:false}),r('c',{mapUrl:'javascript:alert(1)'}),r('d',{mapUrl:'https://www.google.com.evil.test/'})],[]),[]);});
 test('unknown fields do not satisfy Quick, Cheap or Healthy',()=>{for(const filter of ['Quick','Cheap','Healthy'] as const)assert.equal(eligible(pool,[filter]).length,0);assert.deepEqual(availableFilters(pool),[]);});
