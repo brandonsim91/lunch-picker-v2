@@ -14,7 +14,7 @@ Home → filters → Show me 3 / Just pick something → result → Google Maps 
 
 `data/restaurants.seed.json` is retained unchanged as historical data. Only records explicitly admitted by `data/restaurants.pilot.json` are used. Five seed overlays plus Harry’s MBC make six locations checked against current operator/mall listings on 2026-10-06. Addresses and menus were checked online, not on foot. See [pilot verification](docs/PILOT_VERIFICATION.md).
 
-Nearby = MBC or ARC, based on verified area context. Unknown walking times are not displayed. Quick / Cheap are disabled until suitable fields are verified. Healthy is available for Grains & Co’s grain/vegetable/protein menu; not a nutritional guarantee. If fewer than three qualify, the app offers a single pick or changed filters, never hidden relaxation.
+Distance is a cumulative radius from MBC: Near; A bit further (Near + middle tier); Further (all tiers). Address-based classifications and conservative exceptions are documented in docs/distance-radius.md. Anything clears food constraints only. Unknown walking times are not displayed. Quick / Cheap are disabled until suitable fields are verified. Healthy requires an explicit verified menu flag, not a nutritional guarantee. If fewer than three qualify, the app offers a single pick or changed preferences, never hidden relaxation.
 
 ## Environment
 

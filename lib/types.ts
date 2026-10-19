@@ -1,4 +1,6 @@
-export type Filter = 'Nearby' | 'Quick' | 'Cheap' | 'Healthy';
+export type Filter = 'Quick' | 'Cheap' | 'Healthy';
+export type DistanceTier = 'near' | 'mid' | 'far';
+export type LunchPreferences = {distance: DistanceTier; food: Filter[]};
 export type Restaurant = {
   id: string; name: string; cuisine: string[]; address: string; mapUrl: string;
   area: string; walkingMinutes: number | null; priceBand: string | null;
