@@ -1,4 +1,5 @@
 import {test} from 'node:test';
+import {GoogleAuth} from 'google-auth-library';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {POST} from '../app/api/submissions/route.ts';
@@ -11,19 +12,21 @@ const request = (body: unknown, origin = 'https://baplah.vercel.app') => new Req
 
 test('pending submission API', async t => {
  const originalFetch = globalThis.fetch;
- const originalUrl = process.env.UPSTASH_REDIS_REST_URL;
- const originalToken = process.env.UPSTASH_REDIS_REST_TOKEN;
+ const envKeys=['GOOGLE_SHEETS_SPREADSHEET_ID','GOOGLE_SHEETS_CLIENT_EMAIL','GOOGLE_SHEETS_PRIVATE_KEY'];
+ const originalEnv=envKeys.map(key=>process.env[key]);
+ const authMock=t.mock.method(GoogleAuth.prototype,'getClient',async()=>({getAccessToken:async()=>({token:'test-only'})}));
  let written: PendingSubmission[] = [];
- let command: unknown[] = [];
+
  const seedBefore = await readFile(new URL('../data/restaurants.seed.json', import.meta.url), 'utf8');
  const pilotBefore = await readFile(new URL('../data/restaurants.pilot.json', import.meta.url), 'utf8');
- process.env.UPSTASH_REDIS_REST_URL = 'https://test-storage.invalid';
- process.env.UPSTASH_REDIS_REST_TOKEN = 'test-only';
+ process.env.GOOGLE_SHEETS_SPREADSHEET_ID='test-sheet';
+ process.env.GOOGLE_SHEETS_CLIENT_EMAIL='test@example.invalid';
+ process.env.GOOGLE_SHEETS_PRIVATE_KEY='test-only';
  const workingStorage: typeof fetch = async (_input, init) => {
-  command = JSON.parse(String(init?.body));
-  assert.equal(command[0], 'LPUSH'); assert.equal(command[1], 'baplah:submissions');
-  written.push(JSON.parse(String(command[2])));
-  return Response.json({result: written.length});
+  assert.ok(String(_input).startsWith('https://sheets.googleapis.com/v4/spreadsheets/test-sheet/values/'));
+  const row=JSON.parse(String(init?.body)).values[0];
+  written.push({id:row[0],submittedAt:row[1],restaurantName:row[2],mapUrl:row[3],reason:row[4]||undefined,contributorName:row[5]||undefined,displayCredit:row[6]==='Yes',status:row[7].toLowerCase()});
+  return Response.json({updates:{updatedRows:1}});
  };
  try {
   globalThis.fetch = workingStorage;
@@ -46,12 +49,12 @@ test('pending submission API', async t => {
    assert.equal((await POST(request(valid,'https://evil.test'))).status,403);
   });
   await t.test('missing shared storage returns unavailable, never success', async () => {
-   delete process.env.UPSTASH_REDIS_REST_URL;
+   delete process.env.GOOGLE_SHEETS_SPREADSHEET_ID;
    const response=await POST(request(valid));assert.equal(response.status,503);assert.deepEqual(await response.json(),{persisted:false,message:submissionsUnavailable});
-   process.env.UPSTASH_REDIS_REST_URL='https://test-storage.invalid';
+   process.env.GOOGLE_SHEETS_SPREADSHEET_ID='test-sheet';
   });
   await t.test('storage errors and invalid acknowledgements never return false success', async () => {
-   const failures: Array<typeof fetch> = [async()=>{throw new Error('network');},async()=>new Response('error',{status:500}),async()=>Response.json({error:'failure'}),async()=>Response.json({result:0}),async()=>Response.json({}),async()=>new Response('not JSON')];
+   const failures: Array<typeof fetch> = [async()=>{throw new Error('network');},async()=>new Response('error',{status:500}),async()=>Response.json({error:'failure'}),async()=>Response.json({updates:{updatedRows:0}}),async()=>Response.json({}),async()=>new Response('not JSON')];
    for(const failure of failures){globalThis.fetch=failure;const response=await POST(request(valid));assert.equal(response.status,503);assert.equal((await response.json()).persisted,false);}
    globalThis.fetch=workingStorage;
   });
@@ -63,8 +66,8 @@ test('pending submission API', async t => {
   });
  } finally {
   globalThis.fetch=originalFetch;
-  if(originalUrl===undefined)delete process.env.UPSTASH_REDIS_REST_URL;else process.env.UPSTASH_REDIS_REST_URL=originalUrl;
-  if(originalToken===undefined)delete process.env.UPSTASH_REDIS_REST_TOKEN;else process.env.UPSTASH_REDIS_REST_TOKEN=originalToken;
+  authMock.mock.restore();
+  envKeys.forEach((key,i)=>{if(originalEnv[i]===undefined)delete process.env[key];else process.env[key]=originalEnv[i];});
  }
 });
 test('contribution analytics are allowlisted',()=>{assert.ok(events.includes('contribution_started'));assert.ok(events.includes('contribution_submitted'));});
