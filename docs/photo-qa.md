@@ -6,7 +6,7 @@ preserve nonblank conflicting Place IDs for manual review, and never assign an
 outlet based on a similar name alone.
 
 The 2026-10-20 reconciliation is recorded in `data/catalogue-audit.json`:
-80 Live rows match 80 active production restaurants. The duplicate ARC #02-19
+80 Sheet rows match 80 active production restaurants; the operational catalogue now contains Live restaurants only. The duplicate ARC #02-19
 row was confirmed through its original Maps share link and removed, retaining
 `chuan-tai-zi-mala-tang-arc`. Twenty-seven verified production Place IDs were
 backfilled into previously blank Sheet cells.
@@ -19,9 +19,7 @@ Google's official Place ID finder returned exact name and unit matches for:
 | ogog-mapletree-business-city | OGOG 오곡 — Mapletree Business City, 40 Pasir Panjang Road #02-39 |
 | herbal-soup-arc | Pepper Soup 補汤王肉骨茶, 460 Alexandra Road #02-24 |
 
-The ARC directory confirms Herbal Soup at #02-24. Vintage Nanyang Kopi was
-removed from active recommendations on 2026-10-20 by catalogue-owner decision;
-its historical record is retained as Inactive. No Place ID was guessed.
+The ARC directory confirms Herbal Soup at #02-24. Vintage Nanyang Kopi and all other inactive/closed entries were removed from the operational catalogue and Places sheet on 2026-10-20. Closed or retired outlets are not retained in the live catalogue.
 
 The API normally requires Google Places to report `OPERATIONAL` before serving a photo.
 A narrowly scoped `verified-operational` override is permitted only when the exact outlet
