@@ -18,7 +18,8 @@ export function availableFilters(pool: Restaurant[], radius: DistanceTier='far')
   return filters.filter(f=>eligible(pool,[f],radius).length>0);
 }
 export function weight(r: Restaurant, previous: string[]) {
-  return ({near:1.3,mid:1.15,far:1}[distanceTier(r)])*(previous.includes(r.id)?0.2:1);
+  const tier=distanceTier(r);
+  return (tier?{near:1.3,mid:1.15,far:1}[tier]:0)*(previous.includes(r.id)?0.2:1);
 }
 export function pickOne(pool: Restaurant[], selected: Filter[], previous: string[]=[], rng= Math.random, radius: DistanceTier='far'): Restaurant | null {
   let choices=eligible(pool,selected,radius);

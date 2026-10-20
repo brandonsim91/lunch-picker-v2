@@ -1,14 +1,14 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {distanceTier,locationContext,withinRadius} from '../lib/distance.ts';
+import {distanceTier,locationContext,withinRadius,tierForWalkingMinutes,hasVerifiedWalkingTime} from '../lib/distance.ts';
 import {availableFilters,clearFoodPreferences,eligible,pickOne,recommendThree} from '../lib/recommend.ts';
 import type {DistanceTier,Restaurant} from '../lib/types.ts';
 
-const restaurant=(id:string,area:string,address:string,extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,area,address,cuisine:['Local'],mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',walkingMinutes:null,priceBand:null,active:true,quickLunch:null,healthyOption:null,verifiedForV2:true,lastVerifiedAt:'2026-10-19',tags:[],moodTags:[],reason:'Lunch',sourceUrl:'https://example.com',...extra});
+const restaurant=(id:string,area:string,address:string,extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,area,address,cuisine:['Local'],mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',walkingMinutes:null,distanceTier:'near',priceBand:null,active:true,quickLunch:null,healthyOption:null,verifiedForV2:true,lastVerifiedAt:'2026-10-19',tags:[],moodTags:[],reason:'Lunch',sourceUrl:'https://example.com',...extra});
 const near=restaurant('near','MBC','40 Pasir Panjang Rd',{healthyOption:true,quickLunch:true});
-const mid=restaurant('mid','ARC','460 Alexandra Rd',{healthyOption:true});
-const far=restaurant('far','Anchorpoint','370 Alexandra Rd',{healthyOption:true,quickLunch:true});
+const mid=restaurant('mid','ARC','460 Alexandra Rd',{distanceTier:'mid',healthyOption:true});
+const far=restaurant('far','Anchorpoint','370 Alexandra Rd',{distanceTier:'far',healthyOption:true,quickLunch:true});
 const pool=[near,mid,far];
 test('Near only includes the easiest radius',()=>assert.deepEqual(eligible(pool,[],'near').map(r=>r.id),['near']));
 test('A bit further includes Near and middle tier',()=>assert.deepEqual(eligible(pool,[],'mid').map(r=>r.id),['near','mid']));
@@ -58,21 +58,44 @@ test('inactive, unverified and unsafe restaurants remain excluded in every radiu
  assert.deepEqual(eligible([legacy],['Healthy'],'near'),[]);
  assert.deepEqual(availableFilters([legacy],'near'),[]);
 });
-test('specific addresses take priority over broad Alexandra and Labrador labels',()=>{
- for(const address of ['370 Alexandra Rd','317 Alexandra Road','321 Alexandra Rd'])assert.equal(distanceTier({area:'Alexandra',address}),'far');
- assert.equal(locationContext({...far,area:'Alexandra'}),'Anchorpoint · Further');
- assert.equal(distanceTier({area:'Labrador Park',address:'1 Pasir Panjang Rd, Labrador Tower'}),'near');
- assert.equal(distanceTier({area:'Labrador Park',address:'Broader park location'}),'mid');
- assert.equal(distanceTier({area:'Pasir Panjang',address:'130 Pasir Panjang Rd'}),'mid');
- assert.equal(distanceTier({area:'Alexandra',address:'991B Alexandra Road'}),'mid');
- assert.equal(distanceTier({area:'Unknown',address:'Unmapped outlet'}),'far');
+test('explicit tiers override area, name and address; missing tiers never infer geography',()=>{
+ assert.equal(distanceTier({...near,area:'Anchorpoint',address:'370 Alexandra Rd'}),'near');
+ assert.equal(distanceTier({...far,area:'MBC',address:'30 Pasir Panjang Rd'}),'far');
+ for(const value of [null,undefined,'Near','unknown'])for(const radius of ['near','mid','far'] as DistanceTier[]){
+  const record={...near,distanceTier:value as DistanceTier};
+  assert.equal(distanceTier(record),null);assert.equal(withinRadius(record,radius),false);
+ }
+ assert.equal(locationContext({...far,area:'Anchorpoint'}),'Anchorpoint · Further');
 });
-test('catalogue exceptions and walking-time integrity are preserved',()=>{
+for(const [minutes,tier] of [[0,'near'],[8,'near'],[9,'mid'],[15,'mid'],[16,'far'],[35,'far']] as const){
+ test(`${minutes} walking minutes maps to ${tier}`,()=>assert.equal(tierForWalkingMinutes(minutes),tier));
+}
+test('invalid or unverified minutes are never displayed',()=>{
+ for(const value of [-1,8.5,NaN,Infinity,null,'8'])assert.equal(tierForWalkingMinutes(value),null);
+ assert.equal(locationContext({...near,walkingMinutes:7}),'MBC · Near');
+ const verified={...near,walkingMinutes:7,distanceVerification:{origin:'mbc-block-30',source:'Google Maps walking directions',verifiedAt:'2026-10-20',sourceUrl:'https://www.google.com/maps/dir/test',destination:'MBC outlet',endpoint:'outlet',notes:''}} as Restaurant;
+ assert.equal(hasVerifiedWalkingTime(verified),true);assert.equal(locationContext(verified),'MBC · ~7 min walk');
+ assert.equal(hasVerifiedWalkingTime({...verified,distanceTier:'mid'}),false);
+});
+test('every live production record has consistent explicit route evidence and matches the Sheet audit',()=>{
  const seed=JSON.parse(readFileSync(new URL('../data/restaurants.seed.json',import.meta.url),'utf8')).restaurants;
  const overlay=JSON.parse(readFileSync(new URL('../data/restaurants.pilot.json',import.meta.url),'utf8'));
+ const audit=JSON.parse(readFileSync(new URL('../data/distance-audit.json',import.meta.url),'utf8'));
  const merged=new Map<string,Restaurant>();for(const r of [...seed,...overlay]){const id=r.id||'chuan-tai-zi-mala-tang-arc';merged.set(id,{...merged.get(id),...r,id});}
- const records=[...merged.values()];const before=JSON.stringify(records);
- const expected: Record<string,DistanceTier>={'ma-maison':'far','ikea-alexandra-restaurant':'far','sando':'mid','killiney-kopitiam':'mid','reply-k1988-alexandra':'mid','liu-lang-mian-noodle-bar':'far','master-prata':'far','otoko-ramen':'far','nature-cafe':'far','canopy-hortpark':'far','hopscotch-gillman-barracks':'far','grains-co-mapletree-business-city':'near','1-alfaro-labrador-park':'near'};
- for(const [id,tier]of Object.entries(expected)){assert.ok(merged.has(id));assert.equal(distanceTier(merged.get(id)!),tier,id);}
- records.forEach(distanceTier);assert.equal(JSON.stringify(records),before);
+ const live=[...merged.values()].filter(r=>r.active);assert.equal(live.length,81);
+ assert.deepEqual([...audit.reconciliation.liveMatchedIds].sort(),live.map(r=>r.id).sort());
+ assert.equal(new Set(audit.records.map((r:Restaurant)=>r.id)).size,81);
+ for(const r of live){
+  assert.ok(['near','mid','far'].includes(r.distanceTier!),r.id);
+  assert.equal(r.distanceTier,tierForWalkingMinutes(r.walkingMinutes),r.id);
+  assert.ok(hasVerifiedWalkingTime(r),r.id);
+  assert.ok(Number.isInteger(r.walkingDistanceMetres)&&r.walkingDistanceMetres!>=0,r.id);
+  const evidence=audit.records.find((e:Restaurant)=>e.id===r.id);assert.ok(evidence,r.id);
+  for(const field of ['walkingMinutes','distanceTier','walkingDistanceMetres','distanceVerification'] as const)assert.deepEqual(r[field],evidence[field],r.id);
+  assert.ok(r.distanceVerification!.sourceUrl.startsWith('https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/'),r.id);
+  assert.equal(distanceTier({...r,address:'unrelated address',area:'unrelated area'}),r.distanceTier,r.id);
+ }
+ const counts=Object.fromEntries(['near','mid','far'].map(tier=>[tier,live.filter(r=>r.distanceTier===tier).length]));
+ assert.deepEqual(counts,{near:14,mid:51,far:16});
+ assert.equal(Math.min(...live.map(r=>r.walkingMinutes!)),3);assert.equal(Math.max(...live.map(r=>r.walkingMinutes!)),35);
 });

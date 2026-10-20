@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {availableMoods,changeDistance,eligibleForMood,isMood,moodTags,moodValues,pickForMood,recommendForMood} from '../lib/moods.ts';
 import type {Mood,MoodTag,Restaurant} from '../lib/types.ts';
-const r=(id:string,moods:MoodTag[],extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,cuisine:['Healthy'],address:'40 Pasir Panjang Rd',area:'MBC',mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',active:true,verifiedForV2:true,lastVerifiedAt:'2026-10-19',walkingMinutes:null,priceBand:null,quickLunch:null,healthyOption:null,tags:['Healthy'],moodTags:moods,reason:'Healthy Western local salad lunch',sourceUrl:'https://example.com',...extra});
+const r=(id:string,moods:MoodTag[],extra:Partial<Restaurant>={}):Restaurant=>({id,name:id,cuisine:['Healthy'],address:'40 Pasir Panjang Rd',area:'MBC',mapUrl:'https://www.google.com/maps/search/?api=1&query=lunch',active:true,verifiedForV2:true,lastVerifiedAt:'2026-10-19',walkingMinutes:null,distanceTier:'near',priceBand:null,quickLunch:null,healthyOption:null,tags:['Healthy'],moodTags:moods,reason:'Healthy Western local salad lunch',sourceUrl:'https://example.com',...extra});
 const pool=[r('healthy',['Healthy','Local / Asian']),r('local',['Local / Asian']),r('western',['Western / Cafe']),r('multi',['Local / Asian','Western / Cafe']),r('no-tags',[])];
 test('Anything imposes no mood constraint, including untagged safe places',()=>assert.equal(eligibleForMood(pool,'anything','near').length,5));
 for(const [mood,ids] of [['healthy',['healthy']],['local_asian',['healthy','local','multi']],['western_cafe',['western','multi']]] as const){
@@ -21,13 +21,13 @@ test('cuisine, name, reason, legacy food flags and general Tags never imply a mo
  assert.deepEqual(eligibleForMood([malformed],'healthy'),[]);
 });
 test('mood and cumulative distance intersect',()=>{
- const locations=[r('near',['Healthy']),r('mid',['Healthy'],{area:'ARC',address:'460 Alexandra Rd'}),r('far',['Healthy'],{area:'Anchorpoint',address:'370 Alexandra Rd'}),r('wrong-mood',['Local / Asian'])];
+ const locations=[r('near',['Healthy']),r('mid',['Healthy'],{distanceTier:'mid',area:'ARC',address:'460 Alexandra Rd'}),r('far',['Healthy'],{distanceTier:'far',area:'Anchorpoint',address:'370 Alexandra Rd'}),r('wrong-mood',['Local / Asian'])];
  assert.deepEqual(eligibleForMood(locations,'healthy','near').map(r=>r.id),['near']);
  assert.deepEqual(eligibleForMood(locations,'healthy','mid').map(r=>r.id),['near','mid']);
  assert.deepEqual(eligibleForMood(locations,'healthy','far').map(r=>r.id),['near','mid','far']);
 });
 test('changing distance resets a mood that cannot support a shortlist, but keeps one with at least three matches',()=>{
- const places=[r('local1',['Local / Asian']),r('local2',['Local / Asian']),r('local3',['Local / Asian']),r('far',['Healthy'],{area:'Anchorpoint',address:'370 Alexandra Rd'})];
+ const places=[r('local1',['Local / Asian']),r('local2',['Local / Asian']),r('local3',['Local / Asian']),r('far',['Healthy'],{distanceTier:'far',area:'Anchorpoint',address:'370 Alexandra Rd'})];
  assert.deepEqual(changeDistance({distance:'far',mood:'healthy'},'near',places),{distance:'near',mood:'anything'});
  assert.deepEqual(changeDistance({distance:'near',mood:'local_asian'},'far',places),{distance:'far',mood:'local_asian'});
 });
@@ -46,7 +46,7 @@ test('shortlist uses three unique eligible places and explicitly refuses fewer t
  assert.deepEqual(recommendForMood(pool,'healthy','near'),[]);
 });
 test('single pick and reroll respect the same mood and radius pool',()=>{
- const places=[...Array.from({length:5},(_,i)=>r(`local${i}`,['Local / Asian'])),r('far',['Local / Asian'],{area:'Anchorpoint',address:'370 Alexandra Rd'}),r('wrong',['Western / Cafe'])];
+ const places=[...Array.from({length:5},(_,i)=>r(`local${i}`,['Local / Asian'])),r('far',['Local / Asian'],{distanceTier:'far',area:'Anchorpoint',address:'370 Alexandra Rd'}),r('wrong',['Western / Cafe'])];
  const old=recommendForMood(places,'local_asian','near',[],()=>0).map(r=>r.id);
  const next=recommendForMood(places,'local_asian','near',old,()=>0).map(r=>r.id);
  assert.notDeepEqual(next.sort(),old.sort());

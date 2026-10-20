@@ -3,26 +3,34 @@ import type {DistanceTier, Restaurant} from './types.ts';
 export const distanceTiers: DistanceTier[] = ['near', 'mid', 'far'];
 export const distanceLabels: Record<DistanceTier,string> = {near:'Near',mid:'A bit further',far:'Further'};
 const rank: Record<DistanceTier,number> = {near:0,mid:1,far:2};
-
-// Practical radius from MBC, based on catalogue addresses. These are not route times.
-// Address landmarks take priority over broad area labels (notably Alexandra).
-export function distanceTier(r: Pick<Restaurant,'address'|'area'>): DistanceTier {
- const address=r.address?.toLowerCase()??'';
- const area=r.area?.toLowerCase()??'';
- const location=`${area} ${address}`;
- if (/anchorpoint|ikea|alexandra village|queenstown|queensway|hortpark|hort park|gillman|bukit merah lane|hyderabad|malan r(?:oa)?d/.test(location) || /\b(?:317|321|370)\s+alexandra\s+r(?:oa)?d\b/.test(address)) return 'far';
- if (/mapletree business city|labrador tower/.test(address) || /\b(?:20|40|50)\s+pasir panjang\s+r(?:oa)?d\b/.test(address) || /^1\s+pasir panjang\s+r(?:oa)?d\b/.test(address)) return 'near';
- if (/\b(?:438[a-z]?|456|460|991[a-z]?)\s+alexandra\s+r(?:oa)?d\b/.test(address) || /alexandra technopark|fragrance empire/.test(address)) return 'mid';
- // No current street-side Pasir Panjang outlet has evidence for the easiest radius.
- if (area==='mbc') return 'near';
- if (['arc','labrador park','alexandra','pasir panjang'].includes(area)) return 'mid';
- // Unknown geography and Alexandra Central's IKEA-side cluster stay conservative.
- return 'far';
+export const distanceOrigin = {
+ id:'mbc-block-30', name:'MBC Block 30', address:'30 Pasir Panjang Road, Singapore 117440',
+ latitude:1.274851167499432, longitude:103.7979737759009
+} as const;
+export function isDistanceTier(value: unknown): value is DistanceTier {
+ return typeof value==='string' && distanceTiers.includes(value as DistanceTier);
 }
-export function withinRadius(r: Pick<Restaurant,'address'|'area'>, radius: DistanceTier) {
- return rank[distanceTier(r)] <= rank[radius];
+export function tierForWalkingMinutes(minutes: unknown): DistanceTier | null {
+ if(typeof minutes!=='number'||!Number.isInteger(minutes)||minutes<0)return null;
+ return minutes<=8?'near':minutes<=15?'mid':'far';
 }
-export function locationContext(r: Pick<Restaurant,'address'|'area'>) {
- const area=/\b370\s+alexandra\s+r(?:oa)?d\b/i.test(r.address)?'Anchorpoint':/\b317\s+alexandra\s+r(?:oa)?d\b/i.test(r.address)?'IKEA Alexandra':r.area;
- return `${area} · ${distanceLabels[distanceTier(r)]}`;
+// Explicit audited data is authoritative. Missing/invalid tiers never become
+// guessed geography, including for legacy imports.
+export function distanceTier<T extends Pick<Restaurant,'distanceTier'>>(r: T): DistanceTier | null {
+ return isDistanceTier(r.distanceTier)?r.distanceTier:null;
+}
+export function withinRadius(r: Pick<Restaurant,'distanceTier'>, radius: DistanceTier) {
+ const base=distanceTier(r);
+ return base!==null && isDistanceTier(radius) && rank[base]<=rank[radius];
+}
+export function hasVerifiedWalkingTime(r: Pick<Restaurant,'walkingMinutes'|'distanceTier'|'distanceVerification'>) {
+ return r.distanceVerification?.origin===distanceOrigin.id &&
+  r.distanceVerification.source==='Google Maps walking directions' &&
+  !!r.distanceVerification.verifiedAt && !!r.distanceVerification.sourceUrl &&
+  tierForWalkingMinutes(r.walkingMinutes)!==null && tierForWalkingMinutes(r.walkingMinutes)===distanceTier(r);
+}
+export function locationContext(r: Pick<Restaurant,'area'|'walkingMinutes'|'distanceTier'|'distanceVerification'>) {
+ if(hasVerifiedWalkingTime(r))return `${r.area} · ~${r.walkingMinutes} min walk`;
+ const tier=distanceTier(r);
+ return tier?`${r.area} · ${distanceLabels[tier]}`:r.area;
 }
