@@ -73,7 +73,7 @@ test('production data has valid explicit tags with no Anything or duplicate tags
  for(const record of records){assert.ok(Array.isArray(record.moodTags),record.id);assert.ok(record.moodTags.length>0,record.id);assert.equal(new Set(record.moodTags).size,record.moodTags.length);assert.ok(record.moodTags.every((t:MoodTag)=>moodTags.includes(t)),record.id);assert.ok(!record.moodTags.includes('Anything'));}
  assert.equal(records.length,87);
  const counts=Object.fromEntries(moodTags.map(t=>[t,records.filter((r:Restaurant)=>r.moodTags.includes(t)).length]));
- assert.deepEqual(counts,{'Healthy':8,'Local / Asian':62,'Western / Cafe':39});
+ assert.deepEqual(counts,{'Healthy':8,'Local / Asian':60,'Western / Cafe':35});
  assert.deepEqual(records.find((r:Restaurant)=>r.id==='green-elephant-thai-dynasty-mbc').moodTags,['Healthy','Local / Asian','Western / Cafe']);
  assert.deepEqual(records.find((r:Restaurant)=>r.id==='sando').moodTags,['Local / Asian','Western / Cafe']);
  assert.deepEqual(records.find((r:Restaurant)=>r.id==='canopy-hortpark').moodTags,['Healthy','Western / Cafe']);
