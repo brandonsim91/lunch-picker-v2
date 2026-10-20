@@ -2319,7 +2319,7 @@
     "healthyOption": null,
     "active": true,
     "verifiedForV2": true,
-    "lastVerifiedAt": "2026-10-19",
+    "lastVerifiedAt": "2026-10-20",
     "placeId": "ChIJEZR5VgAb2jER6Dfa2Ke4tbg",
     "tags": [
       "Nasi lemak",
@@ -2328,7 +2328,7 @@
     "reason": "Weekday hawker-style nasi lemak at Labrador Tower.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nasi%20Lemak%20Ayam%20Taliwang%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nasi%20Lemak%20Ayam%20Taliwang%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "verificationNote": "Current outlet independently reverified 2026-10-20 at 1 Pasir Panjang Rd #02-07: Google business entity for the same Place ID exposes weekday operating hours, and HungryCat lists the Labrador Tower outlet as operating. Google Places API businessStatus is stale/inconsistent, so a narrowly scoped photo-status override is permitted.",
     "moodTags": [
       "Local / Asian"
     ],
@@ -2342,7 +2342,8 @@
       "destination": "Nasi Lemak Ayam Taliwang, 1 Pasir Panjang Rd, #02-07, Labrador Tower, Singapore 118479",
       "endpoint": "outlet",
       "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
-    }
+    },
+    "photoBusinessStatusOverride": "verified-operational"
   },
   {
     "id": "uncle-ho-s-bistro-labrador-park",
@@ -2398,7 +2399,7 @@
     "healthyOption": null,
     "active": true,
     "verifiedForV2": true,
-    "lastVerifiedAt": "2026-10-19",
+    "lastVerifiedAt": "2026-10-20",
     "placeId": "ChIJRTHCVgAb2jERC2DWHmWNqBE",
     "tags": [
       "Rice bowls",
@@ -2407,7 +2408,7 @@
     "reason": "Fast rice-bowl stall inside Food Junction at Labrador Tower.",
     "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Eggs%20Labrador%20Tower",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Eggs%20%40%20Labrador%20Tower%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "verificationNote": "Current outlet independently reverified 2026-10-20 at 1 Pasir Panjang Rd #02-07: Google business entity for the same Place ID exposes weekday operating hours, JY Group officially lists Mr Eggs at Labrador Tower, and Foodpanda has a current outlet listing. Google Places API businessStatus is stale/inconsistent, so a narrowly scoped photo-status override is permitted.",
     "moodTags": [
       "Local / Asian"
     ],
@@ -2421,7 +2422,8 @@
       "destination": "Mr Eggs@ Labrador Tower, 1 Pasir Panjang Rd, #02-07, Labrador Tower, Singapore 118479",
       "endpoint": "outlet",
       "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
-    }
+    },
+    "photoBusinessStatusOverride": "verified-operational"
   },
   {
     "id": "get-some-labrador-labrador-park",
