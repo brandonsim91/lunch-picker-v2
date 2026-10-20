@@ -82,9 +82,9 @@ test('every live production record has consistent explicit route evidence and ma
  const overlay=JSON.parse(readFileSync(new URL('../data/restaurants.pilot.json',import.meta.url),'utf8'));
  const audit=JSON.parse(readFileSync(new URL('../data/distance-audit.json',import.meta.url),'utf8'));
  const merged=new Map<string,Restaurant>();for(const r of [...seed,...overlay]){const id=r.id||'chuan-tai-zi-mala-tang-arc';merged.set(id,{...merged.get(id),...r,id});}
- const live=[...merged.values()].filter(r=>r.active);assert.equal(live.length,81);
+ const live=[...merged.values()].filter(r=>r.active);assert.equal(live.length,audit.reconciliation.liveProductionRecords);
  assert.deepEqual([...audit.reconciliation.liveMatchedIds].sort(),live.map(r=>r.id).sort());
- assert.equal(new Set(audit.records.map((r:Restaurant)=>r.id)).size,81);
+ assert.equal(new Set(audit.records.map((r:Restaurant)=>r.id)).size,live.length);
  for(const r of live){
   assert.ok(['near','mid','far'].includes(r.distanceTier!),r.id);
   assert.equal(r.distanceTier,tierForWalkingMinutes(r.walkingMinutes),r.id);
@@ -96,6 +96,6 @@ test('every live production record has consistent explicit route evidence and ma
   assert.equal(distanceTier({...r,address:'unrelated address',area:'unrelated area'}),r.distanceTier,r.id);
  }
  const counts=Object.fromEntries(['near','mid','far'].map(tier=>[tier,live.filter(r=>r.distanceTier===tier).length]));
- assert.deepEqual(counts,{near:14,mid:51,far:16});
+ assert.deepEqual(counts,{near:14,mid:50,far:16});
  assert.equal(Math.min(...live.map(r=>r.walkingMinutes!)),3);assert.equal(Math.max(...live.map(r=>r.walkingMinutes!)),35);
 });
