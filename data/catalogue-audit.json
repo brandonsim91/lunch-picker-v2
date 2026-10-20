@@ -1,9 +1,9 @@
 {
   "checkedAt": "2026-10-20",
-  "baseCommit": "fda2de295d793327d60225fbfcb158c193c68682",
+  "baseCommit": "e587dfa98bcedef75aee66cf092159aa8d0d508f",
   "sheetLiveBefore": 82,
-  "sheetLiveAfter": 81,
-  "productionActive": 81,
+  "sheetLiveAfter": 80,
+  "productionActive": 80,
   "backfilledPlaceIds": 27,
   "removedDuplicates": [
     {
@@ -16,13 +16,7 @@
   ],
   "unmatchedRows": [],
   "placeIdMismatches": [],
-  "unresolvedPlaceIds": [
-    {
-      "id": "vintage-nanyang-kopi-arc",
-      "reason": "Mall directory lists Vintage Nanyang Kopi #02-25/25A. Maps candidate YES Nanyang Kopi House is #02-26; rejected as an unconfirmed different outlet.",
-      "sourceUrl": "https://www.arc4u.com.sg/dining-guide/"
-    }
-  ],
+  "unresolvedPlaceIds": [],
   "rows": [
     {
       "id": "canopy-hortpark",
@@ -404,8 +398,8 @@
     },
     {
       "id": "vintage-nanyang-kopi-arc",
-      "sheetStatus": "Live",
-      "productionActive": true,
+      "sheetStatus": "Inactive",
+      "productionActive": false,
       "sheetPlaceId": null
     },
     {
@@ -548,4 +542,3 @@
     }
   ]
 }
-
