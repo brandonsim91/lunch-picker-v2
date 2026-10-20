@@ -12,7 +12,7 @@ export async function GET(req: Request) {
   try {
     const details=await fetch(`https://places.googleapis.com/v1/places/${encodeURIComponent(restaurant.placeId)}`,{headers:{'X-Goog-Api-Key':key,'X-Goog-FieldMask':'photos,businessStatus'},cache:'no-store',signal:AbortSignal.timeout(6000)});
     if(!details.ok)return empty('details-unavailable');
-    const data=await details.json();const photo=data.photos?.[0];
+    const data=await details.json();const photo=data.photos?.[restaurant.preferredPhotoIndex??0];
     if(data.businessStatus!=='OPERATIONAL' && restaurant.photoBusinessStatusOverride!=='verified-operational')return empty('not-operational');
     if(!photo?.name)return empty('no-photo');
     if(!photo.name.startsWith(`places/${restaurant.placeId}/photos/`))return empty('invalid-photo-resource');
