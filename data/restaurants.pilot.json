@@ -169,8 +169,10 @@
     "address": "20 Pasir Panjang Rd, #02-12A Mapletree Business City II, Singapore 117439",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Bean&query_place_id=ChIJrzJRRQAb2jER7M2HJFF0ICg",
     "moodTags": [
+      "Healthy",
       "Local / Asian"
-    ]
+    ],
+    "healthyOption": true
   },
   {
     "id": "guzman-y-gomez",
@@ -386,8 +388,10 @@
     "address": "33 Hyderabad Rd, #01-01 Hortpark, Singapore 119578",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canopy%20HortPark&query_place_id=ChIJD2-oVRwb2jERt-DXYPcnbQs",
     "moodTags": [
+      "Healthy",
       "Western / Cafe"
-    ]
+    ],
+    "healthyOption": true
   },
   {
     "id": "hoho-korean-restaurant",
@@ -470,8 +474,10 @@
     "address": "321 alexandra central mall, #02-27, Singapore 159971",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nature%20Cafe&query_place_id=ChIJc2ytXcwb2jERTpw4WmKe5D4",
     "moodTags": [
+      "Healthy",
       "Western / Cafe"
-    ]
+    ],
+    "healthyOption": true
   },
   {
     "id": "hopscotch-gillman-barracks",
@@ -853,7 +859,7 @@
     "walkingMinutes": null,
     "priceBand": null,
     "quickLunch": null,
-    "healthyOption": null,
+    "healthyOption": true,
     "active": true,
     "verifiedForV2": true,
     "lastVerifiedAt": "2026-10-19",
@@ -867,6 +873,7 @@
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hundred%20Grains%20%E7%99%BE%E7%B1%B3%E9%A6%99%2C%20460%20Alexandra%20Rd%2C%20%2302-20%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
     "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
     "moodTags": [
+      "Healthy",
       "Local / Asian"
     ]
   },
@@ -1250,7 +1257,7 @@
     "walkingMinutes": null,
     "priceBand": null,
     "quickLunch": null,
-    "healthyOption": null,
+    "healthyOption": true,
     "active": true,
     "verifiedForV2": true,
     "lastVerifiedAt": "2026-10-19",
@@ -1265,6 +1272,7 @@
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Soup%20Spoon%2C%20460%20Alexandra%20Rd%2C%20%2301-21%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
     "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
     "moodTags": [
+      "Healthy",
       "Western / Cafe"
     ]
   },
@@ -1366,7 +1374,7 @@
     "walkingMinutes": null,
     "priceBand": null,
     "quickLunch": null,
-    "healthyOption": null,
+    "healthyOption": true,
     "active": true,
     "verifiedForV2": true,
     "lastVerifiedAt": "2026-10-19",
@@ -1381,6 +1389,7 @@
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Stuff'd%2C%20460%20Alexandra%20Rd%2C%20%2301-11%2FK2%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
     "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
     "moodTags": [
+      "Healthy",
       "Western / Cafe"
     ]
   },
