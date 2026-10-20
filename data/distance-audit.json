@@ -10,11 +10,11 @@
   },
   "verifiedAt": "2026-10-20",
   "reconciliation": {
-    "sheetRows": 86,
+    "sheetRows": 80,
     "sheetLiveRows": 80,
-    "productionRecords": 87,
+    "productionRecords": 80,
     "liveProductionRecords": 80,
-    "matchedInternalIds": 86,
+    "matchedInternalIds": 80,
     "unmatchedRows": [],
     "liveMatchedIds": [
       "canopy-hortpark",
