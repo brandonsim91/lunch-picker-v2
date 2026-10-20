@@ -39,7 +39,21 @@ test('photo route preserves fallbacks and keeps the API key server-side',async t
    assert.deepEqual(body.attributions,[{name:'Photographer',uri:'https://example.com/author'}]);
    assert.equal(JSON.stringify(body).includes('test-only-key'),false);
    assert.equal(response.headers.get('Cache-Control'),'no-store');
+   assert.equal(response.headers.get('X-Photo-State'),'ready');
+   assert.equal(JSON.stringify([...response.headers]).includes('test-only-key'),false);
    assert.equal(requests.length,3);
+  });
+  await t.test('safe diagnostics distinguish missing photos from upstream failures',async()=>{
+   for(const [details,state] of [[{businessStatus:'OPERATIONAL'},'no-photo'],[{businessStatus:'CLOSED_TEMPORARILY'},'not-operational']] as const){
+    globalThis.fetch=async()=>Response.json(details);
+    const response=await get('resolved');
+    assert.equal(response.headers.get('X-Photo-State'),state);
+    assert.deepEqual(await response.json(),{image:null,attributions:[]});
+   }
+   globalThis.fetch=async()=>new Response('sensitive upstream error',{status:403});
+   const response=await get('resolved');
+   assert.equal(response.headers.get('X-Photo-State'),'details-unavailable');
+   assert.equal((await response.text()).includes('sensitive upstream error'),false);
   });
   await t.test('closed, missing-photo, mismatched-photo and upstream failures use fallback',async()=>{
    for(const details of [{businessStatus:'CLOSED_PERMANENTLY',photos:[{name:'places/ChIJverified/photos/photo'}]},{businessStatus:'OPERATIONAL'},{businessStatus:'OPERATIONAL',photos:[{name:'places/another/photos/photo'}]}]){

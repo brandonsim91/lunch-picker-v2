@@ -19,6 +19,7 @@ async function worker(){
   try{
    const response=await fetch(`https://baplah.vercel.app/api/places?id=${encodeURIComponent(r.id)}`,{signal:AbortSignal.timeout(30000)});
    record.httpStatus=response.status;
+   record.diagnostic=response.headers.get('X-Photo-State');
    if(!response.ok)throw new Error('HTTP failure');
    const data=await response.json();
    record.attributions=data.attributions;
