@@ -1996,7 +1996,7 @@
     "priceBand": null,
     "quickLunch": null,
     "healthyOption": null,
-    "active": true,
+    "active": false,
     "verifiedForV2": true,
     "lastVerifiedAt": "2026-10-19",
     "placeId": null,
@@ -2008,7 +2008,7 @@
     "reason": "Nanyang-style coffee and local comfort food at ARC.",
     "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Vintage%20Nanyang%20Kopi%2C%20460%20Alexandra%20Rd%2C%20%2302-25%2F25A%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "verificationNote": "Removed from 밥Lah recommendations by catalogue owner on 2026-10-20 based on food-quality curation; outlet record retained for history.",
     "moodTags": [
       "Local / Asian",
       "Western / Cafe"
