@@ -15,7 +15,8 @@ export async function GET(req: Request) {
     if(!media.ok)return empty();
     const {photoUri}=await media.json();const uri=new URL(photoUri);
     if(uri.protocol!=='https:' || !(uri.hostname.endsWith('.googleusercontent.com')||uri.hostname==='googleusercontent.com'))return empty();
-    const file=await fetch(uri,{cache:'no-store',signal:AbortSignal.timeout(6000)});
+    // Do not follow an image redirect to an unvalidated host.
+    const file=await fetch(uri,{cache:'no-store',redirect:'error',signal:AbortSignal.timeout(6000)});
     const type=file.headers.get('content-type')??'';if(!file.ok||!type.startsWith('image/'))return empty();
     const bytes=await file.arrayBuffer();if(bytes.byteLength>4000000)return empty();
     return Response.json({image:`data:${type};base64,${Buffer.from(bytes).toString('base64')}`,attributions:(photo.authorAttributions??[]).map((a:{displayName?:string;uri?:string})=>({name:a.displayName??'Photo contributor',uri:a.uri??null}))},{headers:{'Cache-Control':'no-store'}});

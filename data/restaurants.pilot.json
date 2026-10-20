@@ -877,7 +877,7 @@
     "active": true,
     "verifiedForV2": true,
     "lastVerifiedAt": "2026-10-07",
-    "placeId": null,
+    "placeId": "ChIJfY1dRgYb2jERCq-U2bFtaw8",
     "tags": [
       "Korean homestyle",
       "Bansang",
@@ -893,7 +893,7 @@
       5
     ],
     "verificationSourceUrl": "https://maps.app.goo.gl/vwEaE5pUPo7cDJ7Y8?g_st=ic",
-    "verificationNote": "Location verified from the user-provided Google Maps listing and OGOG's official locations page. Google Place ID still needs resolver confirmation.",
+    "verificationNote": "Exact #02-39 Mapletree outlet confirmed against OGOG's official locations page, Google Maps and Google's official Place ID finder on 2026-10-20.",
     "moodTags": [
       "Local / Asian"
     ],
@@ -925,7 +925,7 @@
     "active": true,
     "verifiedForV2": true,
     "lastVerifiedAt": "2026-10-08",
-    "placeId": null,
+    "placeId": "ChIJr1WFFAAb2jEREGeIGT7y8_Y",
     "tags": [
       "Thai salad",
       "Salad bowls",
@@ -941,7 +941,7 @@
       5
     ],
     "verificationSourceUrl": "https://maps.app.goo.gl/yWgcYgBxNwBkSaHo6?g_st=ic",
-    "verificationNote": "User-provided Google Maps listing verified on 2026-10-08 as Green Elephant by Thai Dynasty (Thai Salad) at #02-21 MBC II and open/operational. Google Places Place ID still needs resolver confirmation.",
+    "verificationNote": "User-provided Google Maps listing verified on 2026-10-08 as Green Elephant by Thai Dynasty (Thai Salad) at #02-21 MBC II. Exact outlet and Place ID confirmed against Google Maps and Google's official Place ID finder on 2026-10-20.",
     "moodTags": [
       "Healthy",
       "Local / Asian",
@@ -2040,7 +2040,7 @@
     "active": true,
     "verifiedForV2": true,
     "lastVerifiedAt": "2026-10-19",
-    "placeId": null,
+    "placeId": "ChIJb0kPb4wb2jER0_-ZDCcADis",
     "tags": [
       "Herbal soup",
       "Chinese"

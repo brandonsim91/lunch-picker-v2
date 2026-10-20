@@ -51,5 +51,28 @@ test('photo route preserves fallbacks and keeps the API key server-side',async t
     assert.deepEqual(await (await get('resolved')).json(),{image:null,attributions:[]});
    }
   });
+  await t.test('rejects non-Google, lookalike and non-HTTPS photo hosts',async()=>{
+   for(const photoUri of ['http://lh3.googleusercontent.com/photo','https://example.com/photo','https://googleusercontent.com.evil.example/photo','https://evilgoogleusercontent.com/photo']){
+    let calls=0;
+    globalThis.fetch=async()=>{calls++;return calls===1?Response.json({businessStatus:'OPERATIONAL',photos:[{name:'places/ChIJverified/photos/photo'}]}):Response.json({photoUri});};
+    assert.deepEqual(await (await get('resolved')).json(),{image:null,attributions:[]});
+    assert.equal(calls,2);
+   }
+  });
+  await t.test('media failures, non-image bytes, oversized files and redirects use fallback',async()=>{
+   for(const failure of ['media','content-type','size','redirect']){
+    let calls=0;
+    globalThis.fetch=async(_input,init)=>{
+     calls++;
+     if(calls===1)return Response.json({businessStatus:'OPERATIONAL',photos:[{name:'places/ChIJverified/photos/photo'}]});
+     if(calls===2)return failure==='media'?new Response('',{status:502}):Response.json({photoUri:'https://lh3.googleusercontent.com/photo'});
+     assert.equal(init?.redirect,'error');
+     assert.ok(init?.signal);
+     if(failure==='redirect')throw new TypeError('redirect rejected');
+     return new Response(new Uint8Array(failure==='size'?4000001:3),{headers:{'Content-Type':failure==='content-type'?'text/html':'image/jpeg'}});
+    };
+    assert.deepEqual(await (await get('resolved')).json(),{image:null,attributions:[]});
+   }
+  });
  }finally{globalThis.fetch=originalFetch;if(originalKey===undefined)delete process.env.GOOGLE_MAPS_API_KEY;else process.env.GOOGLE_MAPS_API_KEY=originalKey;}
 });
