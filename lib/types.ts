@@ -16,5 +16,6 @@ export type Restaurant = {
   active: boolean; quickLunch: boolean | null; healthyOption: boolean | null;
   importedFromV1?: boolean;
   verifiedForV2: boolean; lastVerifiedAt: string | null; placeId?: string | null;
+  photoBusinessStatusOverride?: 'verified-operational';
   tags: string[]; moodTags: MoodTag[]; reason: string; sourceUrl: string; lunchDays?: number[];
 };
