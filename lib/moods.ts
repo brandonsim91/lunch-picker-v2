@@ -14,8 +14,9 @@ export function eligibleForMood(pool: Restaurant[],mood: Mood,radius: DistanceTi
   r.verifiedForV2 && !!r.lastVerifiedAt && Array.isArray(r.moodTags) && r.moodTags.includes(requiredTag[mood])
  ));
 }
+export const minimumMoodShortlistSize = 3;
 export function availableMoods(pool: Restaurant[],radius: DistanceTier): Mood[] {
- return moodValues.filter(m=>m==='anything'||eligibleForMood(pool,m,radius).length>0);
+ return moodValues.filter(m=>m==='anything'||eligibleForMood(pool,m,radius).length>=minimumMoodShortlistSize);
 }
 export function changeDistance(preferences: MoodPreferences,distance: DistanceTier,pool: Restaurant[]): MoodPreferences {
  return {distance,mood:availableMoods(pool,distance).includes(preferences.mood)?preferences.mood:'anything'};
