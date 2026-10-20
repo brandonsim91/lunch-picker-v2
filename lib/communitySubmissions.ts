@@ -35,13 +35,14 @@ export async function persistCommunitySubmission(submission: PendingSubmission) 
 
   const auth = new GoogleAuth({
     credentials: {client_email: cfg.clientEmail, private_key: cfg.privateKey},
-    scopes: [scope]
+    scopes: [scope],
+    clientOptions: {transporterOptions: {timeout: 4000, retry: false}}
   });
   const client = await auth.getClient();
   const token = await client.getAccessToken();
   if (!token.token) throw new Error('Google Sheets authentication failed');
 
-  const range = encodeURIComponent(`${cfg.tabName}!A:L`);
+  const range = encodeURIComponent(`'${cfg.tabName.replace(/'/g, "''")}'!A:L`);
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(cfg.spreadsheetId)}/values/${range}:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS`;
   const response = await fetch(url, {
     method: 'POST',
@@ -53,6 +54,6 @@ export async function persistCommunitySubmission(submission: PendingSubmission) 
 
   if (!response.ok) throw new Error('Google Sheets write failed');
   const body = await response.json() as {updates?: {updatedRows?: number}};
-  if (!body.updates?.updatedRows) throw new Error('Google Sheets write failed');
+  if (body.updates?.updatedRows !== 1) throw new Error('Google Sheets write failed');
   return true;
 }

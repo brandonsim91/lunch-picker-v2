@@ -17,7 +17,7 @@ export default function ContributionForm({onBack}: {onBack: () => void}) {
   if ('error' in validated) {setError(validated.error); return;}
   inFlight.current = true; setSending(true); setError('');
   try {
-   const response = await fetch('/api/submissions', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(validated.value), signal: AbortSignal.timeout(10000)});
+   const response = await fetch('/api/submissions', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(validated.value), signal: AbortSignal.timeout(15000)});
    const result = await response.json();
    if (!response.ok || result.persisted !== true) {setError(response.status === 400 || response.status === 413 ? result.message || 'Please check your entries.' : submissionsUnavailable); return;}
    track('contribution_submitted'); setSuccess(true);
