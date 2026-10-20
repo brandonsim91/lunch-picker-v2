@@ -2843,7 +2843,7 @@
     "reason": "Fast-food fried chicken at Anchorpoint.",
     "sourceUrl": "https://www.anchorpoint.com.sg/shops",
     "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=KFC%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-15%2F16%20Anchorpoint%2C%20Singapore%20159953",
-    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "verificationNote": "Outlet identity remains verified. Photo QA override added 2026-10-20 to avoid an unhelpful first Google Places image that only shows the Anchorpoint building.",
     "moodTags": [
       "Western / Cafe"
     ],
@@ -2857,7 +2857,8 @@
       "destination": "KFC (Anchorpoint), 370 Alexandra Rd, #01-15/16, Singapore 159953",
       "endpoint": "outlet",
       "notes": "Exact outlet address/unit matched in Google Maps. 35 min2.5 kmvia Alexandra Rd."
-    }
+    },
+    "preferredPhotoIndex": 1
   },
   {
     "id": "mcdonald-s-anchorpoint",
