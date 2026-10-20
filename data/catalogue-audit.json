@@ -37,12 +37,6 @@
       "sheetPlaceId": "ChIJYYdawlQb2jERhF9YyDsc7QA"
     },
     {
-      "id": "d-penyetz-arc",
-      "sheetStatus": "Inactive",
-      "productionActive": false,
-      "sheetPlaceId": null
-    },
-    {
       "id": "eat-3-bowls-pasir-panjang",
       "sheetStatus": "Live",
       "productionActive": true,
@@ -53,12 +47,6 @@
       "sheetStatus": "Live",
       "productionActive": true,
       "sheetPlaceId": "ChIJFwkLXLkb2jERSCQmKC7_PXw"
-    },
-    {
-      "id": "food-master-pasir-panjang",
-      "sheetStatus": "Inactive",
-      "productionActive": false,
-      "sheetPlaceId": null
     },
     {
       "id": "grains-co-mapletree-business-city",
@@ -145,12 +133,6 @@
       "sheetPlaceId": "ChIJuzuvVjMa2jERN9QuE0pDZZ8"
     },
     {
-      "id": "manhill-restaurant",
-      "sheetStatus": "Inactive",
-      "productionActive": false,
-      "sheetPlaceId": null
-    },
-    {
       "id": "master-prata",
       "sheetStatus": "Live",
       "productionActive": true,
@@ -181,12 +163,6 @@
       "sheetPlaceId": "ChIJYy-Okcwb2jERyei18XwxyXM"
     },
     {
-      "id": "paik-s-coffee",
-      "sheetStatus": "Inactive",
-      "productionActive": false,
-      "sheetPlaceId": "ChIJS3tdN8cb2jERTTviyRonTEM"
-    },
-    {
       "id": "paradise-restaurant",
       "sheetStatus": "Live",
       "productionActive": true,
@@ -205,12 +181,6 @@
       "sheetPlaceId": "ChIJ47Gk2dUb2jERwfnSotHkY-o"
     },
     {
-      "id": "straits-club-nasi-lemak",
-      "sheetStatus": "Inactive",
-      "productionActive": false,
-      "sheetPlaceId": null
-    },
-    {
       "id": "super-thai-by-soi-aroy-pasir-panjang",
       "sheetStatus": "Live",
       "productionActive": true,
@@ -221,12 +191,6 @@
       "sheetStatus": "Live",
       "productionActive": true,
       "sheetPlaceId": "ChIJAepjcQAb2jERgffQRhgFdmQ"
-    },
-    {
-      "id": "uncle-ho-tuckshop",
-      "sheetStatus": "Inactive",
-      "productionActive": false,
-      "sheetPlaceId": null
     },
     {
       "id": "yuzutei-japanese-restaurant",
@@ -397,12 +361,6 @@
       "sheetPlaceId": "ChIJwz3yHMEb2jERxkKMbl-4i7Y"
     },
     {
-      "id": "vintage-nanyang-kopi-arc",
-      "sheetStatus": "Inactive",
-      "productionActive": false,
-      "sheetPlaceId": null
-    },
-    {
       "id": "herbal-soup-arc",
       "sheetStatus": "Live",
       "productionActive": true,
@@ -540,5 +498,15 @@
       "productionActive": true,
       "sheetPlaceId": "ChIJWWVDYBIb2jER01Z4BSVR4BI"
     }
-  ]
+  ],
+  "purgedInactiveRestaurants": [
+    "paik-s-coffee",
+    "uncle-ho-tuckshop",
+    "manhill-restaurant",
+    "straits-club-nasi-lemak",
+    "d-penyetz-arc",
+    "food-master-pasir-panjang",
+    "vintage-nanyang-kopi-arc"
+  ],
+  "purgeNote": "Inactive/removed restaurants were physically removed from the operational catalogue and Places sheet on 2026-10-20 so the catalogue contains only current Live choices."
 }
