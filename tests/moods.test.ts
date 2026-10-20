@@ -26,16 +26,17 @@ test('mood and cumulative distance intersect',()=>{
  assert.deepEqual(eligibleForMood(locations,'healthy','mid').map(r=>r.id),['near','mid']);
  assert.deepEqual(eligibleForMood(locations,'healthy','far').map(r=>r.id),['near','mid','far']);
 });
-test('changing distance resets an unavailable mood to Anything, but keeps available moods',()=>{
- const places=[r('local',['Local / Asian']),r('far',['Healthy'],{area:'Anchorpoint',address:'370 Alexandra Rd'})];
+test('changing distance resets a mood that cannot support a shortlist, but keeps one with at least three matches',()=>{
+ const places=[r('local1',['Local / Asian']),r('local2',['Local / Asian']),r('local3',['Local / Asian']),r('far',['Healthy'],{area:'Anchorpoint',address:'370 Alexandra Rd'})];
  assert.deepEqual(changeDistance({distance:'far',mood:'healthy'},'near',places),{distance:'near',mood:'anything'});
  assert.deepEqual(changeDistance({distance:'near',mood:'local_asian'},'far',places),{distance:'far',mood:'local_asian'});
 });
-test('only available mood choices are offered; Anything always remains',()=>{
- const places=[r('local',['Local / Asian']),r('far',['Healthy'],{area:'Anchorpoint',address:'370 Alexandra Rd'})];
- assert.deepEqual(availableMoods(places,'near'),['anything','local_asian']);
+test('mood choices require at least three eligible places; Anything always remains',()=>{
+ const two=[r('local1',['Local / Asian']),r('local2',['Local / Asian'])];
+ const three=[...two,r('local3',['Local / Asian'])];
+ assert.deepEqual(availableMoods(two,'near'),['anything']);
+ assert.deepEqual(availableMoods(three,'near'),['anything','local_asian']);
  assert.deepEqual(availableMoods([],'near'),['anything']);
- assert.deepEqual(availableMoods(places,'far'),['anything','healthy','local_asian']);
 });
 test('shortlist uses three unique eligible places and explicitly refuses fewer than three',()=>{
  const places=[...Array.from({length:5},(_,i)=>r(`local${i}`,['Local / Asian'])),r('wrong',['Western / Cafe'])];
@@ -72,9 +73,10 @@ test('production data has valid explicit tags with no Anything or duplicate tags
  for(const record of records){assert.ok(Array.isArray(record.moodTags),record.id);assert.ok(record.moodTags.length>0,record.id);assert.equal(new Set(record.moodTags).size,record.moodTags.length);assert.ok(record.moodTags.every((t:MoodTag)=>moodTags.includes(t)),record.id);assert.ok(!record.moodTags.includes('Anything'));}
  assert.equal(records.length,87);
  const counts=Object.fromEntries(moodTags.map(t=>[t,records.filter((r:Restaurant)=>r.moodTags.includes(t)).length]));
- assert.deepEqual(counts,{'Healthy':2,'Local / Asian':60,'Western / Cafe':35});
+ assert.deepEqual(counts,{'Healthy':8,'Local / Asian':62,'Western / Cafe':39});
  assert.deepEqual(records.find((r:Restaurant)=>r.id==='green-elephant-thai-dynasty-mbc').moodTags,['Healthy','Local / Asian','Western / Cafe']);
  assert.deepEqual(records.find((r:Restaurant)=>r.id==='sando').moodTags,['Local / Asian','Western / Cafe']);
- assert.deepEqual(records.find((r:Restaurant)=>r.id==='canopy-hortpark').moodTags,['Western / Cafe']);
- for(const id of ['nature-cafe','stuff-d-arc','boost-juice-bar-arc','the-soup-spoon-arc'])assert.ok(!records.find((r:Restaurant)=>r.id===id).moodTags.includes('Healthy'));
+ assert.deepEqual(records.find((r:Restaurant)=>r.id==='canopy-hortpark').moodTags,['Healthy','Western / Cafe']);
+ for(const id of ['nature-cafe','stuff-d-arc','the-soup-spoon-arc','hundred-grains-arc','mr-bean'])assert.ok(records.find((r:Restaurant)=>r.id===id).moodTags.includes('Healthy'));
+ assert.ok(!records.find((r:Restaurant)=>r.id==='boost-juice-bar-arc').moodTags.includes('Healthy'));
 });
