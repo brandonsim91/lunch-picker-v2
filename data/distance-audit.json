@@ -10,19 +10,12 @@
   },
   "verifiedAt": "2026-10-20",
   "reconciliation": {
-    "sheetRows": 88,
-    "sheetLiveRows": 82,
+    "sheetRows": 86,
+    "sheetLiveRows": 80,
     "productionRecords": 87,
-    "liveProductionRecords": 81,
-    "matchedInternalIds": 87,
-    "unmatchedRows": [
-      {
-        "row": 39,
-        "id": null,
-        "name": "川太子麻辣烫",
-        "note": "Suspected duplicate of row 4, same ARC #02-19 outlet; missing Internal ID. No ID inferred or duplicate production record created."
-      }
-    ],
+    "liveProductionRecords": 80,
+    "matchedInternalIds": 86,
+    "unmatchedRows": [],
     "liveMatchedIds": [
       "canopy-hortpark",
       "canton-paradise-at-arc",
@@ -81,7 +74,6 @@
       "royal-currie-arc",
       "the-soup-spoon-arc",
       "umisushi-arc",
-      "vintage-nanyang-kopi-arc",
       "herbal-soup-arc",
       "stuff-d-arc",
       "old-chang-kee-arc",
@@ -1306,21 +1298,6 @@
         "destination": "Yoshinoya Anchorpoint, 370 Alexandra Rd, #01-01A, Anchorpoint, Singapore 159953",
         "endpoint": "outlet",
         "notes": "Exact outlet address/unit matched in Google Maps. 33 min2.3 kmvia Alexandra Rd. Google unit text #01-01A differs from catalogue #01-01; same Anchorpoint outlet."
-      }
-    },
-    {
-      "id": "vintage-nanyang-kopi-arc",
-      "walkingMinutes": 9,
-      "distanceTier": "mid",
-      "walkingDistanceMetres": 700,
-      "distanceVerification": {
-        "origin": "mbc-block-30",
-        "source": "Google Maps walking directions",
-        "verifiedAt": "2026-10-20",
-        "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Alexandra+Retail+Centre+(ARC),+460+Alexandra+Rd,+Singapore+119963/@1.2820545,103.7976661,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11cf23dc3:0x802f4ace6e5cc91d!2m2!1d103.8015008!2d1.2739139!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
-        "destination": "Alexandra Retail Centre (ARC), 460 Alexandra Rd, Singapore 119963",
-        "endpoint": "building-entrance",
-        "notes": "Exact outlet query resolved to YES Nanyang Kopi House #02-26, not catalogue #02-25/25A. Rejected that candidate. Used verified ARC building entrance at 460 Alexandra Road, as permitted; current outlet identity remains unresolved."
       }
     }
   ]
