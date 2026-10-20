@@ -10,7 +10,7 @@ const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.
 const route: {GET?: (request:Request)=>Promise<Response>}={};
 compileFunction(compiled,['require','exports'])((name:string)=>{
  assert.equal(name,'../../../lib/restaurants');
- return {restaurants:[{id:'resolved',placeId:'ChIJverified'},{id:'override',placeId:'ChIJverified',photoBusinessStatusOverride:'verified-operational'},{id:'unresolved',placeId:null}]};
+ return {restaurants:[{id:'resolved',placeId:'ChIJverified'},{id:'preferred',placeId:'ChIJverified',preferredPhotoIndex:1},{id:'override',placeId:'ChIJverified',photoBusinessStatusOverride:'verified-operational'},{id:'unresolved',placeId:null}]};
 },route);
 const get=(id:string)=>route.GET!(new Request(`https://baplah.vercel.app/api/places?id=${id}`));
 
@@ -26,6 +26,13 @@ test('photo route preserves fallbacks and keeps the API key server-side',async t
   assert.deepEqual(await (await get('resolved')).json(),{image:null,attributions:[]});
   assert.equal(calls,0);
   process.env.GOOGLE_MAPS_API_KEY='test-only-key';
+  await t.test('preferred photo index selects a later Google photo without changing other outlets',async()=>{
+   let calls=0;
+   globalThis.fetch=async()=>{calls++;return calls===1?Response.json({businessStatus:'OPERATIONAL',photos:[{name:'places/ChIJverified/photos/first'},{name:'places/ChIJverified/photos/second'}]}):calls===2?Response.json({photoUri:'https://lh3.googleusercontent.com/photo'}):new Response(new Uint8Array([1,2,3]),{headers:{'Content-Type':'image/jpeg'}});};
+   const response=await get('preferred');
+   assert.equal(response.headers.get('X-Photo-State'),'ready');
+   assert.ok((await response.json()).image);
+  });
   await t.test('verified operational place returns photo bytes and attribution',async()=>{
    const requests:string[]=[];
    globalThis.fetch=async(input,init)=>{
