@@ -205,25 +205,6 @@
     }
   },
   {
-    "id": "paik-s-coffee",
-    "active": false,
-    "verifiedForV2": false,
-    "lastVerifiedAt": null,
-    "placeId": "ChIJS3tdN8cb2jERTTviyRonTEM",
-    "address": "40 Pasir Panjang Road, #02-39B, Mapletree Business City, Singapore 117440",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paik's%20Coffee%20%40%20Mapletree%20Business%20City&query_place_id=ChIJS3tdN8cb2jERTTviyRonTEM",
-    "verificationNote": "Confirmed ceased operations during SDS pilot.",
-    "verificationCheckedAt": "2026-10-07",
-    "moodTags": [
-      "Local / Asian",
-      "Western / Cafe"
-    ],
-    "distanceTier": null,
-    "walkingMinutes": null,
-    "walkingDistanceMetres": null,
-    "distanceVerification": null
-  },
-  {
     "id": "tuckshop-mbc",
     "active": true,
     "verifiedForV2": true,
@@ -320,38 +301,6 @@
       "endpoint": "outlet",
       "notes": "Exact outlet address/unit matched in Google Maps. 13 min900 mvia Pasir Panjang Rd."
     }
-  },
-  {
-    "id": "d-penyetz-arc",
-    "active": false,
-    "verifiedForV2": false,
-    "lastVerifiedAt": null,
-    "placeId": null,
-    "verificationNote": "Google returned The Penyet Co at the same unit; possible rename or replacement needs confirmation.",
-    "verificationCheckedAt": "2026-10-07",
-    "moodTags": [
-      "Local / Asian"
-    ],
-    "distanceTier": null,
-    "walkingMinutes": null,
-    "walkingDistanceMetres": null,
-    "distanceVerification": null
-  },
-  {
-    "id": "food-master-pasir-panjang",
-    "active": false,
-    "verifiedForV2": false,
-    "lastVerifiedAt": null,
-    "placeId": null,
-    "verificationNote": "Google marks this outlet permanently closed.",
-    "verificationCheckedAt": "2026-10-07",
-    "moodTags": [
-      "Local / Asian"
-    ],
-    "distanceTier": null,
-    "walkingMinutes": null,
-    "walkingDistanceMetres": null,
-    "distanceVerification": null
   },
   {
     "id": "zhang-ji-shanghai-la-mian-xiao-long-bao",
@@ -451,22 +400,6 @@
     }
   },
   {
-    "id": "uncle-ho-tuckshop",
-    "active": false,
-    "verifiedForV2": false,
-    "lastVerifiedAt": null,
-    "placeId": null,
-    "verificationNote": "Google returned Uncle Ho's Bistro at 1 Pasir Panjang Road, not the original 100 Pasir Panjang Road outlet.",
-    "verificationCheckedAt": "2026-10-07",
-    "moodTags": [
-      "Local / Asian"
-    ],
-    "distanceTier": null,
-    "walkingMinutes": null,
-    "walkingDistanceMetres": null,
-    "distanceVerification": null
-  },
-  {
     "id": "killiney-kopitiam",
     "active": true,
     "verifiedForV2": true,
@@ -539,22 +472,6 @@
     }
   },
   {
-    "id": "manhill-restaurant",
-    "active": false,
-    "verifiedForV2": false,
-    "lastVerifiedAt": null,
-    "placeId": null,
-    "verificationNote": "Google returned Hillman 99 at the same address; possible rename or replacement needs confirmation.",
-    "verificationCheckedAt": "2026-10-07",
-    "moodTags": [
-      "Local / Asian"
-    ],
-    "distanceTier": null,
-    "walkingMinutes": null,
-    "walkingDistanceMetres": null,
-    "distanceVerification": null
-  },
-  {
     "id": "esarn-thai-corner",
     "active": true,
     "verifiedForV2": true,
@@ -577,22 +494,6 @@
       "endpoint": "outlet",
       "notes": "Exact outlet address/unit matched in Google Maps. 9 min700 mvia Pasir Panjang Rd."
     }
-  },
-  {
-    "id": "straits-club-nasi-lemak",
-    "active": false,
-    "verifiedForV2": false,
-    "lastVerifiedAt": null,
-    "placeId": null,
-    "verificationNote": "Google marks this outlet permanently closed.",
-    "verificationCheckedAt": "2026-10-07",
-    "moodTags": [
-      "Local / Asian"
-    ],
-    "distanceTier": null,
-    "walkingMinutes": null,
-    "walkingDistanceMetres": null,
-    "distanceVerification": null
   },
   {
     "id": "paradise-restaurant",
@@ -1981,48 +1882,6 @@
       "destination": "umisushi Alexandra Retail Centre, 460 Alexandra Rd, #01-22, mTower, Singapore 119963",
       "endpoint": "outlet",
       "notes": "Exact outlet address/unit matched in Google Maps. 12 min850 mvia Pasir Panjang Rd."
-    }
-  },
-  {
-    "id": "vintage-nanyang-kopi-arc",
-    "name": "Vintage Nanyang Kopi",
-    "cuisine": [
-      "Local",
-      "Cafe"
-    ],
-    "address": "460 Alexandra Rd, #02-25/25A Alexandra Retail Centre, Singapore 119963",
-    "area": "ARC",
-    "walkingMinutes": 9,
-    "priceBand": null,
-    "quickLunch": null,
-    "healthyOption": null,
-    "active": false,
-    "verifiedForV2": true,
-    "lastVerifiedAt": "2026-10-19",
-    "placeId": null,
-    "tags": [
-      "Kopi",
-      "Toast",
-      "Local"
-    ],
-    "reason": "Nanyang-style coffee and local comfort food at ARC.",
-    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
-    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Vintage%20Nanyang%20Kopi%2C%20460%20Alexandra%20Rd%2C%20%2302-25%2F25A%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
-    "verificationNote": "Removed from 밥Lah recommendations by catalogue owner on 2026-10-20 based on food-quality curation; outlet record retained for history.",
-    "moodTags": [
-      "Local / Asian",
-      "Western / Cafe"
-    ],
-    "distanceTier": "mid",
-    "walkingDistanceMetres": 700,
-    "distanceVerification": {
-      "origin": "mbc-block-30",
-      "source": "Google Maps walking directions",
-      "verifiedAt": "2026-10-20",
-      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Alexandra+Retail+Centre+(ARC),+460+Alexandra+Rd,+Singapore+119963/@1.2820545,103.7976661,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11cf23dc3:0x802f4ace6e5cc91d!2m2!1d103.8015008!2d1.2739139!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
-      "destination": "Alexandra Retail Centre (ARC), 460 Alexandra Rd, Singapore 119963",
-      "endpoint": "building-entrance",
-      "notes": "Exact outlet query resolved to YES Nanyang Kopi House #02-26, not catalogue #02-25/25A. Rejected that candidate. Used verified ARC building entrance at 460 Alexandra Road, as permitted; current outlet identity remains unresolved."
     }
   },
   {
