@@ -10,7 +10,7 @@ const compiled=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.
 const route: {GET?: (request:Request)=>Promise<Response>}={};
 compileFunction(compiled,['require','exports'])((name:string)=>{
  assert.equal(name,'../../../lib/restaurants');
- return {restaurants:[{id:'resolved',placeId:'ChIJverified'},{id:'unresolved',placeId:null}]};
+ return {restaurants:[{id:'resolved',placeId:'ChIJverified'},{id:'override',placeId:'ChIJverified',photoBusinessStatusOverride:'verified-operational'},{id:'unresolved',placeId:null}]};
 },route);
 const get=(id:string)=>route.GET!(new Request(`https://baplah.vercel.app/api/places?id=${id}`));
 
@@ -42,6 +42,13 @@ test('photo route preserves fallbacks and keeps the API key server-side',async t
    assert.equal(response.headers.get('X-Photo-State'),'ready');
    assert.equal(JSON.stringify([...response.headers]).includes('test-only-key'),false);
    assert.equal(requests.length,3);
+  });
+  await t.test('explicit verified-operational override permits photo when Google businessStatus is stale',async()=>{
+   let calls=0;
+   globalThis.fetch=async()=>{calls++;return calls===1?Response.json({businessStatus:'CLOSED_TEMPORARILY',photos:[{name:'places/ChIJverified/photos/photo'}]}):calls===2?Response.json({photoUri:'https://lh3.googleusercontent.com/photo'}):new Response(new Uint8Array([1,2,3]),{headers:{'Content-Type':'image/jpeg'}});};
+   const response=await get('override');
+   assert.equal(response.headers.get('X-Photo-State'),'ready');
+   assert.ok((await response.json()).image);
   });
   await t.test('safe diagnostics distinguish missing photos from upstream failures',async()=>{
    for(const [details,state] of [[{businessStatus:'OPERATIONAL'},'no-photo'],[{businessStatus:'CLOSED_TEMPORARILY'},'not-operational']] as const){
