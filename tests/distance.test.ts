@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {distanceTier,locationContext,withinRadius,tierForWalkingMinutes,hasVerifiedWalkingTime} from '../lib/distance.ts';
+import {distanceTier,distanceTiers,distanceLabels,locationContext,withinRadius,tierForWalkingMinutes,hasVerifiedWalkingTime} from '../lib/distance.ts';
 import {availableFilters,clearFoodPreferences,eligible,pickOne,recommendThree} from '../lib/recommend.ts';
 import type {DistanceTier,Restaurant} from '../lib/types.ts';
 
@@ -10,9 +10,10 @@ const near=restaurant('near','MBC','40 Pasir Panjang Rd',{healthyOption:true,qui
 const mid=restaurant('mid','ARC','460 Alexandra Rd',{distanceTier:'mid',healthyOption:true});
 const far=restaurant('far','Anchorpoint','370 Alexandra Rd',{distanceTier:'far',healthyOption:true,quickLunch:true});
 const pool=[near,mid,far];
+test('slider labels have three ordered snap positions',()=>assert.deepEqual(distanceTiers.map(tier=>distanceLabels[tier]),['Near','Further','Furthest']));
 test('Near only includes the easiest radius',()=>assert.deepEqual(eligible(pool,[],'near').map(r=>r.id),['near']));
-test('A bit further includes Near and middle tier',()=>assert.deepEqual(eligible(pool,[],'mid').map(r=>r.id),['near','mid']));
-test('Further includes all tiers',()=>assert.deepEqual(eligible(pool,[],'far').map(r=>r.id),['near','mid','far']));
+test('Further includes Near and middle tier',()=>assert.deepEqual(eligible(pool,[],'mid').map(r=>r.id),['near','mid']));
+test('Furthest includes all tiers',()=>assert.deepEqual(eligible(pool,[],'far').map(r=>r.id),['near','mid','far']));
 test('distance intersects Healthy without silently broadening',()=>{
  assert.deepEqual(eligible([...pool,restaurant('unhealthy','MBC','20 Pasir Panjang Rd')],['Healthy'],'mid').map(r=>r.id),['near','mid']);
  assert.equal(eligible([far],['Healthy'],'near').length,0);
@@ -65,7 +66,7 @@ test('explicit tiers override area, name and address; missing tiers never infer 
   const record={...near,distanceTier:value as DistanceTier};
   assert.equal(distanceTier(record),null);assert.equal(withinRadius(record,radius),false);
  }
- assert.equal(locationContext({...far,area:'Anchorpoint'}),'Anchorpoint · Further');
+ assert.equal(locationContext({...far,area:'Anchorpoint'}),'Anchorpoint · Furthest');
 });
 for(const [minutes,tier] of [[0,'near'],[8,'near'],[9,'mid'],[15,'mid'],[16,'far'],[35,'far']] as const){
  test(`${minutes} walking minutes maps to ${tier}`,()=>assert.equal(tierForWalkingMinutes(minutes),tier));

@@ -1,7 +1,7 @@
 import type {DistanceTier, Restaurant} from './types.ts';
 
 export const distanceTiers: DistanceTier[] = ['near', 'mid', 'far'];
-export const distanceLabels: Record<DistanceTier,string> = {near:'Near',mid:'A bit further',far:'Further'};
+export const distanceLabels: Record<DistanceTier,string> = {near:'Near',mid:'Further',far:'Furthest'};
 const rank: Record<DistanceTier,number> = {near:0,mid:1,far:2};
 export const distanceOrigin = {
  id:'mbc-block-30', name:'MBC Block 30', address:'30 Pasir Panjang Road, Singapore 117440',

@@ -12,11 +12,11 @@ Address-only searches that resolved to Fargona or generic MBC 10 were rejected.
 | Base tier | Source-displayed walking minutes |
 | --- | --- |
 | Near / near | 0–8 |
-| A bit further / mid | 9–15 |
-| Further / far | 16 and above, no 25-minute cap |
+| Further / mid | 9–15 |
+| Furthest / far | 16 and above, no 25-minute cap |
 
-The selector is cumulative: Near includes near; A bit further includes near +
-mid; Further includes all three. Mood intersects the selected radius. Anything
+The home-screen control is a three-position range slider (Near / Further / Furthest), with keyboard and touch support. The selector is cumulative: Near includes near; Further includes near +
+mid; Furthest includes all three. Mood intersects the selected radius. Anything
 removes only the mood constraint. Default is Near + Anything. Visible positive
 moods require at least three eligible places; changing radius resets a mood
 that cannot support a shortlist. No disabled preferences or silent relaxation.
@@ -32,8 +32,8 @@ No straight-line distance, postal-code, area or address regex determines tiers.
 | Tier | Live outlets |
 | --- | ---: |
 | Near | 14 |
-| A bit further | 51 |
-| Further | 16 |
+| Further | 51 |
+| Furthest | 16 |
 
 Shortest: 3 minutes (Grains & Co., Hitoyoshi, Harry's).
 Longest: 35 minutes (several Anchorpoint outlets). Distances and minutes are
@@ -84,7 +84,7 @@ number without matching Block 30 verification metadata is never displayed.
 The Places tab has T:Y distance fields after Mood Tags: walking minutes, tier,
 verified date, distance notes, metres and a dedicated route link. The separate
 link preserves the general Source URL / Verification Notes. Distance Tier is a
-strict dropdown: Near, A bit further, Further. General A:S values are preserved.
+strict dropdown: Near, Further, Furthest. General A:S values are preserved.
 
 For a future update, verify the exact outlet and pinned origin in pedestrian
 directions. Copy source-displayed minutes/metres and the resolved route link;
