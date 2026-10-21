@@ -1,5 +1,10 @@
-import {persistCommunitySubmission} from '../../../lib/communitySubmissions.ts';
+import {communitySubmissionsConfigured,persistCommunitySubmission} from '../../../lib/communitySubmissions.ts';
 import {validateSubmission, submissionsUnavailable, type PendingSubmission} from '../../../lib/submissions.ts';
+
+export async function GET() {
+ if (process.env.ENABLE_CONTRIBUTIONS !== 'true') return Response.json({enabled:false},{status:404});
+ return Response.json({enabled:true,storageConfigured:communitySubmissionsConfigured()});
+}
 
 export async function POST(req: Request) {
  if (process.env.ENABLE_CONTRIBUTIONS !== 'true') return Response.json({persisted:false,message:'Not found.'},{status:404});
