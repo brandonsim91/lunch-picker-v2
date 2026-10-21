@@ -1,0 +1,259 @@
+[
+  {
+    "restaurantId": "boost-juice-bar-arc",
+    "placeId": "ChIJf2yIfgAb2jER7eKCLASSxBw",
+    "matchedName": "Boost Juice @ Alexandra Retail Centre",
+    "matchedAddress": "460 Alexandra Rd, #02 - 43, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Boost+Juice+Bar+460+Alexandra+Rd%2C+%2302-43+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "burger-king-arc",
+    "placeId": "ChIJRRR4HcEb2jERWSg4wTWuvaY",
+    "matchedName": "Burger King Alexandra Retail Centre",
+    "matchedAddress": "460 Alexandra Rd, #01 - 17 / 20 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Burger+King+460+Alexandra+Rd%2C+%2301-17%2F20+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "luckin-coffee-arc",
+    "placeId": "ChIJ3UL9FLIb2jERfFXuRWRAfBM",
+    "matchedName": "luckin coffee - Alexandra Retail Centre",
+    "matchedAddress": "460 Alexandra Rd, #01-13 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=luckin+coffee+Alexandra+Retail+Centre",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "hundred-grains-arc",
+    "placeId": "ChIJL41cPC8b2jERzfh6V_fTdko",
+    "matchedName": "Hundred Grains",
+    "matchedAddress": "460 Alexandra Rd, #02-20, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Hundred+Grains+%E7%99%BE%E7%B1%B3%E9%A6%99+460+Alexandra+Rd%2C+%2302-20+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "the-coffee-bean-and-tea-leaf-arc",
+    "placeId": "ChIJ_1P8HMEb2jERgAzv4eFyWRI",
+    "matchedName": "The Coffee Bean and Tea Leaf - Alexandra Retail Centre (ARC)",
+    "matchedAddress": "460 Alexandra Rd, #02-41, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=The+Coffee+Bean+%26+Tea+Leaf+460+Alexandra+Rd%2C+%2302-41+%26+K5+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "the-penyet-co-arc",
+    "placeId": "ChIJjbv_NgAb2jERAu0fBIv9hvk",
+    "matchedName": "The Penyet Co. - ARC",
+    "matchedAddress": "460 Alexandra Rd, #01-02 Alexandra Retail Centre (ARC, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=The+Penyet+Co+460+Alexandra+Rd%2C+%2301-02+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "chong-pang-old-time-flavor-arc",
+    "placeId": "ChIJkZL-Xf8b2jERcYiNFau1g8I",
+    "matchedName": "Chong Pang Old Time Flavor @ ARC",
+    "matchedAddress": "Alexandra Rd, #01-14, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Chong+Pang+Old+Time+Flavor+460+Alexandra+Rd%2C+%2301-14+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "wok-hey-arc",
+    "placeId": "ChIJmW9bkjIb2jEREctOM9fQpNA",
+    "matchedName": "WOK HEY ARC, Labrador Park",
+    "matchedAddress": "460 Alexandra Rd, #01-12 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=WOK+HEY+460+Alexandra+Rd%2C+%2301-12+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "heavenly-wang-arc",
+    "placeId": "ChIJxw2fA8Eb2jERb7lGN8xQV9E",
+    "matchedName": "Heavenly Wang @ Alexandra Retail Centre",
+    "matchedAddress": "460 Alexandra Rd, #02-35 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Heavenly+Wang+460+Alexandra+Rd%2C+%2302-35+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "ichiban-boshi-arc",
+    "placeId": "ChIJ-ToG5isb2jERCYdroSDJAwo",
+    "matchedName": "Ichiban Boshi (Alexandra Retail Centre)",
+    "matchedAddress": "460 Alexandra Rd, #02-22 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Ichiban+Boshi+460+Alexandra+Rd%2C+%2302-22+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "kai-oh-don-arc",
+    "placeId": "ChIJgdMtgNob2jERIFK82zhAeZg",
+    "matchedName": "KaiohDon @ARC",
+    "matchedAddress": "460 Alexandra Rd, #02-43A Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Kai-Oh-Don+460+Alexandra+Rd%2C+%2302-43A+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "mcdonald-s-arc",
+    "placeId": "ChIJuUFoBdcb2jERsu6OBBfVMQQ",
+    "matchedName": "McDonald's ARC",
+    "matchedAddress": "460 Alexandra Rd, #01-25, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=McDonald%27s+ARC+460+Alexandra+Rd%2C+%2301-25+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "rong-wantan-noodle-arc",
+    "placeId": "ChIJf_Uehc0b2jERc3UkFxbHv7Y",
+    "matchedName": "Rong Wantan Noodle",
+    "matchedAddress": "460 Alexandra Rd, #02-37 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Rong+Wantan+Noodle+ARC",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "royal-currie-arc",
+    "placeId": "ChIJn2uMnn0b2jER22TVq4yQyX4",
+    "matchedName": "Royal Currie",
+    "matchedAddress": "460 Alexandra Rd, #01-03 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Royal+Currie+460+Alexandra+Rd%2C+%2301-03+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "the-soup-spoon-arc",
+    "placeId": "ChIJRRR4HcEb2jERicaum5b1ux4",
+    "matchedName": "The Soup Spoon ARC (Alexandra Retail Centre)",
+    "matchedAddress": "460 Alexandra Rd, #01-21, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=The+Soup+Spoon+460+Alexandra+Rd%2C+%2301-21+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "umisushi-arc",
+    "placeId": "ChIJwz3yHMEb2jERxkKMbl-4i7Y",
+    "matchedName": "umisushi Alexandra Retail Centre",
+    "matchedAddress": "460 Alexandra Rd, #01-22 mTower, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Umisushi+460+Alexandra+Rd%2C+%2301-22+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "vintage-nanyang-kopi-arc",
+    "placeId": null,
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Vintage+Nanyang+Kopi+460+Alexandra+Rd%2C+%2302-25%2F25A+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "No identifiable Google Maps listing found; leave unresolved and preserve photo fallback."
+  },
+  {
+    "restaurantId": "herbal-soup-arc",
+    "placeId": null,
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=%E8%A3%9C%E6%B1%A4%E7%8E%8B+%E2%80%93+Herbal+Soup+460+Alexandra+Rd%2C+%2302-24+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "No identifiable Google Maps listing found; leave unresolved and preserve photo fallback."
+  },
+  {
+    "restaurantId": "stuff-d-arc",
+    "placeId": "ChIJf-n7Zn4b2jERWQQxDUnaaHg",
+    "matchedName": "Stuff'd",
+    "matchedAddress": "460 Alexandra Rd, #01-11 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Stuff%27d+460+Alexandra+Rd%2C+%2301-11%2FK2+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "old-chang-kee-arc",
+    "placeId": "ChIJVzs5A8Eb2jERftZMTlqIYoY",
+    "matchedName": "Old Chang Kee",
+    "matchedAddress": "460 Alexandra Rd, #02 - 36 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Old+Chang+Kee+460+Alexandra+Rd%2C+%2302-36+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "levure-naturelle-arc",
+    "placeId": "ChIJlR5UHMEb2jERS5R8iCxGr2U",
+    "matchedName": "MK Levure Naturelle",
+    "matchedAddress": "460 Alexandra Rd, #01-08 Alexandra Retail Centre (ARC), Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Levure+Naturelle+460+Alexandra+Rd%2C+%2301-08+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "liho-tea-arc",
+    "placeId": "ChIJ71_s_DIa2jEROlkTs7sFtJo",
+    "matchedName": "LiHO TEA @ Alexandra Retail Centre",
+    "matchedAddress": "460 Alexandra Rd, #01-10, Singapore 119963",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=LiHO+Tea+460+Alexandra+Rd%2C+%2301-10+Alexandra+Retail+Centre%2C+Singapore+119963",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "kyo-kohee-labrador-park",
+    "placeId": "ChIJQZ-lKCkb2jERxuCbpymcejA",
+    "matchedName": "KYŌ KOHEE Labrador Tower",
+    "matchedAddress": "1 Pasir Panjang Rd, #01-08, Singapore 118479",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=KY%C5%8C+KOHEE+1+Pasir+Panjang+Rd%2C+%2301-08+Labrador+Tower%2C+Singapore+118479",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "1-alfaro-labrador-park",
+    "placeId": "ChIJi7lBYwAb2jER16bK10MOME8",
+    "matchedName": "1-Alfaro",
+    "matchedAddress": "Pasir Panjang Rd, #34-01A Labrador Tower, Singapore 118479",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=1+Alfaro+Labrador+Tower",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "starbucks-anchorpoint",
+    "placeId": "ChIJWwHJu8wb2jERMQ7z7EXhpUc",
+    "matchedName": "Starbucks - Anchorpoint",
+    "matchedAddress": "370 Alexandra Rd, #01-05/06 Anchorpoint, Singapore 159953",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Starbucks+Anchorpoint+370+Alexandra+Rd%2C+%2301-05%2F06+Anchorpoint%2C+Singapore+159953",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "overbr-d-anchorpoint",
+    "placeId": "ChIJSWmrDmAb2jER3_2N4HYQGlU",
+    "matchedName": "OVERBRØD",
+    "matchedAddress": "370 Alexandra Rd, #01-14A, Singapore 159953",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=OVERBR%C3%98D+370+Alexandra+Rd%2C+%2301-14A+Anchorpoint%2C+Singapore+159953",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "kfc-anchorpoint",
+    "placeId": "ChIJb1LlsMwb2jERiqIwE3jO4Fw",
+    "matchedName": "KFC (Anchorpoint)",
+    "matchedAddress": "370 Alexandra Rd, #01-15/16, Singapore 159953",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=KFC+Anchorpoint+370+Alexandra+Rd%2C+%2301-15%2F16+Anchorpoint%2C+Singapore+159953",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "mcdonald-s-anchorpoint",
+    "placeId": "ChIJmedO93Qb2jER9K4Li4ADTFo",
+    "matchedName": "McDonald's Anchorpoint",
+    "matchedAddress": "370 Alexandra Rd, #01-32/33/34 Anchorpoint Shopping Centre, Singapore 159953",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=McDonald%27s+Anchorpoint+370+Alexandra+Rd%2C+%2301-31%2F32%2F33+Anchorpoint%2C+Singapore+159953",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  },
+  {
+    "restaurantId": "yoshinoya-anchorpoint",
+    "placeId": "ChIJWWVDYBIb2jER01Z4BSVR4BI",
+    "matchedName": "Yoshinoya Anchorpoint",
+    "matchedAddress": "370 Alexandra Rd, #01-01A Anchorpoint, Singapore 159953",
+    "sourceUrl": "https://www.google.com/search?tbm=map&hl=en&gl=sg&q=Yoshinoya+Anchorpoint+370+Alexandra+Rd%2C+%2301-01+Anchorpoint%2C+Singapore+159953",
+    "verifiedOn": "2026-10-19",
+    "matchBasis": "Business name and same building, postal code and outlet location reviewed against Google Maps listing."
+  }
+]

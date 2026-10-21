@@ -6,28 +6,6 @@
   "note": "Seed migration only. Records retain 2025 source data and must be verified before V2 production use.",
   "restaurants": [
     {
-      "id": "paik-s-coffee",
-      "name": "Paik's Coffee",
-      "cuisine": [
-        "Korean",
-        "Cafe"
-      ],
-      "legacyCuisine": "Korean Café",
-      "address": "40 Pasir Panjang Road, #02-39B, Mapletree Business City, 117440",
-      "mapUrl": "https://maps.app.goo.gl/8y3hdqLN7mFeYu1NA",
-      "area": "MBC",
-      "walkingMinutes": null,
-      "priceBand": null,
-      "active": true,
-      "quickLunch": null,
-      "indoor": null,
-      "healthyOption": null,
-      "verifiedForV2": false,
-      "lastVerifiedAt": null,
-      "source": "Lunch-Picker v1 (2025)",
-      "migrationNotes": []
-    },
-    {
       "id": "tuckshop-mbc",
       "name": "Tuckshop@MBC",
       "cuisine": [
@@ -201,27 +179,6 @@
       "migrationNotes": []
     },
     {
-      "id": "uncle-ho-tuckshop",
-      "name": "Uncle Ho Tuckshop",
-      "cuisine": [
-        "Vietnamese"
-      ],
-      "legacyCuisine": "Vietnamese",
-      "address": "100 Pasir Panjang Rd, #01-04 Old Behn Meyer Building, Singapore 118518",
-      "mapUrl": "https://maps.app.goo.gl/XGN1xzjBjpXUMWmU6",
-      "area": "Pasir Panjang",
-      "walkingMinutes": null,
-      "priceBand": null,
-      "active": true,
-      "quickLunch": null,
-      "indoor": null,
-      "healthyOption": null,
-      "verifiedForV2": false,
-      "lastVerifiedAt": null,
-      "source": "Lunch-Picker v1 (2025)",
-      "migrationNotes": []
-    },
-    {
       "id": "killiney-kopitiam",
       "name": "Killiney Kopitiam",
       "cuisine": [
@@ -308,29 +265,6 @@
       "migrationNotes": []
     },
     {
-      "id": "manhill-restaurant",
-      "name": "Manhill Restaurant",
-      "cuisine": [
-        "Chinese"
-      ],
-      "legacyCuisine": "Chinese, Cantonese",
-      "address": "99 Pasir Panjang Rd, Singapore 118517",
-      "mapUrl": "https://goo.gl/maps/5xGv1Y1Z1Z24",
-      "area": "Pasir Panjang",
-      "walkingMinutes": null,
-      "priceBand": null,
-      "active": true,
-      "quickLunch": null,
-      "indoor": null,
-      "healthyOption": null,
-      "verifiedForV2": false,
-      "lastVerifiedAt": null,
-      "source": "Lunch-Picker v1 (2025)",
-      "migrationNotes": [
-        "Legacy distance note: 10 min walk"
-      ]
-    },
-    {
       "id": "esarn-thai-corner",
       "name": "Esarn Thai Corner",
       "cuisine": [
@@ -340,27 +274,6 @@
       "address": "130 Pasir Panjang Rd, Singapore 118548",
       "mapUrl": "https://maps.app.goo.gl/jBp5PkTS4h6MeenD8",
       "area": "Pasir Panjang",
-      "walkingMinutes": null,
-      "priceBand": null,
-      "active": true,
-      "quickLunch": null,
-      "indoor": null,
-      "healthyOption": null,
-      "verifiedForV2": false,
-      "lastVerifiedAt": null,
-      "source": "Lunch-Picker v1 (2025)",
-      "migrationNotes": []
-    },
-    {
-      "id": "straits-club-nasi-lemak",
-      "name": "Straits Club - Nasi Lemak",
-      "cuisine": [
-        "Local"
-      ],
-      "legacyCuisine": "Nasi Lemak",
-      "address": "122 Bukit Merah Lane 1, #01-50, Singapore 150122",
-      "mapUrl": "https://maps.app.goo.gl/RsbWQWesueh5Zzsi8",
-      "area": "Alexandra Village",
       "walkingMinutes": null,
       "priceBand": null,
       "active": true,
@@ -445,48 +358,6 @@
       "address": "100 Pasir Panjang Rd, #03-07, Singapore 118518",
       "mapUrl": "https://maps.app.goo.gl/V71s9g1fpFji9BKa9",
       "area": "Pasir Panjang",
-      "walkingMinutes": null,
-      "priceBand": null,
-      "active": true,
-      "quickLunch": null,
-      "indoor": null,
-      "healthyOption": null,
-      "verifiedForV2": false,
-      "lastVerifiedAt": null,
-      "source": "Lunch-Picker v1 (2025)",
-      "migrationNotes": []
-    },
-    {
-      "id": "d-penyetz-arc",
-      "name": "D’Penyetz @ ARC",
-      "cuisine": [
-        "Indonesian"
-      ],
-      "legacyCuisine": "Indonesian",
-      "address": "460 Alexandra Rd, #01-02 Alexandra Retail Centre (ARC), Singapore 119963",
-      "mapUrl": "https://maps.app.goo.gl/8UC9szCM5AJihipD9",
-      "area": "ARC",
-      "walkingMinutes": null,
-      "priceBand": null,
-      "active": true,
-      "quickLunch": null,
-      "indoor": null,
-      "healthyOption": null,
-      "verifiedForV2": false,
-      "lastVerifiedAt": null,
-      "source": "Lunch-Picker v1 (2025)",
-      "migrationNotes": []
-    },
-    {
-      "id": "food-master-pasir-panjang",
-      "name": "Food Master @ Pasir Panjang",
-      "cuisine": [
-        "Local"
-      ],
-      "legacyCuisine": "Kopitiam",
-      "address": "50 Pasir Panjang Road #03-51 Mapletree Business City, 117384",
-      "mapUrl": "https://maps.app.goo.gl/WeHEkBoXScYwDrWs9",
-      "area": "MBC",
       "walkingMinutes": null,
       "priceBand": null,
       "active": true,
@@ -652,7 +523,7 @@
       "cuisine": [
         "Vegetarian"
       ],
-      "legacyCuisine": "Vegeterian",
+      "legacyCuisine": "Vegetarian",
       "address": "321 alexandra central mall, #02-27, Singapore 159971",
       "mapUrl": "https://maps.app.goo.gl/K4gS8pAEH2VuSC2R8",
       "area": "Alexandra Central",

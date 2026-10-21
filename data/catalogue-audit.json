@@ -1,0 +1,512 @@
+{
+  "checkedAt": "2026-10-20",
+  "baseCommit": "e587dfa98bcedef75aee66cf092159aa8d0d508f",
+  "sheetLiveBefore": 82,
+  "sheetLiveAfter": 80,
+  "productionActive": 80,
+  "backfilledPlaceIds": 27,
+  "removedDuplicates": [
+    {
+      "name": "川太子麻辣烫",
+      "address": "460 Alexandra Rd, #02-19, Singapore 119963",
+      "canonicalId": "chuan-tai-zi-mala-tang-arc",
+      "evidence": "Legacy Maps share link resolves to the same named outlet at ARC #02-19 as the canonical listing.",
+      "sourceUrl": "https://maps.app.goo.gl/QBtv9pcspjPy5WNv8"
+    }
+  ],
+  "unmatchedRows": [],
+  "placeIdMismatches": [],
+  "unresolvedPlaceIds": [],
+  "rows": [
+    {
+      "id": "canopy-hortpark",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJD2-oVRwb2jERt-DXYPcnbQs"
+    },
+    {
+      "id": "canton-paradise-at-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJwz3yHMEb2jER7qb8paiVoK0"
+    },
+    {
+      "id": "chuan-tai-zi-mala-tang-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJYYdawlQb2jERhF9YyDsc7QA"
+    },
+    {
+      "id": "eat-3-bowls-pasir-panjang",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ8xAhumgb2jERI3S_Df-sfXA"
+    },
+    {
+      "id": "esarn-thai-corner",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJFwkLXLkb2jERSCQmKC7_PXw"
+    },
+    {
+      "id": "grains-co-mapletree-business-city",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJM7mF9kUb2jERVKXHfcjplZU"
+    },
+    {
+      "id": "green-elephant-thai-dynasty-mbc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJr1WFFAAb2jEREGeIGT7y8_Y"
+    },
+    {
+      "id": "guzman-y-gomez",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJp-0mz8Ab2jER4ir0ibRiN7s"
+    },
+    {
+      "id": "harrys-mbc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJI3jdvMAb2jERtq4a-GxN5ZU"
+    },
+    {
+      "id": "hitoyoshi-ramen-grill",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJSyBwoHcb2jERPuw0xQ4D6NU"
+    },
+    {
+      "id": "hoho-korean-restaurant",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJw6s-WJUb2jERuFzfCb9rd5c"
+    },
+    {
+      "id": "hopscotch-gillman-barracks",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJwW2HxhIZ2jERPfuslwkUPNg"
+    },
+    {
+      "id": "ikea-alexandra-restaurant",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJodUzryIb2jER6ACm5zMG8Uo"
+    },
+    {
+      "id": "italian-coffee-lab-singapore",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ873LtKgb2jERj6XcmvT6Ki4"
+    },
+    {
+      "id": "keng-eng-kee-seafood-alexandra-village",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJu1Ef88sb2jER3Fc3W0QRoq8"
+    },
+    {
+      "id": "killiney-kopitiam",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJsds31MYb2jERnsC8dkf2KQs"
+    },
+    {
+      "id": "knots-cafe-living-pasir-panjang",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ646klsQb2jERLwQKs5vs-HE"
+    },
+    {
+      "id": "liu-lang-mian-noodle-bar",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJKxIwI48b2jER3heZHCSNLus"
+    },
+    {
+      "id": "ma-maison",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJuzuvVjMa2jERN9QuE0pDZZ8"
+    },
+    {
+      "id": "master-prata",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJU_zwjcwb2jERkwcc0ZMTCHQ"
+    },
+    {
+      "id": "mr-bean",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJrzJRRQAb2jER7M2HJFF0ICg"
+    },
+    {
+      "id": "nature-cafe",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJc2ytXcwb2jERTpw4WmKe5D4"
+    },
+    {
+      "id": "ogog-mapletree-business-city",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJfY1dRgYb2jERCq-U2bFtaw8"
+    },
+    {
+      "id": "otoko-ramen",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJYy-Okcwb2jERyei18XwxyXM"
+    },
+    {
+      "id": "paradise-restaurant",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJV_3I1r4b2jERXm75U0No9uo"
+    },
+    {
+      "id": "sando",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJo2MT1Gwb2jERZi8kEsAZtk8"
+    },
+    {
+      "id": "sbcd-korean-tofu-house",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ47Gk2dUb2jERwfnSotHkY-o"
+    },
+    {
+      "id": "super-thai-by-soi-aroy-pasir-panjang",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJNS_COSgb2jERjIDRcoSr4hw"
+    },
+    {
+      "id": "tuckshop-mbc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJAepjcQAb2jERgffQRhgFdmQ"
+    },
+    {
+      "id": "yuzutei-japanese-restaurant",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJJUKV97gb2jERKbp1AJJ9f4w"
+    },
+    {
+      "id": "zhang-ji-shanghai-la-mian-xiao-long-bao",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJb7gQklMb2jERcBO5KOm7BzY"
+    },
+    {
+      "id": "barcook-bakery",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJwz3yHMEb2jERPYK8jrpN7M4"
+    },
+    {
+      "id": "beard-papa-s-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJuwkpIQAb2jERR1y059EvckE"
+    },
+    {
+      "id": "boost-juice-bar-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJf2yIfgAb2jER7eKCLASSxBw"
+    },
+    {
+      "id": "burger-king-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJRRR4HcEb2jERWSg4wTWuvaY"
+    },
+    {
+      "id": "chagee-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ6RUd2YYb2jERaf8i3xK0z70"
+    },
+    {
+      "id": "luckin-coffee-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ3UL9FLIb2jERfFXuRWRAfBM"
+    },
+    {
+      "id": "sanook-kitchen-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJSQNFNXob2jERew-PAnsyniA"
+    },
+    {
+      "id": "so-fun3-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ29LnY-Ib2jER_L9oyOrIfWk"
+    },
+    {
+      "id": "jiak-ba-food-heaven-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ46a73Dsb2jERVMYblr8Bew0"
+    },
+    {
+      "id": "sakana-no-suppu-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJzQZvbQAb2jEREEPEXjxWm2k"
+    },
+    {
+      "id": "hundred-grains-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJL41cPC8b2jERzfh6V_fTdko"
+    },
+    {
+      "id": "the-coffee-bean-and-tea-leaf-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ_1P8HMEb2jERgAzv4eFyWRI"
+    },
+    {
+      "id": "saizeriya-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJk1F8030b2jER6eGJhkrYRv0"
+    },
+    {
+      "id": "qin-ji-rougamo-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJBzaoJowb2jERksqtKWbyXRc"
+    },
+    {
+      "id": "the-penyet-co-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJjbv_NgAb2jERAu0fBIv9hvk"
+    },
+    {
+      "id": "chong-pang-old-time-flavor-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJkZL-Xf8b2jERcYiNFau1g8I"
+    },
+    {
+      "id": "wok-hey-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJmW9bkjIb2jEREctOM9fQpNA"
+    },
+    {
+      "id": "encik-tan-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJqab-mBAb2jER4NhIXQ_MJus"
+    },
+    {
+      "id": "heavenly-wang-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJxw2fA8Eb2jERb7lGN8xQV9E"
+    },
+    {
+      "id": "ichiban-boshi-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ-ToG5isb2jERCYdroSDJAwo"
+    },
+    {
+      "id": "kai-oh-don-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJgdMtgNob2jERIFK82zhAeZg"
+    },
+    {
+      "id": "mcdonald-s-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJuUFoBdcb2jERsu6OBBfVMQQ"
+    },
+    {
+      "id": "rong-wantan-noodle-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJf_Uehc0b2jERc3UkFxbHv7Y"
+    },
+    {
+      "id": "royal-currie-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJn2uMnn0b2jER22TVq4yQyX4"
+    },
+    {
+      "id": "the-soup-spoon-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJRRR4HcEb2jERicaum5b1ux4"
+    },
+    {
+      "id": "umisushi-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJwz3yHMEb2jERxkKMbl-4i7Y"
+    },
+    {
+      "id": "herbal-soup-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJb0kPb4wb2jER0_-ZDCcADis"
+    },
+    {
+      "id": "stuff-d-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJf-n7Zn4b2jERWQQxDUnaaHg"
+    },
+    {
+      "id": "old-chang-kee-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJVzs5A8Eb2jERftZMTlqIYoY"
+    },
+    {
+      "id": "levure-naturelle-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJlR5UHMEb2jERS5R8iCxGr2U"
+    },
+    {
+      "id": "ottie-pancakes-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJWYw3IwAb2jER4T5vrKu-rls"
+    },
+    {
+      "id": "liho-tea-arc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ71_s_DIa2jEROlkTs7sFtJo"
+    },
+    {
+      "id": "prata-alley-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJx-6PP44a2jERUStQeZgAmBc"
+    },
+    {
+      "id": "nasi-lemak-ayam-taliwang-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJEZR5VgAb2jER6Dfa2Ke4tbg"
+    },
+    {
+      "id": "uncle-ho-s-bistro-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJA7Rh1Lgb2jEReaqZmjxEtxM"
+    },
+    {
+      "id": "mr-eggs-labrador-tower-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJRTHCVgAb2jERC2DWHmWNqBE"
+    },
+    {
+      "id": "get-some-labrador-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJER7DMgAb2jERFKMM23yw8SA"
+    },
+    {
+      "id": "tian-wai-tian-fish-head-steamboat-mbc",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJsRQQQwAb2jERM-XBmvBp05A"
+    },
+    {
+      "id": "kyo-kohee-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJQZ-lKCkb2jERxuCbpymcejA"
+    },
+    {
+      "id": "toast-junction-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ-RaDMwAb2jERo-vqfmnBgHE"
+    },
+    {
+      "id": "1-alfaro-labrador-park",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJi7lBYwAb2jER16bK10MOME8"
+    },
+    {
+      "id": "reply-k1988-alexandra",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJZ2M2dQAb2jERkcoZbe3KwaQ"
+    },
+    {
+      "id": "go-ang-pratunam-chicken-rice-anchorpoint",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJfUtDdsYb2jERHvhMh8bhWf8"
+    },
+    {
+      "id": "starbucks-anchorpoint",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJWwHJu8wb2jERMQ7z7EXhpUc"
+    },
+    {
+      "id": "overbr-d-anchorpoint",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJSWmrDmAb2jER3_2N4HYQGlU"
+    },
+    {
+      "id": "2thumbsup-hainanese-curry-rice-anchorpoint",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJ15Iu4Psb2jERhCw1RVrpQck"
+    },
+    {
+      "id": "kfc-anchorpoint",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJb1LlsMwb2jERiqIwE3jO4Fw"
+    },
+    {
+      "id": "mcdonald-s-anchorpoint",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJmedO93Qb2jER9K4Li4ADTFo"
+    },
+    {
+      "id": "yoshinoya-anchorpoint",
+      "sheetStatus": "Live",
+      "productionActive": true,
+      "sheetPlaceId": "ChIJWWVDYBIb2jER01Z4BSVR4BI"
+    }
+  ],
+  "purgedInactiveRestaurants": [
+    "paik-s-coffee",
+    "uncle-ho-tuckshop",
+    "manhill-restaurant",
+    "straits-club-nasi-lemak",
+    "d-penyetz-arc",
+    "food-master-pasir-panjang",
+    "vintage-nanyang-kopi-arc"
+  ],
+  "purgeNote": "Inactive/removed restaurants were physically removed from the operational catalogue and Places sheet on 2026-10-20 so the catalogue contains only current Live choices."
+}

@@ -1,0 +1,2800 @@
+[
+  {
+    "id": "grains-co-mapletree-business-city",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-06",
+    "healthyOption": true,
+    "placeId": "ChIJM7mF9kUb2jERVKXHfcjplZU",
+    "tags": [
+      "Grain bowls"
+    ],
+    "reason": "Grain bowls with vegetables and protein options.",
+    "sourceUrl": "https://www.grainsandco.sg/",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "moodTags": [
+      "Healthy",
+      "Western / Cafe"
+    ],
+    "walkingMinutes": 3,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 230,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Grains+%26+Co.+@+Mapletree+Business+City,+40+Pasir+Panjang+Rd,+%2302-37,+Mapletree+Business+City,+Singapore+117383/@1.2752467,103.7962123,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b45f685b933:0x9595e9c87dc7a554!2m2!1d103.7995973!2d1.2756422!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Grains & Co. @ Mapletree Business City, 40 Pasir Panjang Rd, #02-37, Mapletree Business City, Singapore 117383",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. via Alexandra Ln."
+    }
+  },
+  {
+    "id": "hitoyoshi-ramen-grill",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJSyBwoHcb2jERPuw0xQ4D6NU",
+    "tags": [
+      "Ramen",
+      "Grilled skewers"
+    ],
+    "reason": "Ramen and grilled skewers in Mapletree Business City.",
+    "sourceUrl": "https://hitoyoshigroup.com/brand/hitoyoshi-ramen-grill/",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "address": "40 Pasir Panjang Road, Mapletree Business City, #02-38, Singapore 117440",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hitoyoshi%20Ramen%20%26%20Grill%20%E2%80%93%20Mapletree%20Business%20City&query_place_id=ChIJSyBwoHcb2jERPuw0xQ4D6NU",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 3,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 230,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Hitoyoshi+Ramen+%26+Grill+%E2%80%93+Mapletree+Business+City,+40+Pasir+Panjang+Road,+Mapletree+Business+City,+%2302-38,+Singapore+117440/@1.2752467,103.7962123,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b77a070204b:0xd5e8030ec534ec3e!2m2!1d103.7995973!2d1.2756422!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Hitoyoshi Ramen & Grill – Mapletree Business City, 40 Pasir Panjang Road, Mapletree Business City, #02-38, Singapore 117440",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 3 min230 mvia Alexandra Ln."
+    }
+  },
+  {
+    "id": "canton-paradise-at-arc",
+    "address": "460 Alexandra Rd, #02 - 30, Singapore 119963",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJwz3yHMEb2jER7qb8paiVoK0",
+    "tags": [
+      "Dim sum",
+      "Cantonese"
+    ],
+    "reason": "Dim sum, congee and roast dishes at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/tenants/canton-paradise/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canton%20Paradise%20%E6%A8%82%E5%A4%A9%E5%B0%8F%E9%A6%99%E6%B8%AF%20at%20ARC&query_place_id=ChIJwz3yHMEb2jER7qb8paiVoK0",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 12,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Canton+Paradise+%E6%A8%82%E5%A4%A9%E5%B0%8F%E9%A6%99%E6%B8%AF+at+ARC,+460+Alexandra+Rd,+%2302+-+30,+Singapore+119963/@1.2742783,103.7968754,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11cf23dc3:0xada095a8a5fca6ee!2m2!1d103.8017541!2d1.2737462!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Canton Paradise 樂天小香港 at ARC, 460 Alexandra Rd, #02 - 30, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "sbcd-korean-tofu-house",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ47Gk2dUb2jERwfnSotHkY-o",
+    "tags": [
+      "Korean tofu stew"
+    ],
+    "reason": "Korean soft tofu soup and comforting rice meals.",
+    "sourceUrl": "https://www.arc4u.com.sg/tenants/sbcd-korean-tofu-house/",
+    "address": "460 Alexandra Rd, #02-21 Alexandra Retail Centre (ARC), Singapore 119963",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SBCD%20Korean%20Tofu%20House%20-%20Alexandra%20Retail%20Centre&query_place_id=ChIJ47Gk2dUb2jERwfnSotHkY-o",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 13,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/SBCD+Korean+Tofu+House+-+Alexandra+Retail+Centre,+460+Alexandra+Rd,+%2302-21,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745794,103.7967239,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bd5d9a4b1e3:0xea63e4d1a2d2f9c1!2m2!1d103.8014879!2d1.2744957!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "SBCD Korean Tofu House - Alexandra Retail Centre, 460 Alexandra Rd, #02-21, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "super-thai-by-soi-aroy-pasir-panjang",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJNS_COSgb2jERjIDRcoSr4hw",
+    "tags": [
+      "Thai"
+    ],
+    "reason": "A Thai lunch option along Pasir Panjang Road.",
+    "sourceUrl": "https://super-thai.com/reservation-contact-us/",
+    "address": "91 Pasir Panjang Rd, Singapore 118512",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Super%20Thai%20by%20Soi%20Aroy%20%40%20Pasir%20Panjang&query_place_id=ChIJNS_COSgb2jERjIDRcoSr4hw",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 6,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Super+Thai+by+Soi+Aroy+@+Pasir+Panjang,+91+Pasir+Panjang+Rd,+Singapore+118512/@1.2745794,103.7967239,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b2839c22f35:0x1ce2ab8472d1808c!2m2!1d103.7952081!2d1.2748436!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Super Thai by Soi Aroy @ Pasir Panjang, 91 Pasir Panjang Rd, Singapore 118512",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 6 min400 mvia Alexandra Ter and Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "harrys-mbc",
+    "name": "Harry’s Mapletree Business City",
+    "cuisine": [
+      "Western"
+    ],
+    "address": "40 Pasir Panjang Rd, #02-43/44, Singapore 117383",
+    "area": "MBC",
+    "walkingMinutes": 3,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJI3jdvMAb2jERtq4a-GxN5ZU",
+    "tags": [
+      "Weekday lunch"
+    ],
+    "reason": "Weekday lunch specials within Mapletree Business City.",
+    "sourceUrl": "https://www.harrys.com.sg/mbc",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Harry's%20Mapletree%20Business%20City&query_place_id=ChIJI3jdvMAb2jERtq4a-GxN5ZU",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "near",
+    "walkingDistanceMetres": 230,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Harry's+Mapletree+Business+City,+40+Pasir+Panjang+Rd,+%2302-43%2F44,+Singapore+117383/@1.2750874,103.7953839,18z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc0bcdd7823:0x95e54d6cf81aaeb6!2m2!1d103.7995597!2d1.2756788!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Harry's Mapletree Business City, 40 Pasir Panjang Rd, #02-43/44, Singapore 117383",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 3 min230 mvia Alexandra Ln."
+    }
+  },
+  {
+    "id": "tuckshop-mbc",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJAepjcQAb2jERgffQRhgFdmQ",
+    "address": "20 Pasir Panjang Road, I, #02-21, Singapore 117439",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Tuckshop%40MBC&query_place_id=ChIJAepjcQAb2jERgffQRhgFdmQ",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 8,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 600,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Tuckshop@MBC,+20+Pasir+Panjang+Road,+I,+%2302-21,+Singapore+117439/@1.2752553,103.796167,17.04z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b007163ea01:0x6476051846d0f781!2m2!1d103.7989156!2d1.2750457!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Tuckshop@MBC, 20 Pasir Panjang Road, I, #02-21, Singapore 117439",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 8 min600 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "mr-bean",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJrzJRRQAb2jER7M2HJFF0ICg",
+    "address": "20 Pasir Panjang Rd, #02-12A Mapletree Business City II, Singapore 117439",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Bean&query_place_id=ChIJrzJRRQAb2jER7M2HJFF0ICg",
+    "moodTags": [
+      "Healthy",
+      "Local / Asian"
+    ],
+    "healthyOption": true,
+    "walkingMinutes": 9,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 650,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Mr+Bean,+20+Pasir+Panjang+Rd,+%2302-12A,+Mapletree+Business+City+II,+Singapore+117439/@1.2752553,103.796167,17.04z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b00455132af:0x282074512487cdec!2m2!1d103.8002668!2d1.2745956!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Mr Bean, 20 Pasir Panjang Rd, #02-12A, Mapletree Business City II, Singapore 117439",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 9 min650 mvia Pasir Panjang Rd. Investigated detailed route: toward Alexandra Ter (98 m), Alexandra Ter (110 m), Pasir Panjang Rd (450 m), final turn (23 m). No unverified campus shortcut substituted."
+    }
+  },
+  {
+    "id": "guzman-y-gomez",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJp-0mz8Ab2jER4ir0ibRiN7s",
+    "address": "02-35, 40, Pasir Panjang Rd, Mapletree Business City, Singapore 117383",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Guzman%20y%20Gomez%20-%20Mapletree%20Business%20City&query_place_id=ChIJp-0mz8Ab2jER4ir0ibRiN7s",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "walkingMinutes": 4,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 300,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Guzman+y+Gomez+-+Mapletree+Business+City,+02-35,+40,+Pasir+Panjang+Rd,+Mapletree+Business+City,+Singapore+117383/@1.2746647,103.7968086,17.63z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc0cf26eda7:0xbb3762b489f42ae2!2m2!1d103.8002978!2d1.2754187!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Guzman y Gomez - Mapletree Business City, 02-35, 40, Pasir Panjang Rd, Mapletree Business City, Singapore 117383",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 4 min300 mvia Alexandra Ln."
+    }
+  },
+  {
+    "id": "chuan-tai-zi-mala-tang-arc",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJYYdawlQb2jERhF9YyDsc7QA",
+    "address": "460 Alexandra Rd, #02-19, Singapore 119963",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Chuan%20Taizi%20Mala%20Tang%20%E5%B7%9D%E5%A4%AA%E5%AD%90%E9%BA%BB%E8%BE%A3%E7%83%AB&query_place_id=ChIJYYdawlQb2jERhF9YyDsc7QA",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 13,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Chuan+Taizi+Mala+Tang+%E5%B7%9D%E5%A4%AA%E5%AD%90%E9%BA%BB%E8%BE%A3%E7%83%AB,+460+Alexandra+Rd,+%2302-19,+Singapore+119963/@1.2752443,103.7965555,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b54c25a8761:0xed1c3bc8585f84!2m2!1d103.8014047!2d1.2743717!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Chuan Taizi Mala Tang 川太子麻辣烫, 460 Alexandra Rd, #02-19, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "zhang-ji-shanghai-la-mian-xiao-long-bao",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJb7gQklMb2jERcBO5KOm7BzY",
+    "address": "460 Alexandra Rd, #02-23, Singapore 119963",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Zhang%20Ji%20Shanghai%20La%20Mian%20Xiao%20Long%20Bao&query_place_id=ChIJb7gQklMb2jERcBO5KOm7BzY",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 11,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 850,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Zhang+Ji+Shanghai+La+Mian+Xiao+Long+Bao,+460+Alexandra+Rd,+%2302-23,+Singapore+119963/@1.2752443,103.7965555,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b539210b86f:0x3607bbe928b91370!2m2!1d103.8016666!2d1.2742741!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Zhang Ji Shanghai La Mian Xiao Long Bao, 460 Alexandra Rd, #02-23, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min850 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "sando",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJo2MT1Gwb2jERZi8kEsAZtk8",
+    "address": "Alexandra Technopark, 438C Alexandra Rd, #01-04/04A The Hub, Singapore 119976",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SANDO%20at%20Alexandra%20Technopark&query_place_id=ChIJo2MT1Gwb2jERZi8kEsAZtk8",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ],
+    "walkingMinutes": 20,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 1400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/SANDO+at+Alexandra+Technopark,+Alexandra+Technopark,+438C+Alexandra+Rd,+%2301-04%2F04A,+The+Hub,+Singapore+119976/@1.2745794,103.7967606,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b6cd41363a3:0x4fb619c012242f66!2m2!1d103.8001203!2d1.2775198!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "SANDO at Alexandra Technopark, Alexandra Technopark, 438C Alexandra Rd, #01-04/04A, The Hub, Singapore 119976",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 20 min1.4 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "knots-cafe-living-pasir-panjang",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ646klsQb2jERLwQKs5vs-HE",
+    "address": "102E Pasir Panjang Rd, #01-08 Citilink Warehouse Complex, Singapore 118529",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Knots%20Cafe%20%26%20Living%20(Pasir%20Panjang)&query_place_id=ChIJ646klsQb2jERLwQKs5vs-HE",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "walkingMinutes": 7,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 500,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Knots+Cafe+%26+Living+(Pasir+Panjang),+102E+Pasir+Panjang+Rd,+%2301-08,+Citilink+Warehouse+Complex,+Singapore+118529/@1.2767047,103.7974333,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc496a48eeb:0x71f8ec9bb30a042f!2m2!1d103.7954127!2d1.2760918!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Knots Cafe & Living (Pasir Panjang), 102E Pasir Panjang Rd, #01-08, Citilink Warehouse Complex, Singapore 118529",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 7 min500 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "eat-3-bowls-pasir-panjang",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ8xAhumgb2jERI3S_Df-sfXA",
+    "address": "103 Pasir Panjang Rd, Singapore 118531",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Eat%203%20Bowls%20%40%20Pasir%20Panjang&query_place_id=ChIJ8xAhumgb2jERI3S_Df-sfXA",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 7,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 450,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Eat+3+Bowls+@+Pasir+Panjang,+103+Pasir+Panjang+Rd,+Singapore+118531/@1.2755145,103.7955989,17.91z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b68ba2110f3:0x707dacff0dbf7423!2m2!1d103.7948056!2d1.2750752!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Eat 3 Bowls @ Pasir Panjang, 103 Pasir Panjang Rd, Singapore 118531",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 7 min450 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "killiney-kopitiam",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJsds31MYb2jERnsC8dkf2KQs",
+    "address": "456 Alexandra Rd, #01-01 Fragrance Empire Building, Singapore 119962",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Killiney%20Kopitiam%20-%20Fragrance%20Empire%20Building&query_place_id=ChIJsds31MYb2jERnsC8dkf2KQs",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 15,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1100,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Killiney+Kopitiam+-+Fragrance+Empire+Building,+456+Alexandra+Rd,+%2301-01,+Fragrance+Empire+Building,+Singapore+119962/@1.2750874,103.7951826,18z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc6d437dbb1:0xb29f64776bcc09e!2m2!1d103.801474!2d1.2751604!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Killiney Kopitiam - Fragrance Empire Building, 456 Alexandra Rd, #01-01, Fragrance Empire Building, Singapore 119962",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 15 min1.1 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "liu-lang-mian-noodle-bar",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJKxIwI48b2jER3heZHCSNLus",
+    "address": "321 Alexandra Rd, #01-03 Outside Alexandra Mall, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Liu%20Lang%20Mian%20Noodle%20Bar&query_place_id=ChIJKxIwI48b2jER3heZHCSNLus",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 31,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2200,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Liu+Lang+Mian+Noodle+Bar,+321+Alexandra+Rd,+%2301-03,+Outside+Alexandra+Mall,+Singapore+159971/@1.2745794,103.7969028,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b8f2330122b:0xeb2e8d241c9917de!2m2!1d103.805075!2d1.2873088!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Liu Lang Mian Noodle Bar, 321 Alexandra Rd, #01-03, Outside Alexandra Mall, Singapore 159971",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 31 min2.2 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "keng-eng-kee-seafood-alexandra-village",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJu1Ef88sb2jER3Fc3W0QRoq8",
+    "address": "124 Bukit Merah Lane 1, #01-136, Singapore 150124",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Keng%20Eng%20Kee%20Seafood%20%40%20Alexandra%20Village&query_place_id=ChIJu1Ef88sb2jER3Fc3W0QRoq8",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 27,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 1900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Keng+Eng+Kee+Seafood+@+Alexandra+Village,+124+Bukit+Merah+Lane+1,+%2301-136,+Singapore+150124/@1.2810873,103.796045,16.01z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bcbf31f51bb:0xafa211445b3757dc!2m2!1d103.8037037!2d1.2857843!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Keng Eng Kee Seafood @ Alexandra Village, 124 Bukit Merah Lane 1, #01-136, Singapore 150124",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 27 min1.9 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "esarn-thai-corner",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJFwkLXLkb2jERSCQmKC7_PXw",
+    "address": "130 Pasir Panjang Rd, Singapore 118548",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Esarn%20Thai%20Corner%20Pasir%20Panjang&query_place_id=ChIJFwkLXLkb2jERSCQmKC7_PXw",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 9,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 700,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Esarn+Thai+Corner+Pasir+Panjang,+130+Pasir+Panjang+Rd,+Singapore+118548/@1.2803694,103.7954408,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bb95c0b0917:0x7c3dff2e28262448!2m2!1d103.7930246!2d1.2761949!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Esarn Thai Corner Pasir Panjang, 130 Pasir Panjang Rd, Singapore 118548",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 9 min700 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "paradise-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJV_3I1r4b2jERXm75U0No9uo",
+    "address": "93 Pasir Panjang Rd, Singapore 118513",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Paradise%20Restaurant&query_place_id=ChIJV_3I1r4b2jERXm75U0No9uo",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 6,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Paradise+Restaurant,+93+Pasir+Panjang+Rd,+Singapore+118513/@1.2754803,103.7929897,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bbed6c8fd57:0xeaf6684353f96e5e!2m2!1d103.795184!2d1.2749216!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Paradise Restaurant, 93 Pasir Panjang Rd, Singapore 118513",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 6 min400 mvia Alexandra Ter and Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "italian-coffee-lab-singapore",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJ873LtKgb2jERj6XcmvT6Ki4",
+    "address": "100 Pasir Panjang Rd, #03-07, Singapore 118518",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Italian%20Coffee%20Lab%20Pasir%20Panjang&query_place_id=ChIJ873LtKgb2jERj6XcmvT6Ki4",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "walkingMinutes": 5,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 350,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Italian+Coffee+Lab+Pasir+Panjang,+100+Pasir+Panjang+Rd,+%2303-07,+Singapore+118518/@1.2750874,103.7953718,18z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1ba8b4cbbdf3:0x2e2afaf49adca58f!2m2!1d103.7958857!2d1.2752251!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Italian Coffee Lab Pasir Panjang, 100 Pasir Panjang Rd, #03-07, Singapore 118518",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 5 min350 mvia Alexandra Ln, Alexandra Ter and Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "canopy-hortpark",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJD2-oVRwb2jERt-DXYPcnbQs",
+    "address": "33 Hyderabad Rd, #01-01 Hortpark, Singapore 119578",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Canopy%20HortPark&query_place_id=ChIJD2-oVRwb2jERt-DXYPcnbQs",
+    "moodTags": [
+      "Healthy",
+      "Western / Cafe"
+    ],
+    "healthyOption": true,
+    "walkingMinutes": 11,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 750,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Canopy+HortPark,+33+Hyderabad+Rd,+%2301-01,+Hortpark,+Singapore+119578/@1.2752388,103.7956858,18z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b1c55a86f0f:0xb6d27f760d7e0b7!2m2!1d103.8008116!2d1.2786628!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Canopy HortPark, 33 Hyderabad Rd, #01-01, Hortpark, Singapore 119578",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min750 mvia Alexandra Ter."
+    }
+  },
+  {
+    "id": "hoho-korean-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJw6s-WJUb2jERuFzfCb9rd5c",
+    "address": "87 Pasir Panjang Rd, Singapore 118510",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hoho%20Korean%20Restaurant%20Pasir%20Panjang&query_place_id=ChIJw6s-WJUb2jERuFzfCb9rd5c",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 6,
+    "distanceTier": "near",
+    "walkingDistanceMetres": 400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Hoho+Korean+Restaurant+Pasir+Panjang+118510Singapore,+Pasir+Panjang+Rd,+87%E5%8F%B7/@1.2768633,103.7977702,18z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b95583eabc3:0x97776bbf09df5cb8!2m2!1d103.7953157!2d1.2748561!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Hoho Korean Restaurant Pasir Panjang 118510Singapore, Pasir Panjang Rd, 87号",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 6 min400 mvia Alexandra Ter and Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "yuzutei-japanese-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJJUKV97gb2jERKbp1AJJ9f4w",
+    "address": "100G Pasir Panjang Rd, #01-01 Interlocal Centre, Singapore 118523",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Yuzutei%20Japanese%20Restaurant&query_place_id=ChIJJUKV97gb2jERKbp1AJJ9f4w",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 10,
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 750,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Yuzutei+Japanese+Restaurant,+100G+Pasir+Panjang+Rd,+%2301-01,+Interlocal+Centre,+Singapore+118523/@1.2751644,103.7955387,18z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bb8f7954225:0x8c7f7d920075ba29!2m2!1d103.7964888!2d1.2778449!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Yuzutei Japanese Restaurant, 100G Pasir Panjang Rd, #01-01, Interlocal Centre, Singapore 118523",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 10 min750 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "ma-maison",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJuzuvVjMa2jERN9QuE0pDZZ8",
+    "address": "370 Alexandra Rd, #01-12, Singapore 159953",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ma%20Maison%20-%20Anchorpoint&query_place_id=ChIJuzuvVjMa2jERN9QuE0pDZZ8",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 35,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2500,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Ma+Maison+-+Anchorpoint,+370+Alexandra+Rd,+%2301-12,+Singapore+159953/@1.2770695,103.7958413,18z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1a3356af3bbb:0x9f65434a132ed437!2m2!1d103.8048202!2d1.2883465!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Ma Maison - Anchorpoint, 370 Alexandra Rd, #01-12, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 35 min2.5 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "ikea-alexandra-restaurant",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJodUzryIb2jER6ACm5zMG8Uo",
+    "address": "317 Alexandra Rd, Level 1, Singapore 159965",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=IKEA%20Alexandra%20Restaurant&query_place_id=ChIJodUzryIb2jER6ACm5zMG8Uo",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "walkingMinutes": 33,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2300,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/IKEA+Alexandra+Restaurant,+317+Alexandra+Rd,+Level+1,+Singapore+159965/@1.2819504,103.7962251,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b22af33d5a1:0x4af10633e7a600e8!2m2!1d103.8058663!2d1.2883325!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "IKEA Alexandra Restaurant, 317 Alexandra Rd, Level 1, Singapore 159965",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 33 min2.3 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "master-prata",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJU_zwjcwb2jERkwcc0ZMTCHQ",
+    "address": "321 Alexandra Road Mall, #01-02 Alexandra Central, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Master%20Prata&query_place_id=ChIJU_zwjcwb2jERkwcc0ZMTCHQ",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 31,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2200,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Master+Prata,+321+Alexandra+Road+Mall,+%2301-02,+Alexandra+Central,+Singapore+159971/@1.281787,103.7965271,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bcc8df0fc53:0x74081393d11c0793!2m2!1d103.8054155!2d1.2873275!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Master Prata, 321 Alexandra Road Mall, #01-02, Alexandra Central, Singapore 159971",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 31 min2.2 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "otoko-ramen",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJYy-Okcwb2jERyei18XwxyXM",
+    "address": "321 Alexandra Road, #01-16, Alexandra Central Mall, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Otoko%20Ramen&query_place_id=ChIJYy-Okcwb2jERyei18XwxyXM",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "walkingMinutes": 31,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2100,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Otoko+Ramen,+321+Alexandra+Road,+%2301-16,+Alexandra+Central+Mall,+Singapore+159971/@1.281787,103.7965271,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bcc918e2f63:0x73c9317cf1b5e8c9!2m2!1d103.8050906!2d1.2874704!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Otoko Ramen, 321 Alexandra Road, #01-16, Alexandra Central Mall, Singapore 159971",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 31 min2.1 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "nature-cafe",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJc2ytXcwb2jERTpw4WmKe5D4",
+    "address": "321 alexandra central mall, #02-27, Singapore 159971",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nature%20Cafe&query_place_id=ChIJc2ytXcwb2jERTpw4WmKe5D4",
+    "moodTags": [
+      "Healthy",
+      "Western / Cafe"
+    ],
+    "healthyOption": true,
+    "walkingMinutes": 31,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2200,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Nature+Cafe,+321+alexandra+central+mall,+%2302-27,+Singapore+159971/@1.2812006,103.7962004,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bcc5dad6c73:0x3ee49e625a389c4e!2m2!1d103.805202!2d1.287368!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Nature Cafe, 321 alexandra central mall, #02-27, Singapore 159971",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 31 min2.2 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "hopscotch-gillman-barracks",
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJwW2HxhIZ2jERPfuslwkUPNg",
+    "address": "45 Malan Rd, Singapore 109455",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hopscotch%20(Gillman%20Barracks)&query_place_id=ChIJwW2HxhIZ2jERPfuslwkUPNg",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "walkingMinutes": 16,
+    "distanceTier": "far",
+    "walkingDistanceMetres": 1200,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Hopscotch+(Gillman+Barracks),+45+Malan+Rd,+Singapore+109455/@1.2812121,103.7960384,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1912c6876dc1:0xd83c140997acfb3d!2m2!1d103.8039402!2d1.274624!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Hopscotch (Gillman Barracks), 45 Malan Rd, Singapore 109455",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 16 min1.2 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "ogog-mapletree-business-city",
+    "name": "OGOG 오곡 — Mapletree Business City",
+    "cuisine": [
+      "Korean"
+    ],
+    "address": "40 Pasir Panjang Road, #02-39 Mapletree Business City, Singapore 117383",
+    "area": "MBC",
+    "walkingMinutes": 5,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-07",
+    "placeId": "ChIJfY1dRgYb2jERCq-U2bFtaw8",
+    "tags": [
+      "Korean homestyle",
+      "Bansang",
+      "Gimbap"
+    ],
+    "reason": "Korean homestyle meals with rice, banchan and gimbap in Mapletree Business City.",
+    "sourceUrl": "https://www.ogog.food/locations",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://maps.app.goo.gl/vwEaE5pUPo7cDJ7Y8?g_st=ic",
+    "verificationNote": "Exact #02-39 Mapletree outlet confirmed against OGOG's official locations page, Google Maps and Google's official Place ID finder on 2026-10-20.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "near",
+    "walkingDistanceMetres": 350,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/OGOG+%EC%98%A4%EA%B3%A1+%E2%80%94+Mapletree+Business+City,+40+Pasir+Panjang+Rd,+%2302-39,+Mapletree+Business+City,+Singapore+117383/@1.2739854,103.7979297,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b06465d8d7d:0xf6b6db1d994af0a!2m2!1d103.8000552!2d1.2756357!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "OGOG 오곡 — Mapletree Business City, 40 Pasir Panjang Rd, #02-39, Mapletree Business City, Singapore 117383",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 5 min350 mvia Alexandra Ln  This route has restricted usage or private roads.. Google flags restricted usage/private roads; campus access must be available. No unrestricted alternative was returned."
+    }
+  },
+  {
+    "id": "green-elephant-thai-dynasty-mbc",
+    "name": "Green Elephant by Thai Dynasty (Thai Salad)",
+    "cuisine": [
+      "Thai",
+      "Healthy"
+    ],
+    "address": "20 Pasir Panjang Road, #02-21, Mapletree Business City II, Singapore 117439",
+    "area": "MBC",
+    "walkingMinutes": 8,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": true,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-08",
+    "placeId": "ChIJr1WFFAAb2jEREGeIGT7y8_Y",
+    "tags": [
+      "Thai salad",
+      "Salad bowls",
+      "Healthy"
+    ],
+    "reason": "Thai-style salad bowls with customisable bases, protein, supplements, toppings and dressing.",
+    "sourceUrl": "https://www.foodpanda.sg/restaurant/dpzn/green-elephant-by-thai-dynasty-thai-salad-mapletree-business-city",
+    "lunchDays": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "verificationSourceUrl": "https://maps.app.goo.gl/yWgcYgBxNwBkSaHo6?g_st=ic",
+    "verificationNote": "User-provided Google Maps listing verified on 2026-10-08 as Green Elephant by Thai Dynasty (Thai Salad) at #02-21 MBC II. Exact outlet and Place ID confirmed against Google Maps and Google's official Place ID finder on 2026-10-20.",
+    "moodTags": [
+      "Healthy",
+      "Local / Asian",
+      "Western / Cafe"
+    ],
+    "distanceTier": "near",
+    "walkingDistanceMetres": 550,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Green+Elephant+by+Thai+Dynasty+(Thai+Salad),+20+Pasir+Panjang+Road,+I,+%2302-21,+Singapore+117439/@1.2739854,103.7979297,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b00148555af:0xf6f3f23e19886710!2m2!1d103.7995192!2d1.2748791!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Green Elephant by Thai Dynasty (Thai Salad), 20 Pasir Panjang Road, I, #02-21, Singapore 117439",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 8 min550 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "barcook-bakery",
+    "name": "Barcook Bakery",
+    "cuisine": [
+      "Bakery"
+    ],
+    "address": "460 Alexandra Rd, #01-19 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJwz3yHMEb2jERPYK8jrpN7M4",
+    "tags": [
+      "Bakery",
+      "Breakfast"
+    ],
+    "reason": "Bakery and grab-and-go breakfast option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Barcook%20Bakery%2C%20460%20Alexandra%20Rd%2C%20%2301-19%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 850,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Barcook+Bakery,+460+Alexandra+Rd,+%2301-19,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2748531,103.7957906,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11cf23dc3:0xceec4dba8ebc823d!2m2!1d103.8013677!2d1.2739888!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Barcook Bakery, 460 Alexandra Rd, #01-19, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min850 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "beard-papa-s-arc",
+    "name": "Beard Papa's",
+    "cuisine": [
+      "Dessert"
+    ],
+    "address": "460 Alexandra Rd, #01-15 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJuwkpIQAb2jERR1y059EvckE",
+    "tags": [
+      "Cream puffs",
+      "Dessert"
+    ],
+    "reason": "Cream puff and pastry stop at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Beard%20Papa's%2C%20460%20Alexandra%20Rd%2C%20%2301-15%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Beard+Papa's+-+Alexandra+Retail+Centre+(ARC),+460+Alexandra+Rd,+%2301+-+15,+Singapore+110963/@1.2745794,103.7967239,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b00212909bb:0x41722fd1e7b45c47!2m2!1d103.8012839!2d1.273851!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Beard Papa's - Alexandra Retail Centre (ARC), 460 Alexandra Rd, #01 - 15, Singapore 110963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd. Google postal text is 110963; street, building and #01-15 match ARC. Used the ARC outlet pin, not postal-code inference."
+    }
+  },
+  {
+    "id": "boost-juice-bar-arc",
+    "name": "Boost Juice Bar",
+    "cuisine": [
+      "Drinks",
+      "Healthy"
+    ],
+    "address": "460 Alexandra Rd, #02-43 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJf2yIfgAb2jER7eKCLASSxBw",
+    "tags": [
+      "Smoothies",
+      "Juice"
+    ],
+    "reason": "Smoothies and juices for a quick drink or lighter lunch add-on.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Boost%20Juice%20Bar%2C%20460%20Alexandra%20Rd%2C%20%2302-43%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Boost+Juice+@+Alexandra+Retail+Centre,+460+Alexandra+Rd,+%2302+-+43,+Singapore+119963/@1.2745794,103.7967239,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b007e886c7f:0x1cc492042c82e2ed!2m2!1d103.8015308!2d1.2742651!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Boost Juice @ Alexandra Retail Centre, 460 Alexandra Rd, #02 - 43, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "burger-king-arc",
+    "name": "Burger King",
+    "cuisine": [
+      "Fast Food"
+    ],
+    "address": "460 Alexandra Rd, #01-17/20 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJRRR4HcEb2jERWSg4wTWuvaY",
+    "tags": [
+      "Burgers",
+      "Halal"
+    ],
+    "reason": "Fast, familiar burger option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Burger%20King%2C%20460%20Alexandra%20Rd%2C%20%2301-17%2F20%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 850,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Burger+King+Alexandra+Retail+Centre,+460+Alexandra+Road+%2301-17+Singapore/@1.2745794,103.7967239,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m7!4m6!1m3!2m2!1d103.7979738!2d1.2748512!1m0!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Burger King Alexandra Retail Centre, 460 Alexandra Rd, #01 - 17 / 20, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min850 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "chagee-arc",
+    "name": "CHAGEE",
+    "cuisine": [
+      "Drinks",
+      "Cafe"
+    ],
+    "address": "460 Alexandra Rd, #01-06 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ6RUd2YYb2jERaf8i3xK0z70",
+    "tags": [
+      "Tea",
+      "Milk tea"
+    ],
+    "reason": "Tea and milk-tea café at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=CHAGEE%2C%20460%20Alexandra%20Rd%2C%20%2301-06%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 950,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/CHAGEE+Alexandra+Retail+Centre+(ARC),+460+Alexandra+Rd,+%2301-06,+Singapore+119963/@1.2742883,103.7968769,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b86d91d15e9:0xbdcfb412df22ff69!2m2!1d103.8016348!2d1.2735841!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "CHAGEE Alexandra Retail Centre (ARC), 460 Alexandra Rd, #01-06, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min950 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "luckin-coffee-arc",
+    "name": "luckin coffee",
+    "cuisine": [
+      "Cafe"
+    ],
+    "address": "460 Alexandra Rd, #01-13 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ3UL9FLIb2jERfFXuRWRAfBM",
+    "tags": [
+      "Coffee",
+      "Cafe"
+    ],
+    "reason": "Coffee and drinks at ARC for a quick break.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=luckin%20coffee%2C%20460%20Alexandra%20Rd%2C%20%2301-13%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/luckin+coffee+-+Alexandra+Retail+Centre,+460+Alexandra+Rd,+%2301-13,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745242,103.7968145,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bb214fd42dd:0x137c406445ee557c!2m2!1d103.8016048!2d1.2737935!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "luckin coffee - Alexandra Retail Centre, 460 Alexandra Rd, #01-13, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "sanook-kitchen-arc",
+    "name": "Sanook Kitchen",
+    "cuisine": [
+      "Thai"
+    ],
+    "address": "460 Alexandra Rd, #02-12/12A/K1 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJSQNFNXob2jERew-PAnsyniA",
+    "tags": [
+      "Thai",
+      "Halal"
+    ],
+    "reason": "Casual Thai lunch option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Sanook%20Kitchen%2C%20460%20Alexandra%20Rd%2C%20%2302-12%2F12A%2FK1%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1000,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Sanook+Kitchen+Alexandra+Retail+Centre,+460+Alexandra+Road+%2302-12+Singapore/@1.2745242,103.7968145,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m7!4m6!1m3!2m2!1d103.7979738!2d1.2748512!1m0!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Sanook Kitchen - Alexandra Retail Centre (ARC), 460 Alexandra Rd, #02-12/12A/K1, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min1.0 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "so-fun3-arc",
+    "name": "SO FUN3 三两粉",
+    "cuisine": [
+      "Chinese"
+    ],
+    "address": "460 Alexandra Rd, #01-01 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ29LnY-Ib2jER_L9oyOrIfWk",
+    "tags": [
+      "Rice noodles",
+      "Hunan"
+    ],
+    "reason": "Chinese rice-noodle bowls at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SO%20FUN3%20%E4%B8%89%E4%B8%A4%E7%B2%89%2C%20460%20Alexandra%20Rd%2C%20%2301-01%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/SO+FUN3+%E4%B8%89%E4%B8%A4%E7%B2%89+@+ARC,+460+Alexandra+Rd,+%2301-01,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2742783,103.7968754,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1be263e7d2db:0x697dc8eac868bffc!2m2!1d103.8017566!2d1.2735234!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "SO FUN3 三两粉 @ ARC, 460 Alexandra Rd, #01-01, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "jiak-ba-food-heaven-arc",
+    "name": "Jiak Ba Food Heaven 甲霸食堂",
+    "cuisine": [
+      "Taiwanese"
+    ],
+    "address": "460 Alexandra Rd, #01-18 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ46a73Dsb2jERVMYblr8Bew0",
+    "tags": [
+      "Taiwanese",
+      "Braised pork rice"
+    ],
+    "reason": "Taiwanese comfort food and rice/noodle sets at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Jiak%20Ba%20Food%20Heaven%20%E7%94%B2%E9%9C%B8%E9%A3%9F%E5%A0%82%2C%20460%20Alexandra%20Rd%2C%20%2301-18%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1000,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Jiak+Ba+Food+Heaven,+460+Alexandra+Rd,+%2301-18,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2742783,103.7968754,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b3bdcbba6e3:0xd7b01bf961bc654!2m2!1d103.8015216!2d1.2736761!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Jiak Ba Food Heaven, 460 Alexandra Rd, #01-18, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min1.0 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "sakana-no-suppu-arc",
+    "name": "SAKANA-NO-SUPPU",
+    "cuisine": [
+      "Japanese"
+    ],
+    "address": "460 Alexandra Rd, #02-42 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJzQZvbQAb2jEREEPEXjxWm2k",
+    "tags": [
+      "Fish soup",
+      "Udon"
+    ],
+    "reason": "Japanese-style fish soup and udon bowls at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=SAKANA-NO-SUPPU%2C%20460%20Alexandra%20Rd%2C%20%2302-42%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/SAKANA-NO-SUPPU,+460+Alexandra+Rd,+%2302-42,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2742783,103.7968754,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b006d6f06cd:0x699b563c5ec44310!2m2!1d103.8015008!2d1.2739139!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "SAKANA-NO-SUPPU, 460 Alexandra Rd, #02-42, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "hundred-grains-arc",
+    "name": "Hundred Grains 百米香",
+    "cuisine": [
+      "Chinese"
+    ],
+    "address": "460 Alexandra Rd, #02-20 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": true,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJL41cPC8b2jERzfh6V_fTdko",
+    "tags": [
+      "Mixed rice",
+      "Pay by weight"
+    ],
+    "reason": "Customisable Chinese mixed-rice meals at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Hundred%20Grains%20%E7%99%BE%E7%B1%B3%E9%A6%99%2C%20460%20Alexandra%20Rd%2C%20%2302-20%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Healthy",
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 800,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Hundred+Grains,+460+Alexandra+Rd,+%2302-20,+Singapore+119963/@1.2745664,103.7967501,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b2f3c5c8d2f:0x4a76d3f7577af8cd!2m2!1d103.8014084!2d1.2743529!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Hundred Grains, 460 Alexandra Rd, #02-20, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min800 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "the-coffee-bean-and-tea-leaf-arc",
+    "name": "The Coffee Bean & Tea Leaf",
+    "cuisine": [
+      "Cafe"
+    ],
+    "address": "460 Alexandra Rd, #02-41 & K5 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ_1P8HMEb2jERgAzv4eFyWRI",
+    "tags": [
+      "Coffee",
+      "Cafe"
+    ],
+    "reason": "Coffee, tea and café food at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Coffee%20Bean%20%26%20Tea%20Leaf%2C%20460%20Alexandra%20Rd%2C%20%2302-41%20%26%20K5%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 950,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/The+Coffee+Bean+and+Tea+Leaf+-+Alexandra+Retail+Centre+(ARC),+460+Alexandra+Rd,+%2302-41,+Singapore+119963/@1.2744116,103.7966463,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11cfc53ff:0x125972e1e1ef0c80!2m2!1d103.8015297!2d1.2736494!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "The Coffee Bean and Tea Leaf - Alexandra Retail Centre (ARC), 460 Alexandra Rd, #02-41, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min950 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "saizeriya-arc",
+    "name": "Saizeriya",
+    "cuisine": [
+      "Italian"
+    ],
+    "address": "460 Alexandra Rd, #01-30/31 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJk1F8030b2jER6eGJhkrYRv0",
+    "tags": [
+      "Pasta",
+      "Pizza"
+    ],
+    "reason": "Budget-friendly Italian-style casual dining at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Saizeriya%2C%20460%20Alexandra%20Rd%2C%20%2301-30%2F31%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Saizeriya+-+Alexandra+Retail+Centre,+460+Alexandra+Rd,+%2301-30%2F31,+Singapore+119963/@1.2744116,103.7966463,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b7dd37c5193:0xfd46d84a8689e1e9!2m2!1d103.8017253!2d1.2738394!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Saizeriya - Alexandra Retail Centre, 460 Alexandra Rd, #01-30/31, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "qin-ji-rougamo-arc",
+    "name": "Qin Ji Rougamo",
+    "cuisine": [
+      "Chinese"
+    ],
+    "address": "460 Alexandra Rd, #01-33 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJBzaoJowb2jERksqtKWbyXRc",
+    "tags": [
+      "Rougamo",
+      "Shaanxi",
+      "Noodles"
+    ],
+    "reason": "Northern Chinese street-food style lunch at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Qin%20Ji%20Rougamo%2C%20460%20Alexandra%20Rd%2C%20%2301-33%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Qin+Ji+Rougamo,+460+Alexandra+Rd,+%2301+-+33,+Singapore+119963/@1.2745794,103.79681,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b8c26a83607:0x175df26629adca92!2m2!1d103.8017357!2d1.2736782!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Qin Ji Rougamo, 460 Alexandra Rd, #01 - 33, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "the-penyet-co-arc",
+    "name": "The Penyet Co",
+    "cuisine": [
+      "Indonesian"
+    ],
+    "address": "460 Alexandra Rd, #01-02 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJjbv_NgAb2jERAu0fBIv9hvk",
+    "tags": [
+      "Penyet",
+      "Indonesian"
+    ],
+    "reason": "Indonesian-style rice and penyet meals at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Penyet%20Co%2C%20460%20Alexandra%20Rd%2C%20%2301-02%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1000,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/The+Penyet+Co.+-+ARC,+460+Alexandra+Rd,+%2301-02,+Alexandra+Retail+Centre+(ARC,+Singapore+119963/@1.2745794,103.79681,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b0036ffbb8d:0xf986fd8b041fed02!2m2!1d103.8017102!2d1.2734591!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "The Penyet Co. - ARC, 460 Alexandra Rd, #01-02, Alexandra Retail Centre (ARC, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min1.0 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "chong-pang-old-time-flavor-arc",
+    "name": "Chong Pang Old Time Flavor",
+    "cuisine": [
+      "Local"
+    ],
+    "address": "460 Alexandra Rd, #01-14 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJkZL-Xf8b2jERcYiNFau1g8I",
+    "tags": [
+      "Local",
+      "Breakfast"
+    ],
+    "reason": "Local comfort food and breakfast-style meals at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Chong%20Pang%20Old%20Time%20Flavor%2C%20460%20Alexandra%20Rd%2C%20%2301-14%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Chong+Pang+Old+Time+Flavor+@+ARC,+Alexandra+Rd,+%2301-14,+Singapore+119963/@1.274439,103.7967419,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bff5dfe9291:0xc283b5ab158d8871!2m2!1d103.8013178!2d1.2738353!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Chong Pang Old Time Flavor @ ARC, Alexandra Rd, #01-14, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "wok-hey-arc",
+    "name": "WOK HEY",
+    "cuisine": [
+      "Chinese"
+    ],
+    "address": "460 Alexandra Rd, #01-12 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJmW9bkjIb2jEREctOM9fQpNA",
+    "tags": [
+      "Wok-fried rice",
+      "Noodles"
+    ],
+    "reason": "Quick wok-fried rice and noodle boxes at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=WOK%20HEY%2C%20460%20Alexandra%20Rd%2C%20%2301-12%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1000,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/WOK+HEY+ARC,+Labrador+Park,+460+Alexandra+Rd,+%2301-12,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745779,103.7967241,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b32925b6f99:0xd0a4d0d7334ecb11!2m2!1d103.8015216!2d1.2736761!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "WOK HEY ARC, Labrador Park, 460 Alexandra Rd, #01-12, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min1.0 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "encik-tan-arc",
+    "name": "Encik Tan",
+    "cuisine": [
+      "Local"
+    ],
+    "address": "460 Alexandra Rd, #01-32 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJqab-mBAb2jER4NhIXQ_MJus",
+    "tags": [
+      "Halal",
+      "Curry rice",
+      "Noodles"
+    ],
+    "reason": "Halal local Chinese-style comfort food at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Encik%20Tan%2C%20460%20Alexandra%20Rd%2C%20%2301-32%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Encik+Tan,+460+Alexandra+Rd,+%2301-32,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2742816,103.7968737,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b1098fea6a9:0xeb26cc0f5d48d8e0!2m2!1d103.8017246!2d1.2738428!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Encik Tan, 460 Alexandra Rd, #01-32, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "heavenly-wang-arc",
+    "name": "Heavenly Wang",
+    "cuisine": [
+      "Local",
+      "Cafe"
+    ],
+    "address": "460 Alexandra Rd, #02-35 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJxw2fA8Eb2jERb7lGN8xQV9E",
+    "tags": [
+      "Kaya toast",
+      "Kopi",
+      "Local"
+    ],
+    "reason": "Kopitiam-style breakfast and local meals at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Heavenly%20Wang%2C%20460%20Alexandra%20Rd%2C%20%2302-35%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1000,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Heavenly+Wang+@+Alexandra+Retail+Centre,+460+Alexandra+Rd,+%2302-35,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745794,103.79681,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc1039f0dc7:0xd15750cc3746b96f!2m2!1d103.8016348!2d1.2734013!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Heavenly Wang @ Alexandra Retail Centre, 460 Alexandra Rd, #02-35, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min1.0 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "ichiban-boshi-arc",
+    "name": "Ichiban Boshi",
+    "cuisine": [
+      "Japanese"
+    ],
+    "address": "460 Alexandra Rd, #02-22 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ-ToG5isb2jERCYdroSDJAwo",
+    "tags": [
+      "Sushi",
+      "Japanese"
+    ],
+    "reason": "Casual Japanese sushi and set meals at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ichiban%20Boshi%2C%20460%20Alexandra%20Rd%2C%20%2302-22%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 850,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Ichiban+Boshi+(Alexandra+Retail+Centre),+460+Alexandra+Rd,+%2302-22,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2744499,103.79681,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b2be6063af9:0xa03c920a16b8709!2m2!1d103.8016574!2d1.2744429!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Ichiban Boshi (Alexandra Retail Centre), 460 Alexandra Rd, #02-22, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min850 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "kai-oh-don-arc",
+    "name": "Kai-Oh-Don",
+    "cuisine": [
+      "Japanese"
+    ],
+    "address": "460 Alexandra Rd, #02-43A Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJgdMtgNob2jERIFK82zhAeZg",
+    "tags": [
+      "Donburi",
+      "Japanese"
+    ],
+    "reason": "Japanese rice-bowl option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Kai-Oh-Don%2C%20460%20Alexandra%20Rd%2C%20%2302-43A%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 800,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/KaiohDon+@ARC,+460+Alexandra+Rd,+%2302-43A,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745794,103.7966879,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bda802dd381:0x98794038dbbc5220!2m2!1d103.8014915!2d1.2743809!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "KaiohDon @ARC, 460 Alexandra Rd, #02-43A, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min800 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "mcdonald-s-arc",
+    "name": "McDonald's ARC",
+    "cuisine": [
+      "Fast Food"
+    ],
+    "address": "460 Alexandra Rd, #01-25 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJuUFoBdcb2jERsu6OBBfVMQQ",
+    "tags": [
+      "Burgers",
+      "Fast food"
+    ],
+    "reason": "Fast and familiar lunch option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=McDonald's%20ARC%2C%20460%20Alexandra%20Rd%2C%20%2301-25%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/McDonald's+ARC,+460+Alexandra+Rd,+%2301-25,+Singapore+119963/@1.2745794,103.7966879,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bd7056841b9:0x431d517048eeeb2!2m2!1d103.8015362!2d1.2745172!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "McDonald's ARC, 460 Alexandra Rd, #01-25, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "rong-wantan-noodle-arc",
+    "name": "Rong Wantan Noodle",
+    "cuisine": [
+      "Chinese"
+    ],
+    "address": "460 Alexandra Rd, #02-37 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJf_Uehc0b2jERc3UkFxbHv7Y",
+    "tags": [
+      "Wantan noodles"
+    ],
+    "reason": "Wantan noodle option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Rong%20Wantan%20Noodle%2C%20460%20Alexandra%20Rd%2C%20%2302-37%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Rong+Wantan+Noodle,+460+Alexandra+Rd,+%2302-37,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745794,103.796726,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bcd851ef57f:0xb6bfc71617247573!2m2!1d103.8015008!2d1.2739139!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Rong Wantan Noodle, 460 Alexandra Rd, #02-37, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "royal-currie-arc",
+    "name": "Royal Currie",
+    "cuisine": [
+      "Indian"
+    ],
+    "address": "460 Alexandra Rd, #01-03 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJn2uMnn0b2jER22TVq4yQyX4",
+    "tags": [
+      "Indian",
+      "Curry"
+    ],
+    "reason": "Indian curry and rice meals at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Royal%20Currie%2C%20460%20Alexandra%20Rd%2C%20%2301-03%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Royal+Currie,+460+Alexandra+Rd,+%2301-03,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745794,103.796726,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b7d9e8c6b9f:0x7ec9908cabd564db!2m2!1d103.8016099!2d1.2734392!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Royal Currie, 460 Alexandra Rd, #01-03, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "the-soup-spoon-arc",
+    "name": "The Soup Spoon",
+    "cuisine": [
+      "Soups",
+      "Western"
+    ],
+    "address": "460 Alexandra Rd, #01-21 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 14,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": true,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJRRR4HcEb2jERicaum5b1ux4",
+    "tags": [
+      "Soup",
+      "Sandwiches",
+      "Salads"
+    ],
+    "reason": "Soup-based lunch sets and light meals at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=The%20Soup%20Spoon%2C%20460%20Alexandra%20Rd%2C%20%2301-21%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Healthy",
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 950,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/The+Soup+Spoon+ARC+(Alexandra+Retail+Centre),+460+Alexandra+Rd,+%2301-21,+Singapore+119963/@1.2745794,103.7967445,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11d781445:0x1ebbf5969baec689!2m2!1d103.8013291!2d1.2741066!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "The Soup Spoon ARC (Alexandra Retail Centre), 460 Alexandra Rd, #01-21, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 14 min950 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "umisushi-arc",
+    "name": "Umisushi",
+    "cuisine": [
+      "Japanese"
+    ],
+    "address": "460 Alexandra Rd, #01-22 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJwz3yHMEb2jERxkKMbl-4i7Y",
+    "tags": [
+      "Sushi",
+      "Japanese"
+    ],
+    "reason": "Quick sushi and Japanese takeaway option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Umisushi%2C%20460%20Alexandra%20Rd%2C%20%2301-22%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 850,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/umisushi+Alexandra+Retail+Centre,+460+Alexandra+Rd,+%2301-22,+mTower,+Singapore+119963/@1.2744756,103.7967762,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11cf23dc3:0xb68bb85f6e8c42c6!2m2!1d103.8013945!2d1.2741227!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "umisushi Alexandra Retail Centre, 460 Alexandra Rd, #01-22, mTower, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min850 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "herbal-soup-arc",
+    "name": "補汤王 – Herbal Soup",
+    "cuisine": [
+      "Chinese"
+    ],
+    "address": "460 Alexandra Rd, #02-24 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJb0kPb4wb2jER0_-ZDCcADis",
+    "tags": [
+      "Herbal soup",
+      "Chinese"
+    ],
+    "reason": "Chinese herbal soup and rice meal option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A3%9C%E6%B1%A4%E7%8E%8B%20%E2%80%93%20Herbal%20Soup%2C%20460%20Alexandra%20Rd%2C%20%2302-24%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 850,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Pepper+Soup+%E8%A3%9C%E6%B1%A4%E7%8E%8B%E8%82%89%E9%AA%A8%E8%8C%B6,+460+Alexandra+Rd,+%2302-24,+PSA+Building,+Singapore+119963/@1.2745794,103.7967239,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b8c6f0f496f:0x2b0e00270c99ffd3!2m2!1d103.8016687!2d1.2742692!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Pepper Soup 補汤王肉骨茶, 460 Alexandra Rd, #02-24, PSA Building, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min850 mvia Pasir Panjang Rd. Google labels this listing Pepper Soup 補汤王肉骨茶; exact #02-24 outlet address matched."
+    }
+  },
+  {
+    "id": "stuff-d-arc",
+    "name": "Stuff'd",
+    "cuisine": [
+      "Fast Casual"
+    ],
+    "address": "460 Alexandra Rd, #01-11/K2 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": true,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJf-n7Zn4b2jERWQQxDUnaaHg",
+    "tags": [
+      "Kebab",
+      "Burrito",
+      "Bowls"
+    ],
+    "reason": "Customisable kebabs, burritos and bowls at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Stuff'd%2C%20460%20Alexandra%20Rd%2C%20%2301-11%2FK2%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Healthy",
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Stuff'd,+460+Alexandra+Rd,+%2301-11,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745794,103.79678,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b7e66fbe97f:0x7868da490d310459!2m2!1d103.8014282!2d1.2737908!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Stuff'd, 460 Alexandra Rd, #01-11, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "old-chang-kee-arc",
+    "name": "Old Chang Kee",
+    "cuisine": [
+      "Local",
+      "Snacks"
+    ],
+    "address": "460 Alexandra Rd, #02-36 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJVzs5A8Eb2jERftZMTlqIYoY",
+    "tags": [
+      "Curry puff",
+      "Snacks"
+    ],
+    "reason": "Quick local snacks and grab-and-go bites at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Old%20Chang%20Kee%2C%20460%20Alexandra%20Rd%2C%20%2302-36%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1000,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Old+Chang+Kee,+460+Alexandra+Rd,+%2302+-+36,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2745794,103.7967258,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc103393b57:0x8662885a4e4cd67e!2m2!1d103.8015782!2d1.2734473!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Old Chang Kee, 460 Alexandra Rd, #02 - 36, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min1.0 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "levure-naturelle-arc",
+    "name": "Levure Naturelle",
+    "cuisine": [
+      "Bakery",
+      "Cafe"
+    ],
+    "address": "460 Alexandra Rd, #01-08 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 13,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJlR5UHMEb2jERS5R8iCxGr2U",
+    "tags": [
+      "Bakery",
+      "Bread"
+    ],
+    "reason": "Bakery and light breakfast option at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Levure%20Naturelle%2C%20460%20Alexandra%20Rd%2C%20%2301-08%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 950,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/MK+Levure+Naturelle,+460+Alexandra+Rd,+%2301-08,+Alexandra+Retail+Centre+(ARC),+Singapore+119963/@1.2744731,103.7968043,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc11c541e95:0x65af462c887c944b!2m2!1d103.8015432!2d1.2736906!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "MK Levure Naturelle, 460 Alexandra Rd, #01-08, Alexandra Retail Centre (ARC), Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 13 min950 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "ottie-pancakes-arc",
+    "name": "Ottie Pancakes",
+    "cuisine": [
+      "Dessert",
+      "Snacks"
+    ],
+    "address": "460 Alexandra Rd, #02-13 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJWYw3IwAb2jER4T5vrKu-rls",
+    "tags": [
+      "Min Jiang Kueh",
+      "Pancakes"
+    ],
+    "reason": "Quick pancake and snack stop at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Ottie%20Pancakes%2C%20460%20Alexandra%20Rd%2C%20%2302-13%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Ottie+Pancakes+@+Alexandra+Retail+Centre+(ARC),+460+Alexandra+Rd,+%2302-13,+Singapore+119963/@1.2742783,103.7968754,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b0023378c59:0x5baebeabac6f3ee1!2m2!1d103.8013695!2d1.2738853!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Ottie Pancakes @ Alexandra Retail Centre (ARC), 460 Alexandra Rd, #02-13, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "liho-tea-arc",
+    "name": "LiHO Tea",
+    "cuisine": [
+      "Drinks"
+    ],
+    "address": "460 Alexandra Rd, #01-10 Alexandra Retail Centre, Singapore 119963",
+    "area": "ARC",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ71_s_DIa2jEROlkTs7sFtJo",
+    "tags": [
+      "Tea",
+      "Bubble tea"
+    ],
+    "reason": "Bubble tea and drinks at ARC.",
+    "sourceUrl": "https://www.arc4u.com.sg/dining-guide/",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=LiHO%20Tea%2C%20460%20Alexandra%20Rd%2C%20%2301-10%20Alexandra%20Retail%20Centre%2C%20Singapore%20119963",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/LiHO+TEA+@+Alexandra+Retail+Centre,+460+Alexandra+Rd,+%2301-10,+Singapore+119963/@1.2745173,103.7967552,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1a32fcec5fef:0x9ab405bbb313593a!2m2!1d103.801465!2d1.2737769!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "LiHO TEA @ Alexandra Retail Centre, 460 Alexandra Rd, #01-10, Singapore 119963",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "prata-alley-labrador-park",
+    "name": "Prata Alley",
+    "cuisine": [
+      "Indian Muslim"
+    ],
+    "address": "1 Pasir Panjang Rd, #01-09 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJx-6PP44a2jERUStQeZgAmBc",
+    "tags": [
+      "Prata",
+      "Indian Muslim"
+    ],
+    "reason": "Prata and Indian-Muslim comfort food near Labrador Park MRT.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Prata%20Alley%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Prata%20Alley%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-09%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 750,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Prata+Alley+Labrador+Tower,+1+Pasir+Panjang+Road+%2301-09+Singapore/@1.2745173,103.7967552,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m7!4m6!1m3!2m2!1d103.7979738!2d1.2748512!1m0!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Prata Alley, 1 Pasir Panjang Rd, #01-09, Labrador Tower, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min750 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "nasi-lemak-ayam-taliwang-labrador-park",
+    "name": "Nasi Lemak Ayam Taliwang",
+    "cuisine": [
+      "Indonesian",
+      "Malay"
+    ],
+    "address": "1 Pasir Panjang Rd, #02-07 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-20",
+    "placeId": "ChIJEZR5VgAb2jER6Dfa2Ke4tbg",
+    "tags": [
+      "Nasi lemak",
+      "Ayam Taliwang"
+    ],
+    "reason": "Weekday hawker-style nasi lemak at Labrador Tower.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nasi%20Lemak%20Ayam%20Taliwang%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Nasi%20Lemak%20Ayam%20Taliwang%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current outlet independently reverified 2026-10-20 at 1 Pasir Panjang Rd #02-07: Google business entity for the same Place ID exposes weekday operating hours, and HungryCat lists the Labrador Tower outlet as operating. Google Places API businessStatus is stale/inconsistent, so a narrowly scoped photo-status override is permitted.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Nasi+Lemak+Ayam+Taliwang,+1+Pasir+Panjang+Rd,+%2302-07,+Labrador+Tower,+Singapore+118479/@1.2745783,103.7967244,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b0056799411:0xb8b5b8a7d8da37e8!2m2!1d103.8018967!2d1.2721447!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Nasi Lemak Ayam Taliwang, 1 Pasir Panjang Rd, #02-07, Labrador Tower, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    },
+    "photoBusinessStatusOverride": "verified-operational"
+  },
+  {
+    "id": "uncle-ho-s-bistro-labrador-park",
+    "name": "Uncle Ho's Bistro",
+    "cuisine": [
+      "Vietnamese"
+    ],
+    "address": "1 Pasir Panjang Rd, #01-06 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJA7Rh1Lgb2jEReaqZmjxEtxM",
+    "tags": [
+      "Vietnamese",
+      "Pho"
+    ],
+    "reason": "Vietnamese lunch option at Labrador Tower.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Uncle%20Ho%27s%20Bistro%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Uncle%20Ho's%20Bistro%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-06%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 750,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Uncle+Ho's+Bistro+Labrador+Tower,+1+Pasir+Panjang+Road+%2301-06+Singapore/@1.2739202,103.7966711,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m7!4m6!1m3!2m2!1d103.7979738!2d1.2748512!1m0!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Uncle Ho's Bistro, 1 Pasir Panjang Rd, #01-06, Labrador Tower, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min750 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "mr-eggs-labrador-tower-labrador-park",
+    "name": "Mr Eggs @ Labrador Tower",
+    "cuisine": [
+      "Local",
+      "Hawker"
+    ],
+    "address": "1 Pasir Panjang Rd, #02-07 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-20",
+    "placeId": "ChIJRTHCVgAb2jERC2DWHmWNqBE",
+    "tags": [
+      "Rice bowls",
+      "Hawker"
+    ],
+    "reason": "Fast rice-bowl stall inside Food Junction at Labrador Tower.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Eggs%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Mr%20Eggs%20%40%20Labrador%20Tower%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current outlet independently reverified 2026-10-20 at 1 Pasir Panjang Rd #02-07: Google business entity for the same Place ID exposes weekday operating hours, JY Group officially lists Mr Eggs at Labrador Tower, and Foodpanda has a current outlet listing. Google Places API businessStatus is stale/inconsistent, so a narrowly scoped photo-status override is permitted.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Mr+Eggs@+Labrador+Tower,+1+Pasir+Panjang+Rd,+%2302-07,+Labrador+Tower,+Singapore+118479/@1.273795,103.7966514,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b0056c23145:0x11a88d651ed6600b!2m2!1d103.8018967!2d1.2721447!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Mr Eggs@ Labrador Tower, 1 Pasir Panjang Rd, #02-07, Labrador Tower, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd."
+    },
+    "photoBusinessStatusOverride": "verified-operational"
+  },
+  {
+    "id": "get-some-labrador-labrador-park",
+    "name": "Get Some @ Labrador",
+    "cuisine": [
+      "Western",
+      "Asian Fusion"
+    ],
+    "address": "1 Pasir Panjang Rd, #01-11 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJER7DMgAb2jERFKMM23yw8SA",
+    "tags": [
+      "Gastropub",
+      "Pizza",
+      "Asian fusion"
+    ],
+    "reason": "Casual lunch and gastropub option at Labrador Tower.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Get%20Some%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Get%20Some%20%40%20Labrador%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-11%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 800,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Get+Some+@+Labrador+%7C+Singapore's+Best+Craft+Beers,+1+Pasir+Panjang+Rd,+%2301-11,+Labrador+Tower,+Singapore+118479/@1.2738254,103.7969008,17z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b0032c31e11:0x20f1b07cdb0ca314!2m2!1d103.8018537!2d1.2721526!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Get Some @ Labrador | Singapore's Best Craft Beers, 1 Pasir Panjang Rd, #01-11, Labrador Tower, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min800 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "tian-wai-tian-fish-head-steamboat-mbc",
+    "name": "Tian Wai Tian Fish Head Steamboat (MBC)",
+    "cuisine": [
+      "Chinese"
+    ],
+    "address": "20 Pasir Panjang Rd, #02-21 Stall 3, Singapore 117439",
+    "area": "MBC",
+    "walkingMinutes": 8,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJsRQQQwAb2jERM-XBmvBp05A",
+    "tags": [
+      "Fish head steamboat",
+      "Zi char"
+    ],
+    "reason": "Fish-head steamboat and zi char in MBC's food-court cluster.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tian%20Wai%20Tian%20Fish%20Head%20Steamboat%20MBC",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Tian%20Wai%20Tian%20Fish%20Head%20Steamboat%20(MBC)%2C%2020%20Pasir%20Panjang%20Rd%2C%20%2302-21%20Stall%203%2C%20Singapore%20117439",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "near",
+    "walkingDistanceMetres": 550,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Tian+Wai+Tian+Fish+Head+Steamboat+(MBC),+20+Pasir+Panjang+Rd,+%2302-21,+Stall+3,+Singapore+117439/@1.2738254,103.7969008,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b00431014b1:0x90d369f09ac1e533!2m2!1d103.7996807!2d1.2750109!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Tian Wai Tian Fish Head Steamboat (MBC), 20 Pasir Panjang Rd, #02-21, Stall 3, Singapore 117439",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 8 min550 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "kyo-kohee-labrador-park",
+    "name": "KYŌ KOHEE",
+    "cuisine": [
+      "Cafe"
+    ],
+    "address": "1 Pasir Panjang Rd, #01-08 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJQZ-lKCkb2jERxuCbpymcejA",
+    "tags": [
+      "Coffee",
+      "Cafe"
+    ],
+    "reason": "Coffee stop at Labrador Tower near Labrador Park MRT.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=KYO%20KOHEE%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=KY%C5%8C%20KOHEE%2C%201%20Pasir%20Panjang%20Rd%2C%20%2301-08%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 800,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/KY%C5%8C+KOHEE+Labrador+Tower,+1+Pasir+Panjang+Rd,+%2301-08,+Singapore+118479/@1.2746436,103.79599,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b2928a59f41:0x307a9c29a79be0c6!2m2!1d103.8014171!2d1.2719948!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "KYŌ KOHEE Labrador Tower, 1 Pasir Panjang Rd, #01-08, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min800 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "toast-junction-labrador-park",
+    "name": "Toast Junction",
+    "cuisine": [
+      "Local",
+      "Cafe"
+    ],
+    "address": "1 Pasir Panjang Rd, #02-07 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 11,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ-RaDMwAb2jERo-vqfmnBgHE",
+    "tags": [
+      "Toast",
+      "Kopi",
+      "Local"
+    ],
+    "reason": "Kopitiam-style toast and quick meals inside Labrador Tower.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Toast%20Junction%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Toast%20Junction%2C%201%20Pasir%20Panjang%20Rd%2C%20%2302-07%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian",
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 750,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Toast+Junction,+1+Pasir+Panjang+Rd,+%2302-07,+Labrador+Tower,+Singapore+118479/@1.273749,103.7967073,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b00338316f9:0x7180c1697eeaeba3!2m2!1d103.8012432!2d1.2716261!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Toast Junction, 1 Pasir Panjang Rd, #02-07, Labrador Tower, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 11 min750 mvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "1-alfaro-labrador-park",
+    "name": "1-Alfaro",
+    "cuisine": [
+      "Italian"
+    ],
+    "address": "1 Pasir Panjang Rd, #34-00 Labrador Tower, Singapore 118479",
+    "area": "Labrador Park",
+    "walkingMinutes": 12,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJi7lBYwAb2jER16bK10MOME8",
+    "tags": [
+      "Italian",
+      "Rooftop"
+    ],
+    "reason": "Italian restaurant high in Labrador Tower for a longer lunch.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=1-Alfaro%20Labrador%20Tower",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=1-Alfaro%2C%201%20Pasir%20Panjang%20Rd%2C%20%2334-00%20Labrador%20Tower%2C%20Singapore%20118479",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 900,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/1-Alfaro,+Pasir+Panjang+Rd,+%2334-01A,+Labrador+Tower,+Singapore+118479/@1.273749,103.7967073,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b006341b98b:0x4f300e43d7caa6d7!2m2!1d103.8018967!2d1.2721447!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "1-Alfaro, Pasir Panjang Rd, #34-01A, Labrador Tower, Singapore 118479",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 12 min900 mvia Pasir Panjang Rd. Google lists #34-01A rather than catalogue #34-00. Same Labrador Tower outlet; routing excludes lift/wait time."
+    }
+  },
+  {
+    "id": "reply-k1988-alexandra",
+    "name": "REPLY K1988 Alexandra",
+    "cuisine": [
+      "Korean"
+    ],
+    "address": "991B Alexandra Rd, #02-08/09/10/11, Singapore 119970",
+    "area": "Alexandra",
+    "walkingMinutes": 14,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJZ2M2dQAb2jERkcoZbe3KwaQ",
+    "tags": [
+      "Korean BBQ",
+      "Korean"
+    ],
+    "reason": "Korean BBQ and Korean dining near the Alexandra/Labrador area.",
+    "sourceUrl": "https://www.google.com/maps/search/?api=1&query=REPLY%20K1988%20Alexandra",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=REPLY%20K1988%20Alexandra%2C%20991B%20Alexandra%20Rd%2C%20%2302-08%2F09%2F10%2F11%2C%20Singapore%20119970",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "mid",
+    "walkingDistanceMetres": 1000,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/REPLY+K1988+%EC%9D%91%ED%8C%94%EC%8B%9D%EB%8B%B9_Alexandra,+991B+Alexandra+Rd,+%2302-08%2F09%2F10%2F11,+Singapore+119970/@1.2737353,103.7969102,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b0075366367:0xa4c1caed6d19ca91!2m2!1d103.8033906!2d1.2739718!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "REPLY K1988 응팔식당_Alexandra, 991B Alexandra Rd, #02-08/09/10/11, Singapore 119970",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 14 min1.0 kmvia Pasir Panjang Rd."
+    }
+  },
+  {
+    "id": "go-ang-pratunam-chicken-rice-anchorpoint",
+    "name": "Go-Ang Pratunam Chicken Rice",
+    "cuisine": [
+      "Thai"
+    ],
+    "address": "370 Alexandra Rd, #01-07/08 Anchorpoint, Singapore 159953",
+    "area": "Anchorpoint",
+    "walkingMinutes": 35,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJfUtDdsYb2jERHvhMh8bhWf8",
+    "tags": [
+      "Thai chicken rice"
+    ],
+    "reason": "Thai-style chicken rice at Anchorpoint.",
+    "sourceUrl": "https://www.anchorpoint.com.sg/shops",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Go-Ang%20Pratunam%20Chicken%20Rice%2C%20370%20Alexandra%20Rd%2C%20%2301-07%2F08%20Anchorpoint%2C%20Singapore%20159953",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Go-Ang+Pratunam+Chicken+Rice,+370+Alexandra+Rd,+%2301-07%2F08,+Anchorpoint,+Singapore+159953/@1.2739854,103.7976479,17z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bc676434b7d:0xff59e1c6874cf81e!2m2!1d103.8051211!2d1.2886272!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Go-Ang Pratunam Chicken Rice, 370 Alexandra Rd, #01-07/08, Anchorpoint, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 35 min2.4 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "starbucks-anchorpoint",
+    "name": "Starbucks Anchorpoint",
+    "cuisine": [
+      "Cafe"
+    ],
+    "address": "370 Alexandra Rd, #01-05/06 Anchorpoint, Singapore 159953",
+    "area": "Anchorpoint",
+    "walkingMinutes": 34,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJWwHJu8wb2jERMQ7z7EXhpUc",
+    "tags": [
+      "Coffee",
+      "Cafe"
+    ],
+    "reason": "Coffee, pastries and light meals at Anchorpoint.",
+    "sourceUrl": "https://www.anchorpoint.com.sg/shops",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Starbucks%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-05%2F06%20Anchorpoint%2C%20Singapore%20159953",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Starbucks+-+Anchorpoint,+370+Alexandra+Rd,+%2301-05%2F06,+Anchorpoint,+Singapore+159953/@1.2819504,103.7962251,16z/data=!3m2!4b1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bccbbc9015b:0x47a5e145ecf30e31!2m2!1d103.8052562!2d1.2887967!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Starbucks - Anchorpoint, 370 Alexandra Rd, #01-05/06, Anchorpoint, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 34 min2.4 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "overbr-d-anchorpoint",
+    "name": "OVERBRØD",
+    "cuisine": [
+      "Scandinavian",
+      "Cafe"
+    ],
+    "address": "370 Alexandra Rd, #01-14A Anchorpoint, Singapore 159953",
+    "area": "Anchorpoint",
+    "walkingMinutes": 35,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJSWmrDmAb2jER3_2N4HYQGlU",
+    "tags": [
+      "Smørrebrød",
+      "Deli"
+    ],
+    "reason": "Scandinavian-inspired open sandwiches and deli plates at Anchorpoint.",
+    "sourceUrl": "https://www.anchorpoint.com.sg/shops",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=OVERBR%C3%98D%2C%20370%20Alexandra%20Rd%2C%20%2301-14A%20Anchorpoint%2C%20Singapore%20159953",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2500,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/OVERBR%C3%98D,+370+Alexandra+Rd,+%2301-14A,+Singapore+159953/@1.2819504,103.7962251,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b600eab6949:0x551a1076e08dfddf!2m2!1d103.8045788!2d1.2882979!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "OVERBRØD, 370 Alexandra Rd, #01-14A, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 35 min2.5 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "2thumbsup-hainanese-curry-rice-anchorpoint",
+    "name": "2ThumbsUp Hainanese Curry Rice",
+    "cuisine": [
+      "Local"
+    ],
+    "address": "370 Alexandra Rd, #B1-47/48 Anchorpoint, Singapore 159953",
+    "area": "Anchorpoint",
+    "walkingMinutes": 35,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJ15Iu4Psb2jERhCw1RVrpQck",
+    "tags": [
+      "Hainanese curry rice"
+    ],
+    "reason": "Fast Hainanese curry rice at Anchorpoint.",
+    "sourceUrl": "https://www.anchorpoint.com.sg/shops",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=2ThumbsUp%20Hainanese%20Curry%20Rice%2C%20370%20Alexandra%20Rd%2C%20%23B1-47%2F48%20Anchorpoint%2C%20Singapore%20159953",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/2ThumbsUp+Hainanese+Curry+Rice,+370+Alexandra+Rd,+%E2%80%8EB1%E2%80%AC-47,+Anchorpoint,+Singapore+159953/@1.2819504,103.7962251,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bfbe02e92d7:0xc941e95a45352c84!2m2!1d103.8050476!2d1.2886505!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "2ThumbsUp Hainanese Curry Rice, 370 Alexandra Rd, ‎B1‬-47, Anchorpoint, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 35 min2.4 kmvia Alexandra Rd."
+    }
+  },
+  {
+    "id": "kfc-anchorpoint",
+    "name": "KFC Anchorpoint",
+    "cuisine": [
+      "Fast Food"
+    ],
+    "address": "370 Alexandra Rd, #01-15/16 Anchorpoint, Singapore 159953",
+    "area": "Anchorpoint",
+    "walkingMinutes": 35,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJb1LlsMwb2jERiqIwE3jO4Fw",
+    "tags": [
+      "Fried chicken",
+      "Halal"
+    ],
+    "reason": "Fast-food fried chicken at Anchorpoint.",
+    "sourceUrl": "https://www.anchorpoint.com.sg/shops",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=KFC%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-15%2F16%20Anchorpoint%2C%20Singapore%20159953",
+    "verificationNote": "Outlet identity remains verified. Photo QA override added 2026-10-20 to avoid an unhelpful first Google Places image that only shows the Anchorpoint building.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2500,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/KFC+(Anchorpoint),+370+Alexandra+Rd,+%2301-15%2F16,+Singapore+159953/@1.2819504,103.7962251,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1bccb0e5526f:0x5ce0ce781330a28a!2m2!1d103.8046684!2d1.2884103!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "KFC (Anchorpoint), 370 Alexandra Rd, #01-15/16, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 35 min2.5 kmvia Alexandra Rd."
+    },
+    "preferredPhotoIndex": 1
+  },
+  {
+    "id": "mcdonald-s-anchorpoint",
+    "name": "McDonald's Anchorpoint",
+    "cuisine": [
+      "Fast Food"
+    ],
+    "address": "370 Alexandra Rd, #01-31/32/33 Anchorpoint, Singapore 159953",
+    "area": "Anchorpoint",
+    "walkingMinutes": 34,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJmedO93Qb2jER9K4Li4ADTFo",
+    "tags": [
+      "Burgers",
+      "Fast food"
+    ],
+    "reason": "Fast and familiar lunch option at Anchorpoint.",
+    "sourceUrl": "https://www.anchorpoint.com.sg/shops",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=McDonald's%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-31%2F32%2F33%20Anchorpoint%2C%20Singapore%20159953",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Western / Cafe"
+    ],
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2400,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/McDonald's+Anchorpoint,+370+Alexandra+Rd,+%2301-32%2F33%2F34,+Anchorpoint+Shopping+Centre,+Singapore+159953/@1.2819504,103.7962251,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b74f74ee799:0x5a4c03808b0baef4!2m2!1d103.8054695!2d1.2891964!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "McDonald's Anchorpoint, 370 Alexandra Rd, #01-32/33/34, Anchorpoint Shopping Centre, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 34 min2.4 kmvia Alexandra Rd. Google unit text #01-32/33/34 differs from catalogue #01-31/32/33; same Anchorpoint outlet/entrance."
+    }
+  },
+  {
+    "id": "yoshinoya-anchorpoint",
+    "name": "Yoshinoya Anchorpoint",
+    "cuisine": [
+      "Japanese"
+    ],
+    "address": "370 Alexandra Rd, #01-01 Anchorpoint, Singapore 159953",
+    "area": "Anchorpoint",
+    "walkingMinutes": 33,
+    "priceBand": null,
+    "quickLunch": null,
+    "healthyOption": null,
+    "active": true,
+    "verifiedForV2": true,
+    "lastVerifiedAt": "2026-10-19",
+    "placeId": "ChIJWWVDYBIb2jER01Z4BSVR4BI",
+    "tags": [
+      "Gyudon",
+      "Rice bowls"
+    ],
+    "reason": "Japanese beef rice bowls at Anchorpoint.",
+    "sourceUrl": "https://www.anchorpoint.com.sg/shops",
+    "verificationSourceUrl": "https://www.google.com/maps/search/?api=1&query=Yoshinoya%20Anchorpoint%2C%20370%20Alexandra%20Rd%2C%20%2301-01%20Anchorpoint%2C%20Singapore%20159953",
+    "verificationNote": "Current listing checked 2026-10-19; outlet/unit matched to current mall directory or live business listing.",
+    "moodTags": [
+      "Local / Asian"
+    ],
+    "distanceTier": "far",
+    "walkingDistanceMetres": 2300,
+    "distanceVerification": {
+      "origin": "mbc-block-30",
+      "source": "Google Maps walking directions",
+      "verifiedAt": "2026-10-20",
+      "sourceUrl": "https://www.google.com/maps/dir/1.274851167499432,+103.7979737759009/Yoshinoya+Anchorpoint,+370+Alexandra+Rd,+%2301-01A,+Anchorpoint,+Singapore+159953/@1.2819504,103.7962251,16z/data=!3m1!5s0x31da1bb03121e421:0xa6b99f61dd018653!4m12!4m11!1m3!2m2!1d103.7979738!2d1.2748512!1m5!1m1!1s0x31da1b1260436559:0x12e05125057856d3!2m2!1d103.8050985!2d1.2887553!3e2?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+      "destination": "Yoshinoya Anchorpoint, 370 Alexandra Rd, #01-01A, Anchorpoint, Singapore 159953",
+      "endpoint": "outlet",
+      "notes": "Exact outlet address/unit matched in Google Maps. 33 min2.3 kmvia Alexandra Rd. Google unit text #01-01A differs from catalogue #01-01; same Anchorpoint outlet."
+    }
+  }
+]
