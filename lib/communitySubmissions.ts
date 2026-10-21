@@ -12,6 +12,8 @@ function config() {
   return {spreadsheetId, clientEmail, privateKey, tabName};
 }
 
+export function communitySubmissionsConfigured() { return config() !== null; }
+
 export function communitySubmissionRow(submission: PendingSubmission) {
   return [
     submission.id,
