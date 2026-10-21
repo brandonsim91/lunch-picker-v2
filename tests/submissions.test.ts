@@ -2,13 +2,27 @@ import {test} from 'node:test';
 import {GoogleAuth} from 'google-auth-library';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {POST} from '../app/api/submissions/route.ts';
+import {GET,POST} from '../app/api/submissions/route.ts';
 import {submissionLimits, submissionsUnavailable, type PendingSubmission} from '../lib/submissions.ts';
 import {eligible} from '../lib/recommend.ts';
 import type {Restaurant} from '../lib/types.ts';
 import {events} from '../lib/analytics.ts';
 const valid = {restaurantName: 'OGOG 오곡', mapUrl: 'https://maps.app.goo.gl/example', reason: 'Fast lunch', contributorName: 'Chloe', displayCredit: false};
 const request = (body: unknown, origin = 'https://baplah.vercel.app') => new Request('https://baplah.vercel.app/api/submissions', {method:'POST', headers:{origin,'Content-Type':'application/json'}, body:JSON.stringify(body)});
+
+test('submission readiness endpoint is fail-closed and never exposes credentials',async()=>{
+ const original={enabled:process.env.ENABLE_CONTRIBUTIONS,id:process.env.GOOGLE_SHEETS_SPREADSHEET_ID,email:process.env.GOOGLE_SHEETS_CLIENT_EMAIL,key:process.env.GOOGLE_SHEETS_PRIVATE_KEY};
+ try{
+  process.env.ENABLE_CONTRIBUTIONS='false';let response=await GET();assert.equal(response.status,404);assert.deepEqual(await response.json(),{enabled:false});
+  process.env.ENABLE_CONTRIBUTIONS='true';delete process.env.GOOGLE_SHEETS_CLIENT_EMAIL;delete process.env.GOOGLE_SHEETS_PRIVATE_KEY;response=await GET();assert.equal(response.status,200);assert.deepEqual(await response.json(),{enabled:true,storageConfigured:false});
+  process.env.GOOGLE_SHEETS_SPREADSHEET_ID='test-sheet';process.env.GOOGLE_SHEETS_CLIENT_EMAIL='test@example.invalid';process.env.GOOGLE_SHEETS_PRIVATE_KEY='secret';response=await GET();assert.deepEqual(await response.json(),{enabled:true,storageConfigured:true});
+ } finally {
+  if(original.enabled===undefined)delete process.env.ENABLE_CONTRIBUTIONS;else process.env.ENABLE_CONTRIBUTIONS=original.enabled;
+  if(original.id===undefined)delete process.env.GOOGLE_SHEETS_SPREADSHEET_ID;else process.env.GOOGLE_SHEETS_SPREADSHEET_ID=original.id;
+  if(original.email===undefined)delete process.env.GOOGLE_SHEETS_CLIENT_EMAIL;else process.env.GOOGLE_SHEETS_CLIENT_EMAIL=original.email;
+  if(original.key===undefined)delete process.env.GOOGLE_SHEETS_PRIVATE_KEY;else process.env.GOOGLE_SHEETS_PRIVATE_KEY=original.key;
+ }
+});
 
 test('pending submission API', async t => {
  const originalFetch = globalThis.fetch;
