@@ -12,13 +12,14 @@ const request = (body: unknown, origin = 'https://baplah.vercel.app') => new Req
 
 test('pending submission API', async t => {
  const originalFetch = globalThis.fetch;
- const envKeys=['GOOGLE_SHEETS_SPREADSHEET_ID','GOOGLE_SHEETS_CLIENT_EMAIL','GOOGLE_SHEETS_PRIVATE_KEY','GOOGLE_SHEETS_TAB_NAME'];
+ const envKeys=['GOOGLE_SHEETS_SPREADSHEET_ID','GOOGLE_SHEETS_CLIENT_EMAIL','GOOGLE_SHEETS_PRIVATE_KEY','GOOGLE_SHEETS_TAB_NAME','ENABLE_CONTRIBUTIONS'];
  const originalEnv=envKeys.map(key=>process.env[key]);
  const authMock=t.mock.method(GoogleAuth.prototype,'getClient',async()=>({getAccessToken:async()=>({token:'test-only'})}));
  let written: PendingSubmission[] = [];
 
  const seedBefore = await readFile(new URL('../data/restaurants.seed.json', import.meta.url), 'utf8');
  const pilotBefore = await readFile(new URL('../data/restaurants.pilot.json', import.meta.url), 'utf8');
+ process.env.ENABLE_CONTRIBUTIONS='true';
  process.env.GOOGLE_SHEETS_SPREADSHEET_ID='test-sheet';
  process.env.GOOGLE_SHEETS_CLIENT_EMAIL='test@example.invalid';
  process.env.GOOGLE_SHEETS_PRIVATE_KEY='test-only';
@@ -39,6 +40,11 @@ test('pending submission API', async t => {
  };
  try {
   globalThis.fetch = workingStorage;
+  await t.test('feature flag disables contribution API without writing', async () => {
+   const before=written.length;process.env.ENABLE_CONTRIBUTIONS='false';
+   const response=await POST(request(valid));assert.equal(response.status,404);assert.deepEqual(await response.json(),{persisted:false,message:'Not found.'});assert.equal(written.length,before);
+   process.env.ENABLE_CONTRIBUTIONS='true';
+  });
   await t.test('valid submission persists pending with server UUID/time and defaults credit off', async () => {
    const response = await POST(request({restaurantName: ' OGOG 오곡 ', mapUrl:valid.mapUrl}));
    assert.equal(response.status,201); assert.deepEqual(await response.json(),{persisted:true});
