@@ -50,12 +50,18 @@ test('staging price research only uses known outlet IDs and exclusive tiers',()=
  const activeIds=new Set(pilot.filter((r:{active:boolean})=>r.active).map((r:{id:string})=>r.id));
  assert.equal(snapshot.status,'staging-research-preview-only');
  assert.equal(Object.keys(snapshot.prices).length,snapshot.classified);
- assert.equal(snapshot.classified,32);
+ assert.equal(snapshot.classified,42);
  for(const [id,price] of Object.entries(snapshot.prices)){
   assert.ok(activeIds.has(id),id);
   assert.ok(['$','$$','$$$'].includes(price as string),id);
  }
  const counts=Object.values(snapshot.prices).reduce((a:Record<string,number>,p)=>{a[p as string]=(a[p as string]||0)+1;return a;},{});
- assert.deepEqual(counts,{'$':10,'$$':10,'$$$':12});
+ assert.deepEqual(counts,{'
+ assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
+});
+:14,'$':13,'$
+ assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
+});
+:15});
  assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
 });
