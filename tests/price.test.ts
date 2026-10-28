@@ -1,3 +1,4 @@
+import {readFileSync} from 'node:fs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {changePrice,eligibleForMood,pickForMood,recommendForMood} from '../lib/moods.ts';
@@ -40,4 +41,21 @@ test('price filter stays closed until all active records have tiers',()=>{
 test('invalid selections never match silently',()=>{
  assert.deepEqual(eligibleForMood(pool,'anything','near','unknown' as never),[]);
  assert.deepEqual(eligibleForMood(pool,'anything','near','$$$$' as never),[]);
+});
+
+test('staging price research only uses known outlet IDs and exclusive tiers',()=>{
+
+ const snapshot=JSON.parse(readFileSync(new URL('../data/prices.staging.json',import.meta.url),'utf8'));
+ const pilot=JSON.parse(readFileSync(new URL('../data/restaurants.pilot.json',import.meta.url),'utf8'));
+ const activeIds=new Set(pilot.filter((r:{active:boolean})=>r.active).map((r:{id:string})=>r.id));
+ assert.equal(snapshot.status,'staging-research-preview-only');
+ assert.equal(Object.keys(snapshot.prices).length,snapshot.classified);
+ assert.equal(snapshot.classified,32);
+ for(const [id,price] of Object.entries(snapshot.prices)){
+  assert.ok(activeIds.has(id),id);
+  assert.ok(['$','$$','$$$'].includes(price as string),id);
+ }
+ const counts=Object.values(snapshot.prices).reduce((a:Record<string,number>,p)=>{a[p as string]=(a[p as string]||0)+1;return a;},{});
+ assert.deepEqual(counts,{'$':10,'$$':10,'$$$':12});
+ assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
 });
