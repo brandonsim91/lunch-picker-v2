@@ -40,7 +40,7 @@ test('shortlist contains three unique eligible restaurants within the selected t
 });
 test('single pick respects distance across the random range',()=>{
  for(const distance of ['near','mid','far'] as DistanceTier[])for(const rng of [0,.25,.5,.99]){
-  const picked=pickOne(pool,[],[],()=>rng,distance);assert.ok(picked&&withinRadius(picked,distance));
+  const picked=pickOne(pool,[],[],()=>rng,distance);assert.ok(picked&&matchesDistanceTier(picked,distance));
  }
  assert.equal(pickOne(pool,[],[],()=>0,'far')?.id,'far');
  assert.equal(pickOne(pool,[],[],()=>.99,'far')?.id,'far');
@@ -49,7 +49,7 @@ test('reroll preserves tier and food constraints while avoiding the old set',()=
  const larger=[near,...[2,3,4,5].map(i=>({...near,id:`near${i}`})),mid,far];
  const old=recommendThree(larger,['Healthy'],[],()=>0,'near').map(r=>r.id);
  const next=recommendThree(larger,['Healthy'],old,()=>0,'near');
- assert.notDeepEqual(next.map(r=>r.id).sort(),old.sort());assert.ok(next.every(r=>withinRadius(r,'near')));
+ assert.notDeepEqual(next.map(r=>r.id).sort(),old.sort());assert.ok(next.every(r=>matchesDistanceTier(r,'near')));
  assert.notEqual(pickOne(larger,[],[near.id],()=>0,'near')?.id,near.id);
 });
 test('inactive, unverified and unsafe restaurants remain excluded in every tier',()=>{
@@ -65,7 +65,7 @@ test('explicit tiers override area, name and address; missing tiers never infer 
  assert.equal(distanceTier({...far,area:'MBC',address:'30 Pasir Panjang Rd'}),'far');
  for(const value of [null,undefined,'Near','unknown'])for(const radius of ['near','mid','far'] as DistanceTier[]){
   const record={...near,distanceTier:value as DistanceTier};
-  assert.equal(distanceTier(record),null);assert.equal(withinRadius(record,radius),false);
+  assert.equal(distanceTier(record),null);assert.equal(matchesDistanceTier(record,radius),false);
  }
  assert.equal(locationContext({...far,area:'Anchorpoint'}),'Anchorpoint · Furthest');
 });
