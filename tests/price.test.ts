@@ -1,4 +1,3 @@
-import {readFileSync} from 'node:fs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {changePrice,eligibleForMood,pickForMood,recommendForMood} from '../lib/moods.ts';
@@ -43,8 +42,9 @@ test('invalid selections never match silently',()=>{
  assert.deepEqual(eligibleForMood(pool,'anything','near','$$$$' as never),[]);
 });
 
-test('staging price research only uses known outlet IDs and exclusive tiers',()=>{
 
+import {readFileSync} from 'node:fs';
+test('staging price research only uses known outlet IDs and exclusive tiers',()=>{
  const snapshot=JSON.parse(readFileSync(new URL('../data/prices.staging.json',import.meta.url),'utf8'));
  const pilot=JSON.parse(readFileSync(new URL('../data/restaurants.pilot.json',import.meta.url),'utf8'));
  const activeIds=new Set(pilot.filter((r:{active:boolean})=>r.active).map((r:{id:string})=>r.id));
@@ -55,13 +55,9 @@ test('staging price research only uses known outlet IDs and exclusive tiers',()=
   assert.ok(activeIds.has(id),id);
   assert.ok(['$','$$','$$$'].includes(price as string),id);
  }
- const counts=Object.values(snapshot.prices).reduce((a:Record<string,number>,p)=>{a[p as string]=(a[p as string]||0)+1;return a;},{});
- assert.deepEqual(counts,{'
- assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
-});
-:14,'$':13,'$
- assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
-});
-:15});
+ const counts=Object.values(snapshot.prices).reduce((a:Record<string,number>,p)=>{
+  a[p as string]=(a[p as string]||0)+1;return a;
+ },{});
+ assert.deepEqual(counts,{'$':15,'$$':15,'$$$':18});
  assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
 });
