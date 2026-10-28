@@ -2,7 +2,6 @@ import type {DistanceTier, Restaurant} from './types.ts';
 
 export const distanceTiers: DistanceTier[] = ['near', 'mid', 'far'];
 export const distanceLabels: Record<DistanceTier,string> = {near:'Near',mid:'Further',far:'Furthest'};
-const rank: Record<DistanceTier,number> = {near:0,mid:1,far:2};
 export const distanceOrigin = {
  id:'mbc-block-30', name:'MBC Block 30', address:'30 Pasir Panjang Road, Singapore 117440',
  latitude:1.274851167499432, longitude:103.7979737759009
@@ -19,9 +18,9 @@ export function tierForWalkingMinutes(minutes: unknown): DistanceTier | null {
 export function distanceTier<T extends Pick<Restaurant,'distanceTier'>>(r: T): DistanceTier | null {
  return isDistanceTier(r.distanceTier)?r.distanceTier:null;
 }
-export function withinRadius(r: Pick<Restaurant,'distanceTier'>, radius: DistanceTier) {
- const base=distanceTier(r);
- return base!==null && isDistanceTier(radius) && rank[base]<=rank[radius];
+// A slider position selects one exact classification; it is not a maximum radius.
+export function matchesDistanceTier(r: Pick<Restaurant,'distanceTier'>, selected: DistanceTier) {
+ return isDistanceTier(selected) && distanceTier(r)===selected;
 }
 export function hasVerifiedWalkingTime(r: Pick<Restaurant,'walkingMinutes'|'distanceTier'|'distanceVerification'>) {
  return r.distanceVerification?.origin===distanceOrigin.id &&

@@ -20,16 +20,18 @@ test('cuisine, name, reason, legacy food flags and general Tags never imply a mo
  const malformed=r('malformed',['healthy','Healthy, Local / Asian'] as unknown as MoodTag[]);
  assert.deepEqual(eligibleForMood([malformed],'healthy'),[]);
 });
-test('mood and cumulative distance intersect',()=>{
+test('mood and exclusive distance intersect',()=>{
  const locations=[r('near',['Healthy']),r('mid',['Healthy'],{distanceTier:'mid',area:'ARC',address:'460 Alexandra Rd'}),r('far',['Healthy'],{distanceTier:'far',area:'Anchorpoint',address:'370 Alexandra Rd'}),r('wrong-mood',['Local / Asian'])];
  assert.deepEqual(eligibleForMood(locations,'healthy','near').map(r=>r.id),['near']);
- assert.deepEqual(eligibleForMood(locations,'healthy','mid').map(r=>r.id),['near','mid']);
- assert.deepEqual(eligibleForMood(locations,'healthy','far').map(r=>r.id),['near','mid','far']);
+ assert.deepEqual(eligibleForMood(locations,'healthy','mid').map(r=>r.id),['mid']);
+ assert.deepEqual(eligibleForMood(locations,'healthy','far').map(r=>r.id),['far']);
 });
 test('changing distance resets a mood that cannot support a shortlist, but keeps one with at least three matches',()=>{
  const places=[r('local1',['Local / Asian']),r('local2',['Local / Asian']),r('local3',['Local / Asian']),r('far',['Healthy'],{distanceTier:'far',area:'Anchorpoint',address:'370 Alexandra Rd'})];
  assert.deepEqual(changeDistance({distance:'far',mood:'healthy'},'near',places),{distance:'near',mood:'anything'});
- assert.deepEqual(changeDistance({distance:'near',mood:'local_asian'},'far',places),{distance:'far',mood:'local_asian'});
+ assert.deepEqual(changeDistance({distance:'near',mood:'local_asian'},'far',places),{distance:'far',mood:'anything'});
+ const farLocals=places.concat(['a','b','c'].map(id=>r('far-'+id,['Local / Asian'],{distanceTier:'far'})));
+ assert.deepEqual(changeDistance({distance:'near',mood:'local_asian'},'far',farLocals),{distance:'far',mood:'local_asian'});
 });
 test('mood choices require at least three eligible places; Anything always remains',()=>{
  const two=[r('local1',['Local / Asian']),r('local2',['Local / Asian'])];

@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {distanceTier,distanceTiers,distanceLabels,locationContext,withinRadius,tierForWalkingMinutes,hasVerifiedWalkingTime} from '../lib/distance.ts';
+import {distanceTier,distanceTiers,distanceLabels,locationContext,matchesDistanceTier,tierForWalkingMinutes,hasVerifiedWalkingTime} from '../lib/distance.ts';
 import {availableFilters,clearFoodPreferences,eligible,pickOne,recommendThree} from '../lib/recommend.ts';
 import type {DistanceTier,Restaurant} from '../lib/types.ts';
 
@@ -12,15 +12,15 @@ const far=restaurant('far','Anchorpoint','370 Alexandra Rd',{distanceTier:'far',
 const pool=[near,mid,far];
 test('slider labels have three ordered snap positions',()=>assert.deepEqual(distanceTiers.map(tier=>distanceLabels[tier]),['Near','Further','Furthest']));
 test('Near only includes the easiest radius',()=>assert.deepEqual(eligible(pool,[],'near').map(r=>r.id),['near']));
-test('Further includes Near and middle tier',()=>assert.deepEqual(eligible(pool,[],'mid').map(r=>r.id),['near','mid']));
-test('Furthest includes all tiers',()=>assert.deepEqual(eligible(pool,[],'far').map(r=>r.id),['near','mid','far']));
+test('Further includes only its own tier',()=>assert.deepEqual(eligible(pool,[],'mid').map(r=>r.id),['mid']));
+test('Furthest includes only its own tier',()=>assert.deepEqual(eligible(pool,[],'far').map(r=>r.id),['far']));
 test('distance intersects Healthy without silently broadening',()=>{
- assert.deepEqual(eligible([...pool,restaurant('unhealthy','MBC','20 Pasir Panjang Rd')],['Healthy'],'mid').map(r=>r.id),['near','mid']);
+ assert.deepEqual(eligible([...pool,restaurant('unhealthy','MBC','20 Pasir Panjang Rd')],['Healthy'],'mid').map(r=>r.id),['mid']);
  assert.equal(eligible([far],['Healthy'],'near').length,0);
 });
 test('distance intersects Quick and Cheap independently and together',()=>{
- assert.deepEqual(eligible(pool,['Quick'],'mid').map(r=>r.id),['near']);
- assert.deepEqual(eligible(pool,['Quick','Healthy'],'far').map(r=>r.id),['near','far']);
+ assert.deepEqual(eligible(pool,['Quick'],'mid').map(r=>r.id),[]);
+ assert.deepEqual(eligible(pool,['Quick','Healthy'],'far').map(r=>r.id),['far']);
  assert.equal(eligible(pool,['Cheap'],'far').length,0);
  assert.deepEqual(eligible([{...near,priceBand:'$'},far],['Cheap','Healthy'],'near').map(r=>r.id),['near']);
 });
@@ -28,10 +28,10 @@ test('Anything clears only food constraints and preserves each distance',()=>{
  for(const distance of ['near','mid','far'] as DistanceTier[]){
   const prefs=clearFoodPreferences({distance,food:['Quick','Healthy']});
   assert.deepEqual(prefs,{distance,food:[]});
-  assert.equal(eligible(pool,prefs.food,prefs.distance).length,{near:1,mid:2,far:3}[distance]);
+  assert.equal(eligible(pool,prefs.food,prefs.distance).length,{near:1,mid:1,far:1}[distance]);
  }
 });
-test('shortlist contains three unique eligible restaurants within the chosen radius',()=>{
+test('shortlist contains three unique eligible restaurants within the selected tier',()=>{
  const larger=[near,{...near,id:'near2'},{...near,id:'near3'},mid,far];
  const result=recommendThree(larger,['Healthy'],[],()=>0.99,'near');
  assert.equal(result.length,3);assert.equal(new Set(result.map(r=>r.id)).size,3);
@@ -42,16 +42,17 @@ test('single pick respects distance across the random range',()=>{
  for(const distance of ['near','mid','far'] as DistanceTier[])for(const rng of [0,.25,.5,.99]){
   const picked=pickOne(pool,[],[],()=>rng,distance);assert.ok(picked&&withinRadius(picked,distance));
  }
- assert.notEqual(pickOne(pool,[],[],()=>0,'far')?.id,pickOne(pool,[],[],()=>.99,'far')?.id);
+ assert.equal(pickOne(pool,[],[],()=>0,'far')?.id,'far');
+ assert.equal(pickOne(pool,[],[],()=>.99,'far')?.id,'far');
 });
-test('reroll preserves radius and food constraints while avoiding the old set',()=>{
+test('reroll preserves tier and food constraints while avoiding the old set',()=>{
  const larger=[near,...[2,3,4,5].map(i=>({...near,id:`near${i}`})),mid,far];
  const old=recommendThree(larger,['Healthy'],[],()=>0,'near').map(r=>r.id);
  const next=recommendThree(larger,['Healthy'],old,()=>0,'near');
  assert.notDeepEqual(next.map(r=>r.id).sort(),old.sort());assert.ok(next.every(r=>withinRadius(r,'near')));
  assert.notEqual(pickOne(larger,[],[near.id],()=>0,'near')?.id,near.id);
 });
-test('inactive, unverified and unsafe restaurants remain excluded in every radius',()=>{
+test('inactive, unverified and unsafe restaurants remain excluded in every tier',()=>{
  const unsafe=[{...near,active:false},{...near,verifiedForV2:false},{...near,lastVerifiedAt:null},{...near,mapUrl:'javascript:alert(1)'}];
  for(const distance of ['near','mid','far'] as DistanceTier[])assert.deepEqual(eligible(unsafe,[],distance),[]);
  const legacy={...near,verifiedForV2:false,lastVerifiedAt:null,importedFromV1:true};
