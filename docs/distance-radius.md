@@ -15,10 +15,10 @@ Address-only searches that resolved to Fargona or generic MBC 10 were rejected.
 | Further / mid | 9–15 |
 | Furthest / far | 16 and above, no 25-minute cap |
 
-The home-screen control is a three-position range slider (Near / Further / Furthest), with keyboard and touch support. The selector is cumulative: Near includes near; Further includes near +
-mid; Furthest includes all three. Mood intersects the selected radius. Anything
+The home-screen control is a three-position range slider (Near / Further / Furthest), with keyboard and touch support. The selector is exclusive: Near includes only near; Further includes only mid;
+Furthest includes only far. Mood intersects the selected tier. Anything
 removes only the mood constraint. Default is Near + Anything. Visible positive
-moods require at least three eligible places; changing radius resets a mood
+moods require at least three eligible places; changing tier resets a mood
 that cannot support a shortlist. No disabled preferences or silent relaxation.
 
 ## Audit dated 20 October 2026
@@ -77,7 +77,7 @@ with an unresolved note. Existing non-distance verification metadata is intact.
 ## Production behavior and maintenance
 
 distanceTier reads the explicit constrained field. Missing or unknown tiers
-are excluded at every radius, including legacy records; there is no geographic
+are excluded at every tier, including legacy records; there is no geographic
 fallback. Result cards display area + approximate verified walk minutes. A
 number without matching Block 30 verification metadata is never displayed.
 
@@ -96,3 +96,14 @@ live ID. New data must be verified before making it eligible.
 Closer-place weights remain modest (1.3 / 1.15 / 1). Recommendations stay random,
 unique within shortlists and prefer alternatives on reroll. Inactive records
 remain excluded. The app requests neither device location nor live routing.
+
+## Sprint 2: optional price tiers
+
+The price slider has four stops: Any / $ / $$ / $$$. Choosing a dollar tier
+matches only that exact band, not all cheaper restaurants. Any imposes no
+price limit (including currently unclassified outlets). The standard individual
+lunch price bands are $ under about S$10, $$ about S$10–15, $$$ above S$15.
+
+Price filtering remains hidden unless ENABLE_PRICE_FILTERS=true AND all active
+restaurant records are classified and each band has at least one entry. The
+manual curation tab is not automatically synchronized with production data.
