@@ -34,5 +34,13 @@ header .back{min-height:44px}
 .tier-scale .active{color:#94452c;font-weight:700}
 
 .more-filters{border-top:1px solid var(--line);padding-top:12px}
-.more-filters summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-size:14px;font-weight:600;color:var(--ink)}
+.more-filters summary{cursor:pointer;min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:0 14px;border:1px solid var(--line);border-radius:12px;background:var(--gray);font-size:14px;font-weight:600;color:var(--ink);list-style:none;touch-action:manipulation}
+.more-filters summary::-webkit-details-marker{display:none}
+.more-filters summary::marker{content:""}
+.more-filters summary::after{content:"";display:block;width:9px;height:9px;flex:0 0 9px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg)}
+.more-filters summary:hover,.more-filters[open] summary{background:var(--pale)}
+.more-filters[open] summary{border-color:var(--clay)}
+.more-filters[open] summary::after{transform:rotate(225deg)}
+.more-filters summary:focus-visible{outline:3px solid var(--green-ink);outline-offset:3px}
 .more-filters[open]{display:grid;gap:12px}
+@media(prefers-reduced-motion:no-preference){.more-filters summary::after{transition:transform .18s ease}}
