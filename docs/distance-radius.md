@@ -104,6 +104,16 @@ matches only that exact band, not all cheaper restaurants. Any imposes no
 price limit (including currently unclassified outlets). The standard individual
 lunch price bands are $ under about S$10, $$ about S$10–15, $$$ above S$15.
 
-Price filtering remains hidden unless ENABLE_PRICE_FILTERS=true AND all active
-restaurant records are classified and each band has at least one entry. The
-manual curation tab is not automatically synchronized with production data.
+Specific price tiers exclude restaurants with Unknown prices; Any includes them.
+Do not invent prices for drink-only, snack-only, or weight-priced venues.
+The release gate requires 75% of active records classified, at least 3 active
+restaurants per price tier, and one active option in each distance × price
+combination. Values should be periodically reconfirmed at the outlet.
+
+The manual Lunch Filters Curation tab stores menu evidence; the versioned
+data/prices.curated.json is the application snapshot, currently 60/80 active
+(18 $, 18 $$, 24 $$$) as of 2026-10-29. Preview uses the snapshot automatically.
+Production never uses that snapshot or displays the slider unless
+ENABLE_PRICE_FILTERS=true is explicitly set in the production environment.
+Do not enable the production flag without separate approval.
+Community submissions remain disabled independently.

@@ -31,10 +31,14 @@ test('changing price preserves distance and resets unavailable mood',()=>{
  const prefs={distance:'near' as const,mood:'local_asian' as const,price:'any' as const};
  assert.deepEqual(changePrice(prefs,'$$',pool),{distance:'near',mood:'anything',price:'$$'});
 });
-test('price filter stays closed until all active records have tiers',()=>{
+test('release gate needs 75% coverage, three per band, and every distance/price combination',()=>{
  assert.equal(priceCoverageReady(pool),false);
- assert.equal(priceCoverageReady(pool.filter(x=>x.priceBand!=='Unknown'&&x.priceBand!==null)),true);
- assert.equal(priceCoverageReady(pool.filter(x=>x.priceBand==='$')),false);
+ const reviewed=['near','mid','far'].flatMap(distance=>['$','$$','$$$'].map(price=>r(distance+price,price,{distanceTier:distance as 'near'|'mid'|'far'})));
+ assert.equal(priceCoverageReady(reviewed),true);
+ assert.equal(priceCoverageReady([...reviewed,r('u1','Unknown')]),true);
+ assert.equal(priceCoverageReady([...reviewed,...[1,2,3,4].map(i=>r('u'+i,'Unknown'))]),false);
+ assert.equal(priceCoverageReady(reviewed.filter(x=>x.distanceTier!=='far')),false);
+ assert.equal(priceCoverageReady(reviewed.filter(x=>x.priceBand==='$')),false);
  assert.equal(priceCoverageReady([]),false);
 });
 test('invalid selections never match silently',()=>{
@@ -45,12 +49,13 @@ test('invalid selections never match silently',()=>{
 
 import {readFileSync} from 'node:fs';
 test('staging price research only uses known outlet IDs and exclusive tiers',()=>{
- const snapshot=JSON.parse(readFileSync(new URL('../data/prices.staging.json',import.meta.url),'utf8'));
+ const snapshot=JSON.parse(readFileSync(new URL('../data/prices.curated.json',import.meta.url),'utf8'));
  const pilot=JSON.parse(readFileSync(new URL('../data/restaurants.pilot.json',import.meta.url),'utf8'));
  const activeIds=new Set(pilot.filter((r:{active:boolean})=>r.active).map((r:{id:string})=>r.id));
- assert.equal(snapshot.status,'staging-research-preview-only');
+ assert.equal(snapshot.status,'provisional-price-research');
  assert.equal(Object.keys(snapshot.prices).length,snapshot.classified);
- assert.equal(snapshot.classified,48);
+ assert.equal(snapshot.classified,60);
+ assert.equal(snapshot.totalActive,80);
  for(const [id,price] of Object.entries(snapshot.prices)){
   assert.ok(activeIds.has(id),id);
   assert.ok(['$','$$','$$$'].includes(price as string),id);
@@ -58,6 +63,6 @@ test('staging price research only uses known outlet IDs and exclusive tiers',()=
  const counts=Object.values(snapshot.prices).reduce((a:Record<string,number>,p)=>{
   a[p as string]=(a[p as string]||0)+1;return a;
  },{});
- assert.deepEqual(counts,{'$':15,'$$':15,'$$$':18});
+ assert.deepEqual(counts,{'$':18,'$$':18,'$$$':24});
  assert.equal(pilot.filter((r:{priceBand?:string})=>r.priceBand).length,0);
 });
