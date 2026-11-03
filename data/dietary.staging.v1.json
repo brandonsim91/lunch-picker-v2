@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-11-03.1",
+  "environment": "preview-only",
+  "identitySource": "Existing catalogue IDs and exact name/address snapshots; Places remains unchanged.",
+  "reviewPolicy": {
+    "halalDays": 30,
+    "vegetarianDays": 90,
+    "missingEvidence": "Unknown; fail closed",
+    "notFoundInDirectory": "Unknown; never Not Certified solely from absence"
+  },
+  "additionalSources": [
+    "https://www.thesoupspoon.com/etc/TSS%20Xmas%202024%20Catalogue.pdf",
+    "https://www.thesoupspoon.com/nutritional-calculator/"
+  ],
+  "unresolved": [
+    {
+      "restaurantId": "stuff-d-arc",
+      "reason": "MUIS EERN21110012957 lists #01-11; catalogue #01-11/K2. Hold halal status Unknown until certificate scope covers exact catalogue outlet."
+    },
+    {
+      "restaurantId": "master-prata",
+      "reason": "MUIS lists #01-02/29; catalogue #01-02. Hold pending exact scope reconciliation."
+    },
+    {
+      "restaurantId": "mcdonald-s-anchorpoint",
+      "reason": "MUIS lists #01-32/33/34; catalogue #01-31/32/33. Hold pending exact unit reconciliation."
+    },
+    {
+      "restaurantId": "yoshinoya-anchorpoint",
+      "reason": "MUIS lists #01-01A; catalogue #01-01. Hold pending exact unit reconciliation."
+    },
+    {
+      "restaurantId": "toast-junction-labrador-park",
+      "reason": "MUIS lists stall 6 inside Food Junction at #02-07; catalogue lacks stall identity. Hold pending exact outlet reconciliation."
+    }
+  ],
+  "records": [
+    {
+      "restaurantId": "burger-king-arc",
+      "outletName": "Burger King",
+      "outletAddress": "460 Alexandra Rd, #01-17/20 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN20030011327",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "BURGER KING",
+        "observedAddress": "460 ALEXANDRA ROAD #01-17/20 ALEXANDRA RETAIL CENTER 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "encik-tan-arc",
+      "outletName": "Encik Tan",
+      "outletAddress": "460 Alexandra Rd, #01-32 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN22010013403",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "Encik Tan",
+        "observedAddress": "460 ALEXANDRA ROAD #01-32 ALEXANDRA RETAIL CENTRE 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "go-ang-pratunam-chicken-rice-anchorpoint",
+      "outletName": "Go-Ang Pratunam Chicken Rice",
+      "outletAddress": "370 Alexandra Rd, #01-07/08 Anchorpoint, Singapore 159953",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERT20240001027",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "Go-Ang Pratunam Chicken Rice",
+        "observedAddress": "370 ALEXANDRA ROAD #01-07/08 ANCHORPOINT SHOPPING CENTRE 159953",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "guzman-y-gomez",
+      "outletName": "Guzman y Gomez",
+      "outletAddress": "02-35, 40, Pasir Panjang Rd, Mapletree Business City, Singapore 117383",
+      "vegetarian": {
+        "status": "Verified",
+        "authority": "Official menu",
+        "sourceUrl": "https://www.gyg.com.sg/our-food",
+        "outletSourceUrl": "https://www.gyg.com.sg/locations/mapletree-business-city",
+        "verifiedAt": "2026-11-03",
+        "dish": "Sautéed vegetables burrito bowl",
+        "limitations": "Official Singapore menu offers sautéed vegetables with guacamole and vegetarian black beans in a burrito bowl. Contains cheese unless omitted; shared kitchen. Standard Singapore menu; daily outlet availability may vary. Vegetarian options do not guarantee an exclusively vegetarian kitchen or absence of cross-contact."
+      }
+    },
+    {
+      "restaurantId": "heavenly-wang-arc",
+      "outletName": "Heavenly Wang",
+      "outletAddress": "460 Alexandra Rd, #02-35 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERT20230000748",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "Heavenly Wang",
+        "observedAddress": "460 ALEXANDRA ROAD #02-35 MTOWER 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "kfc-anchorpoint",
+      "outletName": "KFC Anchorpoint",
+      "outletAddress": "370 Alexandra Rd, #01-15/16 Anchorpoint, Singapore 159953",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN21110012974",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "Kentucky Fried Chicken Management Pte Ltd (KFC)",
+        "observedAddress": "370 ALEXANDRA ROAD #01-15/16 ANCHORPOINT SHOPPING CENTRE 159953",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "mcdonald-s-arc",
+      "outletName": "McDonald's ARC",
+      "outletAddress": "460 Alexandra Rd, #01-25 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN20020011014",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "McDonald's",
+        "observedAddress": "460 ALEXANDRA ROAD #01-25 PSA BUILDING (ALEXANDRA RETAIL CENTRE) 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "mr-bean",
+      "outletName": "Mr Bean",
+      "outletAddress": "20 Pasir Panjang Rd, #02-12A Mapletree Business City II, Singapore 117439",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERT20230001311",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "MR BEAN",
+        "observedAddress": "20 PASIR PANJANG ROAD #02-12A MAPLETREE BUSINESS CITY 117439",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "nature-cafe",
+      "outletName": "Nature Cafe",
+      "outletAddress": "321 alexandra central mall, #02-27, Singapore 159971",
+      "vegetarian": {
+        "status": "Verified",
+        "authority": "Official menu",
+        "sourceUrl": "https://www.naturecafe.com.sg/wp-content/uploads/2025/01/Menu-Alexandra-new.pdf",
+        "outletSourceUrl": "https://www.naturecafe.com.sg/menu/",
+        "verifiedAt": "2026-11-03",
+        "dish": "Herbal Noodle Soup",
+        "limitations": "Alexandra menu identifies vegetarian food and describes herbal soup with mushrooms and vegetables. Other dishes may contain eggs or dairy; do not infer vegan status. Vegetarian options do not guarantee an exclusively vegetarian kitchen or absence of cross-contact."
+      }
+    },
+    {
+      "restaurantId": "old-chang-kee-arc",
+      "outletName": "Old Chang Kee",
+      "outletAddress": "460 Alexandra Rd, #02-36 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN20090011409",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "OLD CHANG KEE",
+        "observedAddress": "460 ALEXANDRA ROAD #02-36 ALEXANDRA RETAIL CENTRE 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "sakana-no-suppu-arc",
+      "outletName": "SAKANA-NO-SUPPU",
+      "outletAddress": "460 Alexandra Rd, #02-42 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERT25120000016",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "SAKANA-NO-SUPPU",
+        "observedAddress": "460 ALEXANDRA ROAD #02-42 MTOWER 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "stuff-d-arc",
+      "outletName": "Stuff'd",
+      "outletAddress": "460 Alexandra Rd, #01-11/K2 Alexandra Retail Centre, Singapore 119963",
+      "vegetarian": {
+        "status": "Verified",
+        "authority": "Official menu",
+        "sourceUrl": "https://www.stuffd.com/sg/food/",
+        "outletSourceUrl": "https://www.stuffd.com/sg/find-an-outlet/",
+        "verifiedAt": "2026-11-03",
+        "dish": "Vegetarian-Hummus Daily Bowl",
+        "limitations": "Choose the Vegetarian-Hummus main and vegetarian rice/vegetable toppings using the official menu filter; ask staff to confirm sauces. Official store locator identifies ARC #01-11; catalogue also includes K2. No halal certificate scope inferred for K2. Shared preparation; not a vegan or cross-contact guarantee. Vegetarian options do not guarantee an exclusively vegetarian kitchen or absence of cross-contact."
+      }
+    },
+    {
+      "restaurantId": "the-coffee-bean-and-tea-leaf-arc",
+      "outletName": "The Coffee Bean & Tea Leaf",
+      "outletAddress": "460 Alexandra Rd, #02-41 & K5 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN21120013258",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "THE COFFEE BEAN & TEA LEAF",
+        "observedAddress": "460 ALEXANDRA ROAD #02-41/K5 ALEXANDRA RETAIL CENTRE 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "the-soup-spoon-arc",
+      "outletName": "The Soup Spoon",
+      "outletAddress": "460 Alexandra Rd, #01-21 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN21080012826",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "THE SOUP SPOON",
+        "observedAddress": "460 ALEXANDRA ROAD, PSA BUILDING #01-21 ALEXANDRA RETAIL CENTRE 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      },
+      "vegetarian": {
+        "status": "Verified",
+        "authority": "Official menu",
+        "sourceUrl": "https://www.thesoupspoon.com/etc/TSS%20Menu%202020_V0720.pdf",
+        "outletSourceUrl": "https://www.arc4u.com.sg/tenants/the-soup-spoon/",
+        "verifiedAt": "2026-11-03",
+        "dish": "Meatless Minestrone with bread roll (large bowl)",
+        "limitations": "Official menu V04/26 lists main-meal soup bowls with bread; official Christmas catalogue labels Meatless Minestrone vegetarian. Contains dairy/gluten; do not add chicken. National menu plus official ARC outlet listing; daily availability and preparation must be reconfirmed. Browser nutritional-calculator challenge; retrieved official menu used. Vegetarian options do not guarantee an exclusively vegetarian kitchen or absence of cross-contact."
+      }
+    },
+    {
+      "restaurantId": "wok-hey-arc",
+      "outletName": "WOK HEY",
+      "outletAddress": "460 Alexandra Rd, #01-12 Alexandra Retail Centre, Singapore 119963",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EEBN20090011426",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "WOK HEY",
+        "observedAddress": "460 ALEXANDRA ROAD #01-12 ALEXANDRA RETAIL CENTRE 119963",
+        "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    }
+  ]
+}

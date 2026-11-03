@@ -1,4 +1,4 @@
-import {test} from 'node:test';
+import {test,before,after} from 'node:test';
 import {GoogleAuth} from 'google-auth-library';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
@@ -9,6 +9,14 @@ import type {Restaurant} from '../lib/types.ts';
 import {events} from '../lib/analytics.ts';
 const valid = {restaurantName: 'OGOG 오곡', mapUrl: 'https://maps.app.goo.gl/example', reason: 'Fast lunch', contributorName: 'Chloe', displayCredit: false};
 const request = (body: unknown, origin = 'https://baplah.vercel.app') => new Request('https://baplah.vercel.app/api/submissions', {method:'POST', headers:{origin,'Content-Type':'application/json'}, body:JSON.stringify(body)});
+const originalVercelEnvironment=process.env.VERCEL_ENV;
+before(()=>{process.env.VERCEL_ENV='test';});
+after(()=>{if(originalVercelEnvironment===undefined)delete process.env.VERCEL_ENV;else process.env.VERCEL_ENV=originalVercelEnvironment;});
+test('Sprint 3A preview keeps submissions disabled even if contribution flag is enabled',async()=>{
+ const enabled=process.env.ENABLE_CONTRIBUTIONS;
+ try{process.env.VERCEL_ENV='preview';process.env.ENABLE_CONTRIBUTIONS='true';assert.equal((await GET()).status,404);assert.equal((await POST(request(valid))).status,404);}
+ finally{process.env.VERCEL_ENV='test';if(enabled===undefined)delete process.env.ENABLE_CONTRIBUTIONS;else process.env.ENABLE_CONTRIBUTIONS=enabled;}
+});
 
 test('submission readiness endpoint is fail-closed and never exposes credentials',async()=>{
  const original={enabled:process.env.ENABLE_CONTRIBUTIONS,id:process.env.GOOGLE_SHEETS_SPREADSHEET_ID,email:process.env.GOOGLE_SHEETS_CLIENT_EMAIL,key:process.env.GOOGLE_SHEETS_PRIVATE_KEY};

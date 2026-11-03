@@ -49,3 +49,16 @@ header .back{min-height:44px}
 .match-summary{display:grid;gap:4px;min-width:0}
 .match-count{font-size:14px;font-weight:600;line-height:1.5;color:var(--ink)}
 .filter-reset-notice{font-size:12px;line-height:1.6;color:var(--muted)}
+
+.dietary-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.dietary-options button{min-height:52px;white-space:normal;padding:10px 8px;font-size:13px;line-height:1.5}
+.dietary-help,.dietary-details details{font-size:12px;line-height:1.6;color:var(--muted)}
+.dietary-help summary,.dietary-details summary{cursor:pointer;min-height:44px;display:flex;align-items:center;text-decoration:underline;text-underline-offset:3px}
+.dietary-help p{padding-bottom:8px}
+.dietary-details{display:grid;gap:6px;line-height:1.6;min-width:0;overflow-wrap:anywhere}
+.dietary-details details{position:relative;z-index:1}
+.dietary-details details p{margin:8px 0}
+.dietary-details a{color:var(--green-ink)}
+.dietary-details summary:focus-visible,.dietary-help summary:focus-visible{outline:3px solid var(--green-ink);outline-offset:3px}
+.dietary-badges{display:flex;flex-wrap:wrap;gap:6px}
+.dietary-badges span{font-size:11px;font-weight:600;background:var(--green);color:var(--green-ink);border-radius:7px;padding:4px 7px}

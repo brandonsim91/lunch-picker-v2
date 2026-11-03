@@ -9,7 +9,19 @@ export type DistanceVerification = {
 export type LunchPreferences = {distance: DistanceTier; food: Filter[]};
 export type MoodTag = 'Healthy' | 'Local / Asian' | 'Western / Cafe';
 export type Mood = 'anything' | 'healthy' | 'local_asian' | 'western_cafe';
-export type MoodPreferences = {distance: DistanceTier; mood: Mood; price?: PriceSelection};
+export type DietaryRequirements = {halal?: boolean; vegetarian?: boolean};
+export type DietaryEvidence = {
+  status: 'Verified' | 'Unknown' | 'Not Certified';
+  authority: 'MUIS' | 'Official menu'; sourceUrl: string; verifiedAt: string;
+  certificateReference?: string; validFrom?: string | null; validUntil?: string | null;
+  currentDirectoryListing?: boolean; observedName?: string; observedAddress?: string;
+  outletSourceUrl?: string; dish?: string; limitations: string;
+};
+export type DietaryVerification = {
+  restaurantId: string; outletName: string; outletAddress: string;
+  halal?: DietaryEvidence; vegetarian?: DietaryEvidence;
+};
+export type MoodPreferences = {distance: DistanceTier; mood: Mood; price?: PriceSelection; dietary?: DietaryRequirements};
 export type Restaurant = {
   id: string; name: string; cuisine: string[]; address: string; mapUrl: string;
   area: string; walkingMinutes: number | null; distanceTier: DistanceTier | null;
@@ -20,4 +32,5 @@ export type Restaurant = {
   verifiedForV2: boolean; lastVerifiedAt: string | null; placeId?: string | null;
   photoBusinessStatusOverride?: 'verified-operational'; preferredPhotoIndex?: number;
   tags: string[]; moodTags: MoodTag[]; reason: string; sourceUrl: string; lunchDays?: number[];
+  dietaryVerification?: DietaryVerification;
 };
