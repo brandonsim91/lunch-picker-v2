@@ -58,3 +58,9 @@ Limitations: Standard chain menus are combined with named outlet evidence; daily
 Review the exact deployed Preview commit and use iPhone Safari for final device acceptance. Halal in Near may be empty; Further contains the verified ARC choices. Vegetarian in Near has GYG; Further has Stuff'd and Soup Spoon; Furthest has Nature Cafe. Both has only Soup Spoon in Further, so a single pick is available and Show me 3 is disabled.
 
 Remaining data work: reconcile held outlet unit/scope differences with official evidence, add more verified vegetarian mains, and schedule/manual rechecks before evidence ages out. Production release remains unapproved and out of scope. PR #1 remains untouched.
+
+## Browser QA findings
+
+Live Preview walkthrough passed: neither dietary control selected initially; Halal + Near = 0, Halal + Further = 10; certified shortlist and reroll remained constrained. Both + Further = 1 (Soup Spoon); three-result action disabled. Vegetarian-only + Further = 2; changing price to $ yielded 0 and retained the dietary requirement; $$ restored 2. Healthy mood intersected those results. Returning from results preserved selections. The live submissions readiness endpoint returns 404.
+
+At the existing 390 CSS-pixel app width, both dietary controls measured 166 × 52 pixels with no page horizontal overflow. Native iPhone/Safari and full mobile viewport emulation are not available through this browser API, so final iPhone acceptance remains for the owner. Preview photos used the existing unavailable-photo fallback during this walkthrough; no photos or production credentials were changed. Screenshot capture intermittently timed out.
