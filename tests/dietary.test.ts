@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {attachDietaryEvidence,dietaryPreviewEnabled,matchesDietary,verifiedDietaryEvidence} from '../lib/dietary.ts';
+import {attachDietaryEvidence,dietaryReleaseEnabled,matchesDietary,verifiedDietaryEvidence} from '../lib/dietary.ts';
 import {availableMoods,changeDistance,changePrice,eligibleForMood,pickForMood,recommendForMood} from '../lib/moods.ts';
 import {matchGuidance} from '../lib/filter-feedback.ts';
 import type {DietaryEvidence,DietaryRequirements,DietaryVerification,Restaurant} from '../lib/types.ts';
@@ -63,7 +63,7 @@ test('duplicate verification records fail closed and attachment never changes ca
  const place=r('test'),evidence=place.dietaryVerification!;
  const attached=attachDietaryEvidence([place],[evidence,evidence]);assert.equal(attached[0].dietaryVerification,undefined);assert.equal(place.dietaryVerification,evidence);
 });
-test('preview gate cannot be enabled in production or by missing environment',()=>{assert.equal(dietaryPreviewEnabled('preview'),true);for(const env of ['production','development','',undefined])assert.equal(dietaryPreviewEnabled(env),false);});
+test('approved release is enabled only in Preview and production',()=>{for(const env of ['preview','production'])assert.equal(dietaryReleaseEnabled(env),true);for(const env of ['development','test','',undefined])assert.equal(dietaryReleaseEnabled(env),false);});
 test('curated evidence uses catalogue identities, records 15 MUIS matches and 4 vegetarian mains',()=>{
  const seed=JSON.parse(readFileSync(new URL('../data/restaurants.seed.json',import.meta.url),'utf8')).restaurants;
  const overlay=JSON.parse(readFileSync(new URL('../data/restaurants.pilot.json',import.meta.url),'utf8'));
@@ -71,7 +71,7 @@ test('curated evidence uses catalogue identities, records 15 MUIS matches and 4 
  const places=[...overlay.map((p:Restaurant)=>({...seed.find((s:Restaurant)=>s.id===p.id),...p})),...staging];
  const data=JSON.parse(readFileSync(new URL('../data/dietary.staging.v1.json',import.meta.url),'utf8'));
  const attached=attachDietaryEvidence(places,data.records as DietaryVerification[]);
- assert.equal(data.environment,'preview-only');assert.equal(new Set(data.records.map((r:DietaryVerification)=>r.restaurantId)).size,data.records.length);
+ assert.equal(data.environment,'preview-and-production');assert.equal(new Set(data.records.map((r:DietaryVerification)=>r.restaurantId)).size,data.records.length);
  assert.equal(attached.filter(r=>verifiedDietaryEvidence(r,'halal',now)).length,15);
  assert.equal(attached.filter(r=>verifiedDietaryEvidence(r,'vegetarian',now)).length,4);
  assert.equal(attached.filter(r=>matchesDietary(r,{halal:true,vegetarian:true},now)).length,1);

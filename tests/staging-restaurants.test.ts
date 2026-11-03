@@ -10,9 +10,9 @@ const read=(path:string)=>JSON.parse(readFileSync(new URL(path,import.meta.url),
 const additions:Restaurant[]=read('../data/restaurants.staging.v1.json').restaurants;
 const evidence=read('../data/dietary.staging.v1.json').records;
 const now=new Date('2026-11-03T04:00:00Z');
-test('staging outlets are absent outside Preview, including production',()=>{
- for(const environment of ['production','development','',undefined])assert.deepEqual(withStagingRestaurants([],additions,environment),[]);
- assert.equal(withStagingRestaurants([],additions,'preview').length,3);
+test('approved additions are present in Preview and production, absent outside release environments',()=>{
+ for(const environment of ['development','test','',undefined])assert.deepEqual(withStagingRestaurants([],additions,environment),[]);
+ for(const environment of ['preview','production'])assert.equal(withStagingRestaurants([],additions,environment).length,3);
 });
 test('staging additions do not duplicate existing catalogue IDs or exact identities',()=>{
  assert.equal(withStagingRestaurants(additions,additions,'preview').length,3);

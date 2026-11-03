@@ -15,7 +15,8 @@ function httpsUrl(value:unknown,hosts?:string[]):boolean {
 export function hasDietaryRequirements(requirements:DietaryRequirements={}):boolean {
  return requirements.halal===true||requirements.vegetarian===true;
 }
-export function dietaryPreviewEnabled(environment:string|undefined):boolean{return environment==='preview';}
+// Production release explicitly approved by the owner on 3 November 2026.
+export function dietaryReleaseEnabled(environment:string|undefined):boolean{return environment==='preview'||environment==='production';}
 export function verifiedDietaryEvidence(r:Restaurant,kind:'halal'|'vegetarian',now=new Date()):DietaryEvidence|null {
  const v=r.dietaryVerification,e=v?.[kind];
  if(!v||v.restaurantId!==r.id||v.outletName!==r.name||v.outletAddress!==r.address||!e||e.status!=='Verified')return null;

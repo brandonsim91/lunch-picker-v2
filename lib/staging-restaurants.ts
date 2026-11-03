@@ -1,9 +1,9 @@
 import type {Restaurant} from './types.ts';
-import {dietaryPreviewEnabled} from './dietary.ts';
+import {dietaryReleaseEnabled} from './dietary.ts';
 
-// Provisional outlet identities stay isolated from the canonical catalogue.
+// Approved additions retain their evidence-linked IDs without writing live Places.
 export function withStagingRestaurants(base:Restaurant[],additions:Restaurant[],environment?:string):Restaurant[]{
- if(!dietaryPreviewEnabled(environment))return base;
+ if(!dietaryReleaseEnabled(environment))return base;
  const ids=new Set(base.map(r=>r.id));
  const identities=new Set(base.map(r=>`${r.name}|${r.address}`.toLowerCase()));
  return [...base,...additions.filter(r=>{

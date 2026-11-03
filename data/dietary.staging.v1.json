@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "2026-11-03.3",
-  "environment": "preview-only",
+  "environment": "preview-and-production",
   "identitySource": "Existing catalogue IDs and exact name/address snapshots, plus explicitly approved preview-only additions in restaurants.staging.v1.json; Places remains unchanged.",
   "reviewPolicy": {
     "halalDays": 30,
@@ -357,5 +357,6 @@
         "limitations": "Exact outlet matched in current MUIS directory, Alexandra search. Validity dates are not displayed; no expiry inferred. Recheck within 30 days and at point of visit."
       }
     }
-  ]
+  ],
+  "releaseApproval": "Owner explicitly approved deploying current updates to production on 2026-11-03; source filename retains staging provenance. Live Places remains unchanged."
 }

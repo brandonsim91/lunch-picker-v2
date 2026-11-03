@@ -1,13 +1,14 @@
+import {dietaryReleaseEnabled} from '../../../lib/dietary.ts';
 import {communitySubmissionsConfigured,persistCommunitySubmission} from '../../../lib/communitySubmissions.ts';
 import {validateSubmission, submissionsUnavailable, type PendingSubmission} from '../../../lib/submissions.ts';
 
 export async function GET() {
- if (process.env.VERCEL_ENV === 'preview' || process.env.ENABLE_CONTRIBUTIONS !== 'true') return Response.json({enabled:false},{status:404});
+ if (dietaryReleaseEnabled(process.env.VERCEL_ENV) || process.env.ENABLE_CONTRIBUTIONS !== 'true') return Response.json({enabled:false},{status:404});
  return Response.json({enabled:true,storageConfigured:communitySubmissionsConfigured()});
 }
 
 export async function POST(req: Request) {
- if (process.env.VERCEL_ENV === 'preview' || process.env.ENABLE_CONTRIBUTIONS !== 'true') return Response.json({persisted:false,message:'Not found.'},{status:404});
+ if (dietaryReleaseEnabled(process.env.VERCEL_ENV) || process.env.ENABLE_CONTRIBUTIONS !== 'true') return Response.json({persisted:false,message:'Not found.'},{status:404});
  const origin = req.headers.get('origin');
  if (origin) {
   try {

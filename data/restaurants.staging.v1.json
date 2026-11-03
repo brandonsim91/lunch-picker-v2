@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "environment": "preview-only",
+  "environment": "preview-and-production",
   "version": "2026-11-03.2",
   "notes": "Owner approved staging dietary expansion. Provisional IDs await canonical Places curation. Prices, vegetarian evidence and Google Place IDs remain unknown.",
   "restaurants": [
@@ -115,5 +115,6 @@
       "reason": "Sandwiches at Anchorpoint.",
       "sourceUrl": "https://halal.muis.gov.sg/halal/establishments"
     }
-  ]
+  ],
+  "releaseApproval": "Owner explicitly approved deploying current updates to production on 2026-11-03; source filename retains staging provenance. Live Places remains unchanged."
 }

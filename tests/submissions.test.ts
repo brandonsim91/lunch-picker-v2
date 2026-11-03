@@ -12,9 +12,9 @@ const request = (body: unknown, origin = 'https://baplah.vercel.app') => new Req
 const originalVercelEnvironment=process.env.VERCEL_ENV;
 before(()=>{process.env.VERCEL_ENV='test';});
 after(()=>{if(originalVercelEnvironment===undefined)delete process.env.VERCEL_ENV;else process.env.VERCEL_ENV=originalVercelEnvironment;});
-test('Sprint 3A preview keeps submissions disabled even if contribution flag is enabled',async()=>{
+test('Sprint 3A release keeps submissions disabled in Preview and production even if contribution flag is enabled',async()=>{
  const enabled=process.env.ENABLE_CONTRIBUTIONS;
- try{process.env.VERCEL_ENV='preview';process.env.ENABLE_CONTRIBUTIONS='true';assert.equal((await GET()).status,404);assert.equal((await POST(request(valid))).status,404);}
+ try{for(const environment of ['preview','production']){process.env.VERCEL_ENV=environment;process.env.ENABLE_CONTRIBUTIONS='true';assert.equal((await GET()).status,404);assert.equal((await POST(request(valid))).status,404);}}
  finally{process.env.VERCEL_ENV='test';if(enabled===undefined)delete process.env.ENABLE_CONTRIBUTIONS;else process.env.ENABLE_CONTRIBUTIONS=enabled;}
 });
 
