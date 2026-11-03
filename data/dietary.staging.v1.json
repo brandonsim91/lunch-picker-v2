@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-03.1",
+  "version": "2026-11-03.2",
   "environment": "preview-only",
-  "identitySource": "Existing catalogue IDs and exact name/address snapshots; Places remains unchanged.",
+  "identitySource": "Existing catalogue IDs and exact name/address snapshots, plus explicitly approved preview-only additions in restaurants.staging.v1.json; Places remains unchanged.",
   "reviewPolicy": {
     "halalDays": 30,
     "vegetarianDays": 90,
@@ -301,6 +301,42 @@
         "observedName": "WOK HEY",
         "observedAddress": "460 ALEXANDRA ROAD #01-12 ALEXANDRA RETAIL CENTRE 119963",
         "limitations": "Exact business/outlet, street, unit and postal code matched in current MUIS directory (Alexandra / Pasir Panjang search). Building aliases MTOWER / PSA BUILDING / ARC are the same 460 Alexandra Road premises. Directory does not publish validity dates; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "fong-seng-nasi-lemak-pasir-panjang",
+      "outletName": "Fong Seng Nasi Lemak",
+      "outletAddress": "101 Pasir Panjang Road, Singapore 118527",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN21020012034",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "FONG SENG NASI LEMAK",
+        "observedAddress": "101 Pasir Panjang Road 118527",
+        "limitations": "Exact outlet matched in the current MUIS directory using Pasir Panjang search. Validity dates are not displayed; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "subway-mapletree-business-city",
+      "outletName": "Subway — Mapletree Business City",
+      "outletAddress": "40 Pasir Panjang Road, #02-34 Mapletree Business City, Singapore 117383",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN21110013197",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "SUBWAY",
+        "observedAddress": "40 Pasir Panjang Road #02-34 Maple Tree Business City 117383",
+        "limitations": "Exact outlet matched in the current MUIS directory using Pasir Panjang search. Validity dates are not displayed; no expiry inferred. Recheck within 30 days and at point of visit."
       }
     }
   ]

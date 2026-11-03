@@ -4,7 +4,9 @@ import {priceCoverageReady} from '../lib/price';
 import priceResearch from '../data/prices.curated.json';
 import dietaryResearch from '../data/dietary.staging.v1.json';
 import {attachDietaryEvidence,dietaryPreviewEnabled} from '../lib/dietary';
-import type {DietaryVerification} from '../lib/types';
+import type {DietaryVerification,Restaurant} from '../lib/types';
+import stagingCatalogue from '../data/restaurants.staging.v1.json';
+import {withStagingRestaurants} from '../lib/staging-restaurants';
 
 export default function Page(){
  const dietaryFiltersEnabled=dietaryPreviewEnabled(process.env.VERCEL_ENV);
@@ -19,6 +21,8 @@ export default function Page(){
   : restaurants;
  const priceFiltersEnabled=pricingRequested && priceCoverageReady(candidateRestaurants);
  const displayedRestaurants=priceFiltersEnabled ? candidateRestaurants : restaurants;
- const previewRestaurants=dietaryFiltersEnabled?attachDietaryEvidence(displayedRestaurants,dietaryResearch.records as DietaryVerification[]):displayedRestaurants;
+ // Keep canonical price readiness stable; unpriced staging additions match Any only.
+ const catalogue=withStagingRestaurants(displayedRestaurants,stagingCatalogue.restaurants as Restaurant[],process.env.VERCEL_ENV);
+ const previewRestaurants=dietaryFiltersEnabled?attachDietaryEvidence(catalogue,dietaryResearch.records as DietaryVerification[]):catalogue;
  return <LunchApp restaurants={previewRestaurants} contributionsEnabled={contributionsEnabled} priceFiltersEnabled={priceFiltersEnabled} previewPricing={previewPricing} dietaryFiltersEnabled={dietaryFiltersEnabled}/>;
 }

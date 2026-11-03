@@ -64,14 +64,15 @@ test('duplicate verification records fail closed and attachment never changes ca
  const attached=attachDietaryEvidence([place],[evidence,evidence]);assert.equal(attached[0].dietaryVerification,undefined);assert.equal(place.dietaryVerification,evidence);
 });
 test('preview gate cannot be enabled in production or by missing environment',()=>{assert.equal(dietaryPreviewEnabled('preview'),true);for(const env of ['production','development','',undefined])assert.equal(dietaryPreviewEnabled(env),false);});
-test('curated evidence uses canonical identities, records 12 MUIS matches and 4 vegetarian mains',()=>{
+test('curated evidence uses catalogue identities, records 14 MUIS matches and 4 vegetarian mains',()=>{
  const seed=JSON.parse(readFileSync(new URL('../data/restaurants.seed.json',import.meta.url),'utf8')).restaurants;
  const overlay=JSON.parse(readFileSync(new URL('../data/restaurants.pilot.json',import.meta.url),'utf8'));
- const places=overlay.map((p:Restaurant)=>({...seed.find((s:Restaurant)=>s.id===p.id),...p}));
+ const staging=JSON.parse(readFileSync(new URL('../data/restaurants.staging.v1.json',import.meta.url),'utf8')).restaurants;
+ const places=[...overlay.map((p:Restaurant)=>({...seed.find((s:Restaurant)=>s.id===p.id),...p})),...staging];
  const data=JSON.parse(readFileSync(new URL('../data/dietary.staging.v1.json',import.meta.url),'utf8'));
  const attached=attachDietaryEvidence(places,data.records as DietaryVerification[]);
  assert.equal(data.environment,'preview-only');assert.equal(new Set(data.records.map((r:DietaryVerification)=>r.restaurantId)).size,data.records.length);
- assert.equal(attached.filter(r=>verifiedDietaryEvidence(r,'halal',now)).length,12);
+ assert.equal(attached.filter(r=>verifiedDietaryEvidence(r,'halal',now)).length,14);
  assert.equal(attached.filter(r=>verifiedDietaryEvidence(r,'vegetarian',now)).length,4);
  assert.equal(attached.filter(r=>matchesDietary(r,{halal:true,vegetarian:true},now)).length,1);
  for(const record of data.records)assert.ok(places.some((r:Restaurant)=>r.id===record.restaurantId&&r.name===record.outletName&&r.address===record.outletAddress));

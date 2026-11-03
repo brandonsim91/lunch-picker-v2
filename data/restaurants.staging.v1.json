@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "environment": "preview-only",
+  "version": "2026-11-03.1",
+  "notes": "Owner approved two additions to staging. New IDs are provisional until future canonical Places curation. Price, vegetarian evidence and Google Place IDs remain unknown.",
+  "restaurants": [
+    {
+      "id": "fong-seng-nasi-lemak-pasir-panjang",
+      "name": "Fong Seng Nasi Lemak",
+      "address": "101 Pasir Panjang Road, Singapore 118527",
+      "area": "Pasir Panjang",
+      "cuisine": [
+        "Malay"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Fong+Seng+Nasi+Lemak%2C+101+Pasir+Panjang+Road%2C+Singapore+118527",
+      "walkingMinutes": 6,
+      "walkingDistanceMetres": 450,
+      "distanceTier": "near",
+      "distanceVerification": {
+        "origin": "mbc-block-30",
+        "source": "Google Maps walking directions",
+        "verifiedAt": "2026-11-03",
+        "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=1.274851167499432%2C103.7979737759009&destination=Fong+Seng+Nasi+Lemak%2C+101+Pasir+Panjang+Road%2C+Singapore+118527&travelmode=walking",
+        "destination": "Fong Seng Nasi Lemak, 101 Pasir Panjang Road, Singapore 118527",
+        "endpoint": "outlet",
+        "notes": "Exact outlet matched. Walking route via Pasir Panjang Road from the app origin coordinates; Google Maps estimate, not an indoor walking survey."
+      },
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "healthyOption": null,
+      "verifiedForV2": true,
+      "lastVerifiedAt": "2026-11-03",
+      "placeId": null,
+      "tags": [
+        "Malay"
+      ],
+      "moodTags": [
+        "Local / Asian"
+      ],
+      "reason": "Nasi lemak at the Pasir Panjang outlet.",
+      "sourceUrl": "https://halal.muis.gov.sg/halal/establishments"
+    },
+    {
+      "id": "subway-mapletree-business-city",
+      "name": "Subway — Mapletree Business City",
+      "address": "40 Pasir Panjang Road, #02-34 Mapletree Business City, Singapore 117383",
+      "area": "Mapletree Business City",
+      "cuisine": [
+        "Sandwiches"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Subway+%E2%80%94+Mapletree+Business+City%2C+40+Pasir+Panjang+Road%2C+%2302-34+Mapletree+Business+City%2C+Singapore+117383",
+      "walkingMinutes": 8,
+      "walkingDistanceMetres": 600,
+      "distanceTier": "near",
+      "distanceVerification": {
+        "origin": "mbc-block-30",
+        "source": "Google Maps walking directions",
+        "verifiedAt": "2026-11-03",
+        "sourceUrl": "https://www.google.com/maps/dir/?api=1&origin=1.274851167499432%2C103.7979737759009&destination=Subway+%E2%80%94+Mapletree+Business+City%2C+40+Pasir+Panjang+Road%2C+%2302-34+Mapletree+Business+City%2C+Singapore+117383&travelmode=walking",
+        "destination": "Subway — Mapletree Business City, 40 Pasir Panjang Road, #02-34 Mapletree Business City, Singapore 117383",
+        "endpoint": "outlet",
+        "notes": "Exact outlet matched. Walking route via Pasir Panjang Road from the app origin coordinates; Google Maps estimate, not an indoor walking survey."
+      },
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "healthyOption": null,
+      "verifiedForV2": true,
+      "lastVerifiedAt": "2026-11-03",
+      "placeId": null,
+      "tags": [
+        "Sandwiches"
+      ],
+      "moodTags": [
+        "Western / Cafe"
+      ],
+      "reason": "Sandwiches at Mapletree Business City.",
+      "sourceUrl": "https://halal.muis.gov.sg/halal/establishments"
+    }
+  ]
+}
