@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-11-03.2",
+  "version": "2026-11-03.3",
   "environment": "preview-only",
   "identitySource": "Existing catalogue IDs and exact name/address snapshots, plus explicitly approved preview-only additions in restaurants.staging.v1.json; Places remains unchanged.",
   "reviewPolicy": {
@@ -337,6 +337,24 @@
         "observedName": "SUBWAY",
         "observedAddress": "40 Pasir Panjang Road #02-34 Maple Tree Business City 117383",
         "limitations": "Exact outlet matched in the current MUIS directory using Pasir Panjang search. Validity dates are not displayed; no expiry inferred. Recheck within 30 days and at point of visit."
+      }
+    },
+    {
+      "restaurantId": "subway-anchorpoint",
+      "outletName": "Subway — Anchorpoint",
+      "outletAddress": "370 Alexandra Road, #01-11 Anchorpoint, Singapore 159953",
+      "halal": {
+        "status": "Verified",
+        "authority": "MUIS",
+        "sourceUrl": "https://halal.muis.gov.sg/halal/establishments",
+        "verifiedAt": "2026-11-03",
+        "certificateReference": "EERN21110013185",
+        "validFrom": null,
+        "validUntil": null,
+        "currentDirectoryListing": true,
+        "observedName": "SUBWAY",
+        "observedAddress": "370 ALEXANDRA ROAD #01-11 ANCHORPOINT SHOPPING CENTRE 159953",
+        "limitations": "Exact outlet matched in current MUIS directory, Alexandra search. Validity dates are not displayed; no expiry inferred. Recheck within 30 days and at point of visit."
       }
     }
   ]

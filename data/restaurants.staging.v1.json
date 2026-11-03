@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "environment": "preview-only",
-  "version": "2026-11-03.1",
-  "notes": "Owner approved two additions to staging. New IDs are provisional until future canonical Places curation. Price, vegetarian evidence and Google Place IDs remain unknown.",
+  "version": "2026-11-03.2",
+  "notes": "Owner approved staging dietary expansion. Provisional IDs await canonical Places curation. Prices, vegetarian evidence and Google Place IDs remain unknown.",
   "restaurants": [
     {
       "id": "fong-seng-nasi-lemak-pasir-panjang",
@@ -76,6 +76,43 @@
         "Western / Cafe"
       ],
       "reason": "Sandwiches at Mapletree Business City.",
+      "sourceUrl": "https://halal.muis.gov.sg/halal/establishments"
+    },
+    {
+      "id": "subway-anchorpoint",
+      "name": "Subway — Anchorpoint",
+      "address": "370 Alexandra Road, #01-11 Anchorpoint, Singapore 159953",
+      "area": "Anchorpoint",
+      "cuisine": [
+        "Sandwiches"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Subway%2C+370+Alexandra+Road%2C+%2301-11+Anchorpoint%2C+Singapore+159953",
+      "walkingMinutes": 35,
+      "walkingDistanceMetres": 2500,
+      "distanceTier": "far",
+      "distanceVerification": {
+        "origin": "mbc-block-30",
+        "source": "Google Maps walking directions",
+        "verifiedAt": "2026-11-03",
+        "sourceUrl": "https://www.google.com/maps/dir/1.2748512,103.7979738/Subway,+370+Alexandra+Rd,+%2301-11,+Anchorpoint,+Singapore+159953/@1.2819504,103.7962358,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x31da1b30d8ba8fd3:0x1dd361a6aa995f46!2m2!1d103.8048884!2d1.2884027!3e2?entry=ttu&g_ep=EgoyMDI2MTEwMS4wIKXMDSoASAFQAw%3D%3D",
+        "destination": "Subway — Anchorpoint, 370 Alexandra Road, #01-11 Anchorpoint, Singapore 159953",
+        "endpoint": "outlet",
+        "notes": "Exact outlet and #01-11 unit matched in Google Maps. 35 min / 2.5 km via Alexandra Road from the exact app origin. Estimate, not an indoor walking survey."
+      },
+      "priceBand": null,
+      "active": true,
+      "quickLunch": null,
+      "healthyOption": null,
+      "verifiedForV2": true,
+      "lastVerifiedAt": "2026-11-03",
+      "placeId": null,
+      "tags": [
+        "Sandwiches"
+      ],
+      "moodTags": [
+        "Western / Cafe"
+      ],
+      "reason": "Sandwiches at Anchorpoint.",
       "sourceUrl": "https://halal.muis.gov.sg/halal/establishments"
     }
   ]
